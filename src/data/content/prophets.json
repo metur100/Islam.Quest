@@ -1,0 +1,1392 @@
+{
+  "world": {
+    "id": "prophets",
+    "order": 2,
+    "title": { "en": "World of the Prophets", "de": "Welt der Propheten", "bs": "Svijet poslanika" },
+    "subtitle": { "en": "Stories from the Quran", "de": "Geschichten aus dem Koran", "bs": "Kazivanja iz Kur'ana" },
+    "description": {
+      "en": "Travel through the stories of the prophets as told in the Quran and learn the lessons they teach.",
+      "de": "Reise durch die Geschichten der Propheten, wie der Koran sie erzählt, und lerne ihre Lehren.",
+      "bs": "Putuj kroz kazivanja o poslanicima kako ih prenosi Kur'an i nauči njihove pouke."
+    },
+    "scene": { "sky": "sunset", "elements": ["mountains", "dunes", "palms", "caravan"] },
+    "questIds": ["prophets-adam", "prophets-nuh", "prophets-ibrahim", "prophets-musa", "prophets-yusuf", "prophets-yunus", "prophets-isa", "prophets-muhammad"],
+    "unlockRequirement": { "worldId": "salah", "questsCompleted": 3 }
+  },
+  "lessons": [
+    {
+      "id": "prophets-lesson-tawbah",
+      "worldId": "prophets",
+      "topic": "story-adam",
+      "title": { "en": "Tawbah – turning back to Allah", "de": "Tawba – Umkehr zu Allah", "bs": "Tevba – povratak Allahu" },
+      "summary": {
+        "en": "When we make a mistake, we admit it, feel sorry and ask Allah for forgiveness.",
+        "de": "Wenn wir einen Fehler machen, geben wir ihn zu, bereuen ihn und bitten Allah um Vergebung.",
+        "bs": "Kada pogriješimo, priznamo grešku, pokajemo se i molimo Allaha za oprost."
+      },
+      "sections": [
+        {
+          "body": {
+            "en": "Adam and his wife made a mistake, but they did not blame others. They admitted it and asked Allah for forgiveness, and Allah forgave them. Iblis, on the other hand, was arrogant and refused to obey.",
+            "de": "Adam und seine Frau machten einen Fehler, aber sie gaben nicht anderen die Schuld. Sie gaben ihn zu und baten Allah um Vergebung, und Allah vergab ihnen. Iblis dagegen war hochmütig und weigerte sich zu gehorchen.",
+            "bs": "Adem i njegova žena su pogriješili, ali nisu krivili druge. Priznali su grešku i zamolili Allaha za oprost, i Allah im je oprostio. Iblis je, s druge strane, bio ohol i odbio je poslušnost."
+          },
+          "arabic": "تَوْبَة",
+          "transliteration": "tawbah"
+        },
+        {
+          "heading": { "en": "In your life", "de": "In deinem Leben", "bs": "U tvom životu" },
+          "body": {
+            "en": "If you hurt someone or did something wrong, say sorry, try to fix it, and ask Allah to forgive you. Allah is At-Tawwab – the One who accepts repentance again and again.",
+            "de": "Wenn du jemanden verletzt oder etwas Falsches getan hast, entschuldige dich, versuche es wiedergutzumachen und bitte Allah um Vergebung. Allah ist At-Tawwab – der die Reue immer wieder annimmt.",
+            "bs": "Ako si nekoga povrijedio ili uradio nešto loše, izvini se, pokušaj to popraviti i zamoli Allaha da ti oprosti. Allah je Et-Tevvab – Onaj koji uvijek iznova prima pokajanje."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:37; 7:23" }]
+    },
+    {
+      "id": "prophets-lesson-sabr-nuh",
+      "worldId": "prophets",
+      "topic": "story-nuh",
+      "title": { "en": "Sabr and steadfastness", "de": "Sabr und Standhaftigkeit", "bs": "Sabur i istrajnost" },
+      "summary": {
+        "en": "Nuh kept calling his people to good for a very long time, even when they mocked him.",
+        "de": "Nuh rief sein Volk sehr lange zum Guten auf, auch als sie ihn verspotteten.",
+        "bs": "Nuh je jako dugo pozivao svoj narod dobru, čak i kada su ga ismijavali."
+      },
+      "sections": [
+        {
+          "body": {
+            "en": "Sabr means patience and staying firm. Nuh did not give up, and he obeyed Allah by building the ark, even when people laughed at him.",
+            "de": "Sabr bedeutet Geduld und Standhaftigkeit. Nuh gab nicht auf und gehorchte Allah, indem er die Arche baute, selbst als die Leute über ihn lachten.",
+            "bs": "Sabur znači strpljenje i istrajnost. Nuh nije odustao i pokorio se Allahu gradeći lađu, čak i kada su mu se ljudi smijali."
+          },
+          "arabic": "صَبْر",
+          "transliteration": "ṣabr"
+        },
+        {
+          "heading": { "en": "In your life", "de": "In deinem Leben", "bs": "U tvom životu" },
+          "body": {
+            "en": "Doing the right thing is not always popular. Keep doing good, even if others make fun of you.",
+            "de": "Das Richtige zu tun ist nicht immer beliebt. Tu weiter Gutes, auch wenn andere sich über dich lustig machen.",
+            "bs": "Činiti ispravno nije uvijek popularno. Nastavi činiti dobro, čak i ako te drugi ismijavaju."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:38; 29:14; 71:5–9" }]
+    },
+    {
+      "id": "prophets-lesson-tawhid",
+      "worldId": "prophets",
+      "topic": "story-ibrahim",
+      "title": { "en": "Tawhid and courage", "de": "Tawhid und Mut", "bs": "Tevhid i hrabrost" },
+      "summary": {
+        "en": "Ibrahim showed that only Allah deserves worship, and he trusted Allah completely.",
+        "de": "Ibrahim zeigte, dass nur Allah Anbetung verdient, und er vertraute Allah vollkommen.",
+        "bs": "Ibrahim je pokazao da samo Allah zaslužuje ibadet i potpuno se oslonio na Allaha."
+      },
+      "sections": [
+        {
+          "body": {
+            "en": "Tawhid means believing that Allah is One and worshipping only Him. Ibrahim explained to his people that idols cannot hear, speak or help.",
+            "de": "Tawhid bedeutet, an die Einheit Allahs zu glauben und nur Ihn anzubeten. Ibrahim erklärte seinem Volk, dass Götzen weder hören noch sprechen noch helfen können.",
+            "bs": "Tevhid znači vjerovati da je Allah Jedan i samo Njemu robovati. Ibrahim je objasnio svom narodu da kipovi ne mogu ni čuti, ni govoriti, ni pomoći."
+          },
+          "arabic": "تَوْحِيد",
+          "transliteration": "tawḥīd"
+        },
+        {
+          "heading": { "en": "In your life", "de": "In deinem Leben", "bs": "U tvom životu" },
+          "body": {
+            "en": "Stand up for what is true, politely and wisely – and trust that Allah is always with those who rely on Him.",
+            "de": "Steh höflich und klug für die Wahrheit ein – und vertraue darauf, dass Allah bei denen ist, die sich auf Ihn verlassen.",
+            "bs": "Zalaži se za istinu, pristojno i mudro – i vjeruj da je Allah uvijek uz one koji se na Njega oslanjaju."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:51–70" }]
+    },
+    {
+      "id": "prophets-lesson-tawakkul",
+      "worldId": "prophets",
+      "topic": "story-musa",
+      "title": { "en": "Tawakkul – trust in Allah", "de": "Tawakkul – Vertrauen auf Allah", "bs": "Tevekkul – oslonac na Allaha" },
+      "summary": {
+        "en": "At the sea, with the army behind them, Musa trusted that Allah would guide him.",
+        "de": "Am Meer, mit dem Heer hinter sich, vertraute Musa darauf, dass Allah ihn leiten würde.",
+        "bs": "Kod mora, s vojskom iza sebe, Musa je vjerovao da će ga Allah uputiti."
+      },
+      "sections": [
+        {
+          "body": {
+            "en": "Tawakkul means doing what we can and then trusting Allah with the result. Musa's mother trusted Allah when she placed her baby on the river, and Musa trusted Allah at the sea.",
+            "de": "Tawakkul bedeutet, unser Bestes zu tun und Allah dann das Ergebnis anzuvertrauen. Musas Mutter vertraute Allah, als sie ihr Baby auf den Fluss setzte, und Musa vertraute Allah am Meer.",
+            "bs": "Tevekkul znači uraditi ono što možemo, a zatim se osloniti na Allaha u pogledu ishoda. Musaova majka se oslonila na Allaha kada je spustila svoje dijete u rijeku, a Musa se oslonio na Allaha kod mora."
+          },
+          "arabic": "تَوَكُّل",
+          "transliteration": "tawakkul"
+        },
+        {
+          "heading": { "en": "In your life", "de": "In deinem Leben", "bs": "U tvom životu" },
+          "body": {
+            "en": "Before a test, prepare well, make dua, and then trust Allah. Worrying less and trusting more is part of faith.",
+            "de": "Bereite dich vor einer Prüfung gut vor, mach Du'a und vertraue dann auf Allah. Weniger Sorgen und mehr Vertrauen sind Teil des Glaubens.",
+            "bs": "Prije ispita se dobro pripremi, uputi dovu, a onda se osloni na Allaha. Manje brige i više povjerenja dio je vjere."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Quran", "sourceReference": "28:7; 26:61–63" }]
+    },
+    {
+      "id": "prophets-lesson-forgiveness",
+      "worldId": "prophets",
+      "topic": "story-yusuf",
+      "title": { "en": "Patience and forgiveness", "de": "Geduld und Vergebung", "bs": "Strpljenje i oprost" },
+      "summary": {
+        "en": "Yusuf was patient through hardship and forgave his brothers.",
+        "de": "Yusuf war in schweren Zeiten geduldig und vergab seinen Brüdern.",
+        "bs": "Jusuf je bio strpljiv u teškoćama i oprostio je svojoj braći."
+      },
+      "sections": [
+        {
+          "body": {
+            "en": "Yusuf faced jealousy, a dark well, being sold and an unfair prison. He stayed patient and honest. When he became powerful, he forgave the brothers who had hurt him.",
+            "de": "Yusuf erlebte Neid, einen dunklen Brunnen, den Verkauf und ein ungerechtes Gefängnis. Er blieb geduldig und ehrlich. Als er mächtig wurde, vergab er den Brüdern, die ihm wehgetan hatten.",
+            "bs": "Jusuf je doživio zavist, mračni bunar, prodaju i nepravednu tamnicu. Ostao je strpljiv i iskren. Kada je postao moćan, oprostio je braći koja su ga povrijedila."
+          },
+          "arabic": "عَفْو",
+          "transliteration": "ʿafw"
+        },
+        {
+          "heading": { "en": "In your life", "de": "In deinem Leben", "bs": "U tvom životu" },
+          "body": {
+            "en": "Forgiving is strong, not weak. When someone says sorry, try to forgive them as Yusuf did.",
+            "de": "Vergeben ist stark, nicht schwach. Wenn sich jemand entschuldigt, versuche ihm zu vergeben, so wie Yusuf es tat.",
+            "bs": "Opraštanje je snaga, a ne slabost. Kada se neko izvini, pokušaj mu oprostiti kao što je to učinio Jusuf."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:18; 12:90–92" }]
+    },
+    {
+      "id": "prophets-lesson-dua",
+      "worldId": "prophets",
+      "topic": "story-yunus",
+      "title": { "en": "Never lose hope", "de": "Verliere nie die Hoffnung", "bs": "Nikad ne gubi nadu" },
+      "summary": {
+        "en": "Even in the deepest darkness, Yunus called upon Allah – and Allah saved him.",
+        "de": "Selbst in tiefster Dunkelheit rief Yunus Allah an – und Allah rettete ihn.",
+        "bs": "Čak i u najdubljoj tami, Junus je zazivao Allaha – i Allah ga je spasio."
+      },
+      "sections": [
+        {
+          "body": {
+            "en": "Inside the fish, Yunus glorified Allah and admitted his mistake. The Quran tells us that Allah answered him and saved him from distress, and that this is how Allah saves the believers.",
+            "de": "Im Inneren des Fisches pries Yunus Allah und gab seinen Fehler zu. Der Koran berichtet, dass Allah ihn erhörte und aus der Not rettete – und dass Allah so die Gläubigen rettet.",
+            "bs": "U utrobi ribe Junus je veličao Allaha i priznao svoju grešku. Kur'an nas obavještava da mu se Allah odazvao i spasio ga iz nevolje, i da tako Allah spašava vjernike."
+          },
+          "arabic": "دُعَاء",
+          "transliteration": "duʿāʾ"
+        },
+        {
+          "heading": { "en": "In your life", "de": "In deinem Leben", "bs": "U tvom životu" },
+          "body": {
+            "en": "When you feel sad or stuck, talk to Allah in dua. No situation is too dark for Allah's help.",
+            "de": "Wenn du traurig bist oder nicht weiterweißt, sprich in einem Du'a mit Allah. Keine Lage ist zu dunkel für Allahs Hilfe.",
+            "bs": "Kada si tužan ili ne znaš kako dalje, obrati se Allahu dovom. Nijedna situacija nije previše mračna za Allahovu pomoć."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:87–88" }]
+    },
+    {
+      "id": "prophets-lesson-isa",
+      "worldId": "prophets",
+      "topic": "story-isa",
+      "title": { "en": "A servant and messenger of Allah", "de": "Ein Diener und Gesandter Allahs", "bs": "Allahov rob i poslanik" },
+      "summary": {
+        "en": "Isa was a great prophet and a servant of Allah. His miracles happened by Allah's permission.",
+        "de": "Isa war ein großer Prophet und ein Diener Allahs. Seine Wunder geschahen mit Allahs Erlaubnis.",
+        "bs": "Isa je bio veliki poslanik i Allahov rob. Njegova čuda su se dešavala Allahovom dozvolom."
+      },
+      "sections": [
+        {
+          "body": {
+            "en": "Muslims love and respect Isa and his mother Maryam. A whole surah of the Quran is named after Maryam. Isa taught people to worship Allah alone.",
+            "de": "Muslime lieben und achten Isa und seine Mutter Maryam. Eine ganze Sure des Korans ist nach Maryam benannt. Isa lehrte die Menschen, Allah allein anzubeten.",
+            "bs": "Muslimani vole i poštuju Isaa i njegovu majku Merjemu. Cijela jedna sura Kur'ana nazvana je po Merjemi. Isa je učio ljude da robuju samo Allahu."
+          }
+        },
+        {
+          "heading": { "en": "In your life", "de": "In deinem Leben", "bs": "U tvom životu" },
+          "body": {
+            "en": "Every talent and success we have comes from Allah. Thank Him for it, and use it to help others.",
+            "de": "Jede Begabung und jeder Erfolg kommt von Allah. Danke Ihm dafür und nutze es, um anderen zu helfen.",
+            "bs": "Svaki talenat i uspjeh koji imamo dolazi od Allaha. Zahvali Mu na tome i koristi to da pomažeš drugima."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Quran", "sourceReference": "3:49; 19:30" }]
+    },
+    {
+      "id": "prophets-lesson-mercy",
+      "worldId": "prophets",
+      "topic": "story-muhammad",
+      "title": { "en": "Mercy and good character", "de": "Barmherzigkeit und guter Charakter", "bs": "Milost i lijep ahlak" },
+      "summary": {
+        "en": "Allah sent Muhammad ﷺ as a mercy to the worlds, with great character.",
+        "de": "Allah sandte Muhammad ﷺ als Barmherzigkeit für die Welten, mit großartigem Charakter.",
+        "bs": "Allah je poslao Muhammeda ﷺ kao milost svjetovima, s uzvišenim ahlakom."
+      },
+      "sections": [
+        {
+          "body": {
+            "en": "Even before prophethood, people of Makkah called him Al-Amin – the trustworthy one. The Quran says he has great character and was sent as a mercy to all the worlds.",
+            "de": "Schon vor dem Prophetentum nannten ihn die Menschen in Mekka Al-Amin – den Vertrauenswürdigen. Der Koran sagt, dass er einen großartigen Charakter hat und als Barmherzigkeit für alle Welten gesandt wurde.",
+            "bs": "Još prije poslanstva stanovnici Mekke zvali su ga El-Emin – povjerljivi. Kur'an kaže da je on uzvišenog ahlaka i da je poslan kao milost svim svjetovima."
+          },
+          "arabic": "رَحْمَة",
+          "transliteration": "raḥmah"
+        },
+        {
+          "heading": { "en": "In your life", "de": "In deinem Leben", "bs": "U tvom životu" },
+          "body": {
+            "en": "Be someone others can trust. Keep your promises, tell the truth and be kind – that is following the Sunnah.",
+            "de": "Sei jemand, dem andere vertrauen können. Halte Versprechen, sag die Wahrheit und sei freundlich – das heißt, der Sunna zu folgen.",
+            "bs": "Budi neko kome drugi mogu vjerovati. Drži obećanja, govori istinu i budi ljubazan – to je slijeđenje sunneta."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "21:107; 68:4" },
+        { "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "Al-Amin" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "adam-iblis",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-adam",
+      "prompt": {
+        "en": "Allah commanded the angels to prostrate to Adam. What did Iblis do?",
+        "de": "Allah befahl den Engeln, sich vor Adam niederzuwerfen. Was tat Iblis?",
+        "bs": "Allah je naredio melekima da se poklone Ademu. Šta je uradio Iblis?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "He obeyed immediately", "de": "Er gehorchte sofort", "bs": "Odmah je poslušao" } },
+        { "id": "b", "text": { "en": "He refused out of arrogance", "de": "Er weigerte sich aus Hochmut", "bs": "Odbio je iz oholosti" } },
+        { "id": "c", "text": { "en": "He fell asleep", "de": "Er schlief ein", "bs": "Zaspao je" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "The angels prostrated, but Iblis refused because he was arrogant and thought he was better than Adam.",
+        "de": "Die Engel warfen sich nieder, aber Iblis weigerte sich, weil er hochmütig war und sich für besser als Adam hielt.",
+        "bs": "Meleki su se poklonili, ali je Iblis odbio jer je bio ohol i mislio da je bolji od Adema."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:34; 7:11–12" }]
+    },
+    {
+      "id": "adam-timeline",
+      "type": "ordering",
+      "worldId": "prophets",
+      "topic": "story-adam",
+      "prompt": { "en": "Put the story of Adam in order.", "de": "Bringe die Geschichte Adams in die richtige Reihenfolge.", "bs": "Poredaj kazivanje o Ademu." },
+      "items": [
+        { "id": "clay", "text": { "en": "Allah created Adam from clay", "de": "Allah erschuf Adam aus Lehm", "bs": "Allah je stvorio Adema od ilovače" } },
+        { "id": "names", "text": { "en": "Allah taught Adam the names of things", "de": "Allah lehrte Adam die Namen der Dinge", "bs": "Allah je poučio Adema imenima stvari" } },
+        { "id": "garden", "text": { "en": "Adam and his wife lived in the Garden", "de": "Adam und seine Frau lebten im Paradiesgarten", "bs": "Adem i njegova žena živjeli su u Džennetu" } },
+        { "id": "tree", "text": { "en": "They ate from the forbidden tree", "de": "Sie aßen vom verbotenen Baum", "bs": "Jeli su sa zabranjenog drveta" } },
+        { "id": "forgiven", "text": { "en": "They repented and Allah forgave them", "de": "Sie bereuten und Allah vergab ihnen", "bs": "Pokajali su se i Allah im je oprostio" } },
+        { "id": "earth", "text": { "en": "They lived on the earth", "de": "Sie lebten auf der Erde", "bs": "Živjeli su na Zemlji" } }
+      ],
+      "explanation": {
+        "en": "Created from clay, taught the names, lived in the Garden, ate from the tree, repented and were forgiven, then lived on earth.",
+        "de": "Aus Lehm erschaffen, die Namen gelehrt, im Garten gelebt, vom Baum gegessen, bereut und Vergebung erhalten, dann auf der Erde gelebt.",
+        "bs": "Stvoren od ilovače, poučen imenima, živio u Džennetu, jeli sa drveta, pokajali se i bili oprošteni, zatim živjeli na Zemlji."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:30–38; 15:26–29" }]
+    },
+    {
+      "id": "adam-forgiven",
+      "type": "trueFalse",
+      "worldId": "prophets",
+      "topic": "story-adam",
+      "prompt": { "en": "Allah accepted Adam's repentance.", "de": "Allah nahm Adams Reue an.", "bs": "Allah je primio Ademovo pokajanje." },
+      "correct": true,
+      "explanation": {
+        "en": "True – the Quran says Allah accepted his repentance. He is the Accepter of repentance, the Most Merciful.",
+        "de": "Richtig – der Koran sagt, dass Allah seine Reue annahm. Er ist der Reue-Annehmende, der Barmherzige.",
+        "bs": "Tačno – Kur'an kaže da je Allah primio njegovo pokajanje. On prima pokajanje i Milostiv je."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:37" }]
+    },
+    {
+      "id": "adam-names",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-adam",
+      "prompt": { "en": "What did Allah teach Adam?", "de": "Was lehrte Allah Adam?", "bs": "Čemu je Allah poučio Adema?" },
+      "options": [
+        { "id": "a", "text": { "en": "The names of all things", "de": "Die Namen aller Dinge", "bs": "Imenima svih stvari" } },
+        { "id": "b", "text": { "en": "How to build ships", "de": "Wie man Schiffe baut", "bs": "Kako se grade lađe" } },
+        { "id": "c", "text": { "en": "How to ride horses", "de": "Wie man Pferde reitet", "bs": "Kako se jaše konj" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Allah taught Adam the names of all things – a sign of the gift of knowledge.",
+        "de": "Allah lehrte Adam die Namen aller Dinge – ein Zeichen für das Geschenk des Wissens.",
+        "bs": "Allah je poučio Adema imenima svih stvari – znak dara znanja."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:31" }]
+    },
+    {
+      "id": "nuh-build",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-nuh",
+      "prompt": { "en": "What did Allah command Nuh to build?", "de": "Was sollte Nuh auf Allahs Befehl bauen?", "bs": "Šta je Allah naredio Nuhu da napravi?" },
+      "options": [
+        { "id": "a", "text": { "en": "A tower", "de": "Einen Turm", "bs": "Kulu" } },
+        { "id": "b", "text": { "en": "An ark (a great ship)", "de": "Eine Arche (ein großes Schiff)", "bs": "Lađu (veliki brod)" } },
+        { "id": "c", "text": { "en": "A wall", "de": "Eine Mauer", "bs": "Zid" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Allah commanded Nuh to build the ark under His watch and guidance.",
+        "de": "Allah befahl Nuh, die Arche unter Seiner Aufsicht und Anleitung zu bauen.",
+        "bs": "Allah je naredio Nuhu da pravi lađu pod Njegovim nadzorom i uputom."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:37" }]
+    },
+    {
+      "id": "nuh-timeline",
+      "type": "ordering",
+      "worldId": "prophets",
+      "topic": "story-nuh",
+      "prompt": { "en": "Put the story of Nuh in order.", "de": "Bringe die Geschichte Nuhs in die richtige Reihenfolge.", "bs": "Poredaj kazivanje o Nuhu." },
+      "items": [
+        { "id": "call", "text": { "en": "Nuh called his people for many years", "de": "Nuh rief sein Volk viele Jahre lang auf", "bs": "Nuh je mnogo godina pozivao svoj narod" } },
+        { "id": "refuse", "text": { "en": "Most of them refused and mocked", "de": "Die meisten lehnten ab und spotteten", "bs": "Većina je odbila i rugala se" } },
+        { "id": "ark", "text": { "en": "Nuh built the ark", "de": "Nuh baute die Arche", "bs": "Nuh je napravio lađu" } },
+        { "id": "board", "text": { "en": "The believers and pairs of animals boarded", "de": "Die Gläubigen und Tierpaare gingen an Bord", "bs": "Vjernici i parovi životinja ukrcali su se" } },
+        { "id": "flood", "text": { "en": "The great flood came", "de": "Die große Flut kam", "bs": "Došao je veliki potop" } },
+        { "id": "judi", "text": { "en": "The ark came to rest on Mount Judi", "de": "Die Arche ließ sich auf dem Berg Dschudi nieder", "bs": "Lađa se zaustavila na brdu Džudi" } }
+      ],
+      "explanation": {
+        "en": "Nuh called his people, most refused, he built the ark, the believers boarded with the animals, the flood came and the ark rested on Mount Judi.",
+        "de": "Nuh rief sein Volk auf, die meisten lehnten ab, er baute die Arche, die Gläubigen gingen mit den Tieren an Bord, die Flut kam und die Arche ließ sich auf dem Dschudi nieder.",
+        "bs": "Nuh je pozivao narod, većina je odbila, napravio je lađu, vjernici su se ukrcali sa životinjama, došao je potop i lađa se zaustavila na Džudiju."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:25–44" }]
+    },
+    {
+      "id": "nuh-years",
+      "type": "trueFalse",
+      "worldId": "prophets",
+      "topic": "story-nuh",
+      "prompt": {
+        "en": "Nuh called his people for only a few days.",
+        "de": "Nuh rief sein Volk nur ein paar Tage lang auf.",
+        "bs": "Nuh je pozivao svoj narod samo nekoliko dana."
+      },
+      "correct": false,
+      "explanation": {
+        "en": "Not quite – the Quran says Nuh stayed among his people a thousand years minus fifty: 950 years.",
+        "de": "Nicht ganz – der Koran sagt, dass Nuh tausend Jahre weniger fünfzig unter seinem Volk blieb: 950 Jahre.",
+        "bs": "Nije tačno – Kur'an kaže da je Nuh boravio u svom narodu hiljadu manje pedeset godina: 950 godina."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "29:14" }]
+    },
+    {
+      "id": "nuh-judi",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-nuh",
+      "prompt": { "en": "Where did the ark come to rest?", "de": "Wo kam die Arche zur Ruhe?", "bs": "Gdje se lađa zaustavila?" },
+      "options": [
+        { "id": "a", "text": { "en": "On Mount Judi", "de": "Auf dem Berg Dschudi", "bs": "Na brdu Džudi" } },
+        { "id": "b", "text": { "en": "In the middle of a desert", "de": "Mitten in einer Wüste", "bs": "Usred pustinje" } },
+        { "id": "c", "text": { "en": "On an island in the ocean", "de": "Auf einer Insel im Ozean", "bs": "Na ostrvu u okeanu" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The Quran tells us that the ark came to rest on Al-Judi.",
+        "de": "Der Koran berichtet, dass die Arche auf dem Dschudi zur Ruhe kam.",
+        "bs": "Kur'an nas obavještava da se lađa zaustavila na Džudiju."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:44" }]
+    },
+    {
+      "id": "ibrahim-sky",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-ibrahim",
+      "prompt": {
+        "en": "Ibrahim pointed to a star, the moon and the sun. What did he show his people?",
+        "de": "Ibrahim zeigte auf einen Stern, den Mond und die Sonne. Was wollte er seinem Volk zeigen?",
+        "bs": "Ibrahim je pokazao na zvijezdu, mjesec i sunce. Šta je pokazao svom narodu?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "That they are beautiful decorations", "de": "Dass sie schöne Dekorationen sind", "bs": "Da su lijepi ukrasi" } },
+        { "id": "b", "text": { "en": "That they all set and disappear, so they cannot be God", "de": "Dass sie alle untergehen und verschwinden – also nicht Gott sein können", "bs": "Da svi zalaze i nestaju, pa ne mogu biti Bog" } },
+        { "id": "c", "text": { "en": "That they should be worshipped", "de": "Dass man sie anbeten sollte", "bs": "Da im treba robovati" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Each of them set. Ibrahim turned to the One who created the heavens and the earth.",
+        "de": "Jeder von ihnen ging unter. Ibrahim wandte sich dem zu, der die Himmel und die Erde erschaffen hat.",
+        "bs": "Svaki od njih je zašao. Ibrahim se okrenuo Onome koji je stvorio nebesa i Zemlju."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "6:76–79" }]
+    },
+    {
+      "id": "ibrahim-match",
+      "type": "matching",
+      "worldId": "prophets",
+      "topic": "story-ibrahim",
+      "prompt": { "en": "Match each part of Ibrahim's story.", "de": "Ordne die Teile der Geschichte Ibrahims zu.", "bs": "Spoji dijelove kazivanja o Ibrahimu." },
+      "pairs": [
+        { "id": "fire", "left": { "en": "The fire", "de": "Das Feuer", "bs": "Vatra" }, "right": { "en": "Became cool and safe", "de": "Wurde kühl und sicher", "bs": "Postala je hladna i spasonosna" } },
+        { "id": "idols", "left": { "en": "The idols", "de": "Die Götzen", "bs": "Kipovi" }, "right": { "en": "Could not speak or help", "de": "Konnten weder sprechen noch helfen", "bs": "Nisu mogli govoriti ni pomoći" } },
+        { "id": "kaaba", "left": { "en": "The Kaaba", "de": "Die Kaaba", "bs": "Kaba" }, "right": { "en": "Built with his son Ismail", "de": "Mit seinem Sohn Ismail gebaut", "bs": "Sagrađena sa sinom Ismailom" } },
+        { "id": "sky", "left": { "en": "Star, moon and sun", "de": "Stern, Mond und Sonne", "bs": "Zvijezda, mjesec i sunce" }, "right": { "en": "They all set", "de": "Sie alle gehen unter", "bs": "Svi zalaze" } }
+      ],
+      "explanation": {
+        "en": "Allah made the fire cool and safe, the idols could not help, Ibrahim and Ismail raised the Kaaba, and the star, moon and sun all set.",
+        "de": "Allah machte das Feuer kühl und sicher, die Götzen konnten nicht helfen, Ibrahim und Ismail errichteten die Kaaba, und Stern, Mond und Sonne gingen unter.",
+        "bs": "Allah je vatru učinio hladnom i spasonosnom, kipovi nisu mogli pomoći, Ibrahim i Ismail podigli su Kabu, a zvijezda, mjesec i sunce su zašli."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:62–69; 2:127; 6:76–78" }]
+    },
+    {
+      "id": "ibrahim-kaaba",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-ibrahim",
+      "prompt": { "en": "Who raised the foundations of the Kaaba with Ibrahim?", "de": "Wer errichtete mit Ibrahim die Grundmauern der Kaaba?", "bs": "Ko je s Ibrahimom podigao temelje Kabe?" },
+      "options": [
+        { "id": "a", "text": { "en": "His son Ismail", "de": "Sein Sohn Ismail", "bs": "Njegov sin Ismail" } },
+        { "id": "b", "text": { "en": "Prophet Nuh", "de": "Prophet Nuh", "bs": "Poslanik Nuh" } },
+        { "id": "c", "text": { "en": "Nobody", "de": "Niemand", "bs": "Niko" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Ibrahim and his son Ismail raised the foundations of the House and asked Allah to accept it from them.",
+        "de": "Ibrahim und sein Sohn Ismail errichteten die Grundmauern des Hauses und baten Allah, es von ihnen anzunehmen.",
+        "bs": "Ibrahim i njegov sin Ismail podigli su temelje Kuće i molili Allaha da to od njih primi."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:127" }]
+    },
+    {
+      "id": "ibrahim-fire",
+      "type": "trueFalse",
+      "worldId": "prophets",
+      "topic": "story-ibrahim",
+      "prompt": { "en": "The fire burned Ibrahim.", "de": "Das Feuer verbrannte Ibrahim.", "bs": "Vatra je opekla Ibrahima." },
+      "correct": false,
+      "explanation": {
+        "en": "Not quite – Allah commanded the fire to be cool and safe for Ibrahim.",
+        "de": "Nicht ganz – Allah befahl dem Feuer, kühl und sicher für Ibrahim zu sein.",
+        "bs": "Nije tačno – Allah je naredio vatri da bude hladna i spasonosna za Ibrahima."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:69" }]
+    },
+    {
+      "id": "musa-basket",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-musa",
+      "prompt": {
+        "en": "Allah inspired Musa's mother to protect her baby. What did she do?",
+        "de": "Allah gab Musas Mutter ein, ihr Baby zu schützen. Was tat sie?",
+        "bs": "Allah je nadahnuo Musaovu majku da zaštiti svoje dijete. Šta je uradila?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "She hid him in a cave", "de": "Sie versteckte ihn in einer Höhle", "bs": "Sakrila ga je u pećinu" } },
+        { "id": "b", "text": { "en": "She placed him in a chest on the river", "de": "Sie legte ihn in einer Kiste auf den Fluss", "bs": "Stavila ga je u sanduk na rijeku" } },
+        { "id": "c", "text": { "en": "She took him to the desert", "de": "Sie brachte ihn in die Wüste", "bs": "Odnijela ga je u pustinju" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "She placed him in a chest on the river, trusting Allah's promise to return him to her.",
+        "de": "Sie legte ihn in einer Kiste auf den Fluss und vertraute auf Allahs Versprechen, ihn ihr zurückzugeben.",
+        "bs": "Stavila ga je u sanduk na rijeku, oslanjajući se na Allahovo obećanje da će joj ga vratiti."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "28:7; 20:39" }]
+    },
+    {
+      "id": "musa-timeline",
+      "type": "ordering",
+      "worldId": "prophets",
+      "topic": "story-musa",
+      "prompt": { "en": "Put the journey of Musa in order.", "de": "Bringe die Reise Musas in die richtige Reihenfolge.", "bs": "Poredaj Musaovo putovanje." },
+      "items": [
+        { "id": "river", "text": { "en": "Baby Musa is placed on the river", "de": "Baby Musa wird auf den Fluss gesetzt", "bs": "Mali Musa spušten je u rijeku" } },
+        { "id": "mother", "text": { "en": "Allah returns him to his mother", "de": "Allah gibt ihn seiner Mutter zurück", "bs": "Allah ga vraća majci" } },
+        { "id": "tur", "text": { "en": "Allah speaks to Musa at Mount Tur", "de": "Allah spricht am Berg Tur zu Musa", "bs": "Allah govori Musau na brdu Tur" } },
+        { "id": "firawn", "text": { "en": "Musa calls Fir'awn to believe", "de": "Musa ruft Pharao zum Glauben auf", "bs": "Musa poziva faraona u vjeru" } },
+        { "id": "sea", "text": { "en": "The sea parts and the believers cross", "de": "Das Meer teilt sich und die Gläubigen ziehen hindurch", "bs": "More se razdvaja i vjernici prelaze" } }
+      ],
+      "explanation": {
+        "en": "Placed on the river, returned to his mother, called at Mount Tur, sent to Fir'awn, and saved when the sea parted.",
+        "de": "Auf den Fluss gesetzt, zur Mutter zurückgebracht, am Berg Tur berufen, zu Pharao gesandt und gerettet, als sich das Meer teilte.",
+        "bs": "Spušten u rijeku, vraćen majci, pozvan na Turu, poslan faraonu i spašen kada se more razdvojilo."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "28:7–13; 20:9–14; 26:10–66" }]
+    },
+    {
+      "id": "musa-sea",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-musa",
+      "prompt": {
+        "en": "What happened when Musa struck the sea with his staff, by Allah's command?",
+        "de": "Was geschah, als Musa auf Allahs Befehl mit seinem Stab auf das Meer schlug?",
+        "bs": "Šta se desilo kada je Musa, po Allahovoj naredbi, udario more štapom?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "It froze", "de": "Es gefror", "bs": "Zaledilo se" } },
+        { "id": "b", "text": { "en": "It parted, and each part was like a great mountain", "de": "Es teilte sich, und jeder Teil war wie ein gewaltiger Berg", "bs": "Razdvojilo se, i svaki dio bio je kao golemo brdo" } },
+        { "id": "c", "text": { "en": "Nothing happened", "de": "Nichts geschah", "bs": "Ništa se nije desilo" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "The sea parted into two walls like great mountains, and Allah saved Musa and those with him.",
+        "de": "Das Meer teilte sich wie gewaltige Berge, und Allah rettete Musa und die, die mit ihm waren.",
+        "bs": "More se razdvojilo kao golema brda, i Allah je spasio Musaa i one koji su bili s njim."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "26:63–65" }]
+    },
+    {
+      "id": "musa-harun",
+      "type": "trueFalse",
+      "worldId": "prophets",
+      "topic": "story-musa",
+      "prompt": {
+        "en": "Musa asked Allah to make his brother Harun his helper.",
+        "de": "Musa bat Allah, seinen Bruder Harun zu seinem Helfer zu machen.",
+        "bs": "Musa je zamolio Allaha da mu brat Harun bude pomagač."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – Allah granted his request and Harun supported him.",
+        "de": "Richtig – Allah erfüllte seine Bitte, und Harun unterstützte ihn.",
+        "bs": "Tačno – Allah mu je ispunio molbu i Harun ga je podržavao."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "20:29–36" }]
+    },
+    {
+      "id": "yusuf-well",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-yusuf",
+      "prompt": {
+        "en": "What did Yusuf's brothers do out of jealousy?",
+        "de": "Was taten Yusufs Brüder aus Neid?",
+        "bs": "Šta su Jusufova braća uradila iz zavisti?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "They threw him into a well", "de": "Sie warfen ihn in einen Brunnen", "bs": "Bacili su ga u bunar" } },
+        { "id": "b", "text": { "en": "They gave him a present", "de": "Sie machten ihm ein Geschenk", "bs": "Dali su mu poklon" } },
+        { "id": "c", "text": { "en": "They made him king", "de": "Sie machten ihn zum König", "bs": "Učinili su ga kraljem" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The brothers threw Yusuf into the bottom of a well. A caravan later found him.",
+        "de": "Die Brüder warfen Yusuf auf den Grund eines Brunnens. Später fand ihn eine Karawane.",
+        "bs": "Braća su bacila Jusufa na dno bunara. Kasnije ga je pronašao karavan."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:15–19" }]
+    },
+    {
+      "id": "yusuf-timeline",
+      "type": "ordering",
+      "worldId": "prophets",
+      "topic": "story-yusuf",
+      "prompt": { "en": "Put the story of Yusuf in order.", "de": "Bringe die Geschichte Yusufs in die richtige Reihenfolge.", "bs": "Poredaj kazivanje o Jusufu." },
+      "items": [
+        { "id": "dream", "text": { "en": "Yusuf sees eleven stars, the sun and the moon in a dream", "de": "Yusuf sieht im Traum elf Sterne, die Sonne und den Mond", "bs": "Jusuf u snu vidi jedanaest zvijezda, sunce i mjesec" } },
+        { "id": "well", "text": { "en": "His brothers throw him into a well", "de": "Seine Brüder werfen ihn in einen Brunnen", "bs": "Braća ga bacaju u bunar" } },
+        { "id": "caravan", "text": { "en": "A caravan finds him and he is taken to Egypt", "de": "Eine Karawane findet ihn und er kommt nach Ägypten", "bs": "Karavan ga pronalazi i odvodi u Egipat" } },
+        { "id": "prison", "text": { "en": "He is put in prison unjustly", "de": "Er kommt ungerecht ins Gefängnis", "bs": "Nepravedno je bačen u tamnicu" } },
+        { "id": "king", "text": { "en": "He explains the king's dream", "de": "Er deutet den Traum des Königs", "bs": "Tumači kraljev san" } },
+        { "id": "forgive", "text": { "en": "He forgives his brothers", "de": "Er vergibt seinen Brüdern", "bs": "Oprašta svojoj braći" } }
+      ],
+      "explanation": {
+        "en": "The dream, the well, the caravan, the prison, the king's dream – and finally forgiveness and reunion.",
+        "de": "Der Traum, der Brunnen, die Karawane, das Gefängnis, der Traum des Königs – und am Ende Vergebung und Wiedersehen.",
+        "bs": "San, bunar, karavan, tamnica, kraljev san – i na kraju oprost i ponovni susret."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "Surah Yusuf (12)" }]
+    },
+    {
+      "id": "yusuf-dream",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-yusuf",
+      "prompt": {
+        "en": "Yusuf explained the king's dream. What did it mean?",
+        "de": "Yusuf deutete den Traum des Königs. Was bedeutete er?",
+        "bs": "Jusuf je protumačio kraljev san. Šta je značio?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Seven years of good harvest, then seven years of drought", "de": "Sieben Jahre gute Ernte, dann sieben Jahre Dürre", "bs": "Sedam rodnih godina, zatim sedam sušnih godina" } },
+        { "id": "b", "text": { "en": "A big war was coming", "de": "Ein großer Krieg würde kommen", "bs": "Dolazi veliki rat" } },
+        { "id": "c", "text": { "en": "The king would travel far away", "de": "Der König würde weit weg reisen", "bs": "Kralj će otputovati daleko" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Seven fat cows and seven green ears meant seven good years. Yusuf advised storing grain for the seven hard years that followed.",
+        "de": "Sieben fette Kühe und sieben grüne Ähren bedeuteten sieben gute Jahre. Yusuf riet, Getreide für die sieben harten Jahre danach zu lagern.",
+        "bs": "Sedam debelih krava i sedam zelenih klasova značilo je sedam rodnih godina. Jusuf je savjetovao da se žito sačuva za sedam teških godina nakon toga."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:43–49" }]
+    },
+    {
+      "id": "yusuf-revenge",
+      "type": "trueFalse",
+      "worldId": "prophets",
+      "topic": "story-yusuf",
+      "prompt": {
+        "en": "When Yusuf became powerful, he took revenge on his brothers.",
+        "de": "Als Yusuf mächtig wurde, rächte er sich an seinen Brüdern.",
+        "bs": "Kada je Jusuf postao moćan, osvetio se braći."
+      },
+      "correct": false,
+      "explanation": {
+        "en": "Not quite – Yusuf told his brothers there was no blame on them that day, and prayed that Allah would forgive them.",
+        "de": "Nicht ganz – Yusuf sagte seinen Brüdern, dass sie an diesem Tag kein Tadel treffe, und betete, dass Allah ihnen vergebe.",
+        "bs": "Nije tačno – Jusuf je rekao braći da tog dana nema prijekora za njih i molio da im Allah oprosti."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:92" }]
+    },
+    {
+      "id": "yunus-dark",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-yunus",
+      "prompt": {
+        "en": "What did Yunus do in the darkness inside the fish?",
+        "de": "Was tat Yunus in der Dunkelheit im Inneren des Fisches?",
+        "bs": "Šta je Junus radio u tami unutar ribe?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "He complained and gave up", "de": "Er klagte und gab auf", "bs": "Žalio se i predao" } },
+        { "id": "b", "text": { "en": "He glorified Allah and admitted his mistake", "de": "Er pries Allah und gab seinen Fehler zu", "bs": "Veličao je Allaha i priznao grešku" } },
+        { "id": "c", "text": { "en": "He slept the whole time", "de": "Er schlief die ganze Zeit", "bs": "Spavao je sve vrijeme" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "He called out that there is no god but Allah, glorified Him and admitted he had done wrong – and Allah saved him.",
+        "de": "Er rief, dass es keinen Gott außer Allah gibt, pries Ihn und gab zu, Unrecht getan zu haben – und Allah rettete ihn.",
+        "bs": "Zavapio je da nema boga osim Allaha, veličao Ga i priznao da je pogriješio – i Allah ga je spasio."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:87–88" }]
+    },
+    {
+      "id": "yunus-match",
+      "type": "matching",
+      "worldId": "prophets",
+      "topic": "story-yunus",
+      "prompt": { "en": "Match the parts of Yunus' story.", "de": "Ordne die Teile der Geschichte Yunus' zu.", "bs": "Spoji dijelove kazivanja o Junusu." },
+      "pairs": [
+        { "id": "ship", "left": { "en": "The loaded ship", "de": "Das beladene Schiff", "bs": "Krcata lađa" }, "right": { "en": "Yunus boarded it", "de": "Yunus ging an Bord", "bs": "Junus se ukrcao" } },
+        { "id": "fish", "left": { "en": "The big fish", "de": "Der große Fisch", "bs": "Velika riba" }, "right": { "en": "Swallowed Yunus", "de": "Verschluckte Yunus", "bs": "Progutala je Junusa" } },
+        { "id": "plant", "left": { "en": "The gourd plant", "de": "Die Kürbispflanze", "bs": "Tikvina biljka" }, "right": { "en": "Grew over him on the shore", "de": "Wuchs am Ufer über ihm", "bs": "Izrasla je nad njim na obali" } },
+        { "id": "people", "left": { "en": "His people", "de": "Sein Volk", "bs": "Njegov narod" }, "right": { "en": "Believed in the end", "de": "Glaubten am Ende", "bs": "Na kraju su povjerovali" } }
+      ],
+      "explanation": {
+        "en": "Yunus boarded a loaded ship, was swallowed by a big fish, was cast on the shore where a gourd plant grew over him, and his people believed.",
+        "de": "Yunus bestieg ein beladenes Schiff, wurde von einem großen Fisch verschluckt, ans Ufer geworfen, wo eine Kürbispflanze über ihm wuchs, und sein Volk glaubte.",
+        "bs": "Junus se ukrcao na krcatu lađu, progutala ga je velika riba, izbačen je na obalu gdje je nad njim izrasla tikva, a njegov narod je povjerovao."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "37:139–148" }]
+    },
+    {
+      "id": "yunus-plant",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-yunus",
+      "prompt": { "en": "What did Allah cause to grow over Yunus on the shore?", "de": "Was ließ Allah am Ufer über Yunus wachsen?", "bs": "Šta je Allah učinio da izraste nad Junusom na obali?" },
+      "options": [
+        { "id": "a", "text": { "en": "A gourd plant", "de": "Eine Kürbispflanze", "bs": "Tikvu" } },
+        { "id": "b", "text": { "en": "An apple tree", "de": "Einen Apfelbaum", "bs": "Jabuku" } },
+        { "id": "c", "text": { "en": "Nothing at all", "de": "Gar nichts", "bs": "Ništa" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Allah caused a gourd plant (yaqtin) to grow over him while he was weak.",
+        "de": "Allah ließ eine Kürbispflanze (Yaqtin) über ihm wachsen, während er schwach war.",
+        "bs": "Allah je učinio da nad njim izraste tikva (jektin) dok je bio slab."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "37:145–146" }]
+    },
+    {
+      "id": "yunus-people",
+      "type": "trueFalse",
+      "worldId": "prophets",
+      "topic": "story-yunus",
+      "prompt": { "en": "In the end, the people of Yunus believed.", "de": "Am Ende glaubte das Volk von Yunus.", "bs": "Na kraju je Junusov narod povjerovao." },
+      "correct": true,
+      "explanation": {
+        "en": "True – the Quran mentions that his people believed, and Allah let them enjoy life for a time.",
+        "de": "Richtig – der Koran erwähnt, dass sein Volk glaubte und Allah es eine Zeit lang das Leben genießen ließ.",
+        "bs": "Tačno – Kur'an spominje da je njegov narod povjerovao i da im je Allah dao da uživaju neko vrijeme."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "10:98; 37:147–148" }]
+    },
+    {
+      "id": "isa-palm",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-isa",
+      "prompt": {
+        "en": "Under the palm tree, what was Maryam told to eat?",
+        "de": "Was sollte Maryam unter der Palme essen?",
+        "bs": "Šta je Merjemi rečeno da jede ispod palme?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Fresh dates from the palm", "de": "Frische Datteln von der Palme", "bs": "Svježe hurme s palme" } },
+        { "id": "b", "text": { "en": "Bread", "de": "Brot", "bs": "Hljeb" } },
+        { "id": "c", "text": { "en": "Fish", "de": "Fisch", "bs": "Ribu" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "She was told to shake the trunk of the palm tree so fresh ripe dates would fall, and to drink from the stream below her.",
+        "de": "Ihr wurde gesagt, den Stamm der Palme zu schütteln, damit frische reife Datteln herabfallen, und aus dem Bach unter ihr zu trinken.",
+        "bs": "Rečeno joj je da protrese stablo palme kako bi pale svježe zrele hurme i da pije iz potočića ispod nje."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "19:23–26" }]
+    },
+    {
+      "id": "isa-match",
+      "type": "matching",
+      "worldId": "prophets",
+      "topic": "story-isa",
+      "prompt": { "en": "Match the parts of the story of Isa.", "de": "Ordne die Teile der Geschichte Isas zu.", "bs": "Spoji dijelove kazivanja o Isau." },
+      "pairs": [
+        { "id": "injil", "left": { "en": "The Injil", "de": "Der Indschil", "bs": "Indžil" }, "right": { "en": "The scripture given to Isa", "de": "Die Schrift, die Isa gegeben wurde", "bs": "Knjiga data Isau" } },
+        { "id": "cradle", "left": { "en": "The cradle", "de": "Die Wiege", "bs": "Kolijevka" }, "right": { "en": "Isa spoke as a baby", "de": "Isa sprach als Baby", "bs": "Isa je progovorio kao beba" } },
+        { "id": "palm", "left": { "en": "The palm tree", "de": "Die Palme", "bs": "Palma" }, "right": { "en": "Dates for Maryam", "de": "Datteln für Maryam", "bs": "Hurme za Merjemu" } },
+        { "id": "miracles", "left": { "en": "His miracles", "de": "Seine Wunder", "bs": "Njegova čuda" }, "right": { "en": "By Allah's permission", "de": "Mit Allahs Erlaubnis", "bs": "Allahovom dozvolom" } }
+      ],
+      "explanation": {
+        "en": "Isa was given the Injil, spoke in the cradle, Maryam was given dates under the palm, and all his miracles were by Allah's permission.",
+        "de": "Isa erhielt den Indschil, sprach in der Wiege, Maryam erhielt unter der Palme Datteln, und alle seine Wunder geschahen mit Allahs Erlaubnis.",
+        "bs": "Isa je dobio Indžil, progovorio u kolijevci, Merjema je dobila hurme ispod palme, a sva njegova čuda bila su Allahovom dozvolom."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "19:23–30; 3:49; 5:46" }]
+    },
+    {
+      "id": "isa-book",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-isa",
+      "prompt": { "en": "Which scripture did Allah give to Isa?", "de": "Welche Schrift gab Allah Isa?", "bs": "Koju je knjigu Allah dao Isau?" },
+      "options": [
+        { "id": "a", "text": { "en": "The Tawrah", "de": "Die Thora", "bs": "Tevrat" } },
+        { "id": "b", "text": { "en": "The Injil", "de": "Den Indschil", "bs": "Indžil" } },
+        { "id": "c", "text": { "en": "The Zabur", "de": "Den Zabur", "bs": "Zebur" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Allah gave Isa the Injil, containing guidance and light.",
+        "de": "Allah gab Isa den Indschil, der Rechtleitung und Licht enthielt.",
+        "bs": "Allah je Isau dao Indžil, u kojem je bila uputa i svjetlo."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "5:46" }]
+    },
+    {
+      "id": "isa-permission",
+      "type": "trueFalse",
+      "worldId": "prophets",
+      "topic": "story-isa",
+      "prompt": {
+        "en": "Isa performed his miracles by Allah's permission.",
+        "de": "Isa vollbrachte seine Wunder mit Allahs Erlaubnis.",
+        "bs": "Isa je činio čuda Allahovom dozvolom."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – the Quran repeats \"by Allah's permission\" when it mentions his miracles.",
+        "de": "Richtig – der Koran wiederholt „mit Allahs Erlaubnis“, wenn er seine Wunder erwähnt.",
+        "bs": "Tačno – Kur'an ponavlja „Allahovom dozvolom“ kada spominje njegova čuda."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "3:49; 5:110" }]
+    },
+    {
+      "id": "muhammad-iqra",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-muhammad",
+      "prompt": {
+        "en": "What was the first word revealed to the Prophet ﷺ in the cave of Hira?",
+        "de": "Was war das erste Wort, das dem Propheten ﷺ in der Höhle Hira offenbart wurde?",
+        "bs": "Koja je prva riječ objavljena Poslaniku ﷺ u pećini Hira?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Iqra – Read!", "de": "Iqra – Lies!", "bs": "Ikre' – Čitaj!" } },
+        { "id": "b", "text": { "en": "Salam – Peace", "de": "Salam – Frieden", "bs": "Selam – mir" } },
+        { "id": "c", "text": { "en": "Sabr – Patience", "de": "Sabr – Geduld", "bs": "Sabur – strpljenje" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The first revelation began with \"Iqra\" – Read! These are the first verses of Surah Al-Alaq.",
+        "de": "Die erste Offenbarung begann mit „Iqra“ – Lies! Das sind die ersten Verse der Sure Al-Alaq.",
+        "bs": "Prva objava počela je riječju „Ikre'“ – Čitaj! To su prvi ajeti sure El-Alek."
+      },
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "96:1–5" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "3" }
+      ]
+    },
+    {
+      "id": "muhammad-timeline",
+      "type": "ordering",
+      "worldId": "prophets",
+      "topic": "story-muhammad",
+      "prompt": { "en": "Put the life events of the Prophet ﷺ in order.", "de": "Bringe die Lebensereignisse des Propheten ﷺ in die richtige Reihenfolge.", "bs": "Poredaj događaje iz Poslanikovog ﷺ života." },
+      "items": [
+        { "id": "born", "text": { "en": "Born in Makkah", "de": "Geboren in Mekka", "bs": "Rođen u Mekki" } },
+        { "id": "amin", "text": { "en": "Known as Al-Amin, the trustworthy", "de": "Bekannt als Al-Amin, der Vertrauenswürdige", "bs": "Poznat kao El-Emin, povjerljivi" } },
+        { "id": "hira", "text": { "en": "First revelation in the cave of Hira", "de": "Erste Offenbarung in der Höhle Hira", "bs": "Prva objava u pećini Hira" } },
+        { "id": "makkah", "text": { "en": "Calls people to Islam in Makkah", "de": "Ruft die Menschen in Mekka zum Islam", "bs": "Poziva ljude u islam u Mekki" } },
+        { "id": "hijra", "text": { "en": "The Hijra to Madinah", "de": "Die Hidschra nach Medina", "bs": "Hidžra u Medinu" } },
+        { "id": "masjid", "text": { "en": "Builds the masjid in Madinah", "de": "Baut die Moschee in Medina", "bs": "Gradi džamiju u Medini" } }
+      ],
+      "explanation": {
+        "en": "Born in Makkah, known as Al-Amin, received revelation at about forty, called to Islam in Makkah, migrated to Madinah and built the masjid there.",
+        "de": "Geboren in Mekka, bekannt als Al-Amin, empfing mit etwa vierzig die Offenbarung, rief in Mekka zum Islam, wanderte nach Medina aus und baute dort die Moschee.",
+        "bs": "Rođen u Mekki, poznat kao El-Emin, objavu je primio s oko četrdeset godina, pozivao u islam u Mekki, preselio u Medinu i tamo sagradio džamiju."
+      },
+      "sources": [{ "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "—" }]
+    },
+    {
+      "id": "muhammad-hijra",
+      "type": "multipleChoice",
+      "worldId": "prophets",
+      "topic": "story-muhammad",
+      "prompt": { "en": "To which city did the Prophet ﷺ migrate?", "de": "In welche Stadt wanderte der Prophet ﷺ aus?", "bs": "U koji grad je Poslanik ﷺ učinio hidžru?" },
+      "options": [
+        { "id": "a", "text": { "en": "Madinah", "de": "Medina", "bs": "Medina" } },
+        { "id": "b", "text": { "en": "Damascus", "de": "Damaskus", "bs": "Damask" } },
+        { "id": "c", "text": { "en": "Cairo", "de": "Kairo", "bs": "Kairo" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The Hijra was the migration from Makkah to Madinah. The Islamic calendar starts from this event.",
+        "de": "Die Hidschra war die Auswanderung von Mekka nach Medina. Der islamische Kalender beginnt mit diesem Ereignis.",
+        "bs": "Hidžra je bila preseljenje iz Mekke u Medinu. Islamski kalendar počinje od tog događaja."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "9:40" }]
+    },
+    {
+      "id": "muhammad-last",
+      "type": "trueFalse",
+      "worldId": "prophets",
+      "topic": "story-muhammad",
+      "prompt": { "en": "Muhammad ﷺ is the last prophet.", "de": "Muhammad ﷺ ist der letzte Prophet.", "bs": "Muhammed ﷺ je posljednji poslanik." },
+      "correct": true,
+      "explanation": {
+        "en": "True – the Quran calls him the Seal of the Prophets.",
+        "de": "Richtig – der Koran nennt ihn das Siegel der Propheten.",
+        "bs": "Tačno – Kur'an ga naziva pečatom vjerovjesnika."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "33:40" }]
+    },
+    {
+      "id": "prophets-memory",
+      "type": "memory",
+      "worldId": "prophets",
+      "topic": "story-review",
+      "prompt": {
+        "en": "Match each prophet with an object from his story.",
+        "de": "Ordne jedem Propheten einen Gegenstand aus seiner Geschichte zu.",
+        "bs": "Spoji svakog poslanika s predmetom iz njegovog kazivanja."
+      },
+      "pairs": [
+        { "id": "nuh", "left": { "en": "Nuh", "de": "Nuh", "bs": "Nuh" }, "right": { "en": "Ark", "de": "Arche", "bs": "Lađa" } },
+        { "id": "musa", "left": { "en": "Musa", "de": "Musa", "bs": "Musa" }, "right": { "en": "Staff", "de": "Stab", "bs": "Štap" } },
+        { "id": "yusuf", "left": { "en": "Yusuf", "de": "Yusuf", "bs": "Jusuf" }, "right": { "en": "Well", "de": "Brunnen", "bs": "Bunar" } },
+        { "id": "yunus", "left": { "en": "Yunus", "de": "Yunus", "bs": "Junus" }, "right": { "en": "Big fish", "de": "Großer Fisch", "bs": "Velika riba" } },
+        { "id": "ibrahim", "left": { "en": "Ibrahim", "de": "Ibrahim", "bs": "Ibrahim" }, "right": { "en": "Kaaba", "de": "Kaaba", "bs": "Kaba" } }
+      ],
+      "explanation": {
+        "en": "Nuh – the ark, Musa – the staff, Yusuf – the well, Yunus – the big fish, Ibrahim – the Kaaba.",
+        "de": "Nuh – die Arche, Musa – der Stab, Yusuf – der Brunnen, Yunus – der große Fisch, Ibrahim – die Kaaba.",
+        "bs": "Nuh – lađa, Musa – štap, Jusuf – bunar, Junus – velika riba, Ibrahim – Kaba."
+      }
+    }
+  ],
+  "quests": [
+    {
+      "id": "prophets-adam",
+      "worldId": "prophets",
+      "order": 1,
+      "kind": "story",
+      "title": { "en": "Adam – The First Human", "de": "Adam – Der erste Mensch", "bs": "Adem – Prvi čovjek" },
+      "description": { "en": "A garden, a choice and forgiveness.", "de": "Ein Garten, eine Entscheidung und Vergebung.", "bs": "Bašča, izbor i oprost." },
+      "steps": [
+        {
+          "kind": "intro",
+          "title": { "en": "The first human", "de": "Der erste Mensch", "bs": "Prvi čovjek" },
+          "body": {
+            "en": "Adam (peace be upon him) was the first human and the first prophet. Allah told the angels that He would place a successor on the earth.",
+            "de": "Adam (Friede sei mit ihm) war der erste Mensch und der erste Prophet. Allah teilte den Engeln mit, dass Er auf der Erde einen Nachfolger einsetzen werde.",
+            "bs": "Adem, a.s., bio je prvi čovjek i prvi poslanik. Allah je obavijestio meleke da će na Zemlji postaviti namjesnika."
+          },
+          "scene": { "sky": "dawn", "elements": ["stars", "hills", "garden"] }
+        },
+        {
+          "kind": "story",
+          "body": {
+            "en": "Allah created Adam from clay and gave him life. He taught Adam the names of all things. Then Allah commanded the angels to prostrate to Adam, and they all did – except Iblis.",
+            "de": "Allah erschuf Adam aus Lehm und gab ihm Leben. Er lehrte Adam die Namen aller Dinge. Dann befahl Allah den Engeln, sich vor Adam niederzuwerfen, und alle taten es – außer Iblis.",
+            "bs": "Allah je stvorio Adema od ilovače i udahnuo mu život. Poučio je Adema imenima svih stvari. Zatim je Allah naredio melekima da se poklone Ademu, i svi su to učinili – osim Iblisa."
+          },
+          "scene": { "sky": "day", "elements": ["clouds", "garden", "tree"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "2:30–34; 15:26–31" }]
+        },
+        { "kind": "question", "questionId": "adam-iblis", "label": "interactive" },
+        {
+          "kind": "story",
+          "body": {
+            "en": "Adam and his wife (known in Islamic tradition as Hawwa) lived in the Garden. They could eat from everything except one tree. Shaytan whispered to them, and they ate from it. They felt deep regret, admitted they had wronged themselves and asked Allah for forgiveness – and Allah forgave them. Then they lived on the earth.",
+            "de": "Adam und seine Frau (in der islamischen Überlieferung als Hawwa bekannt) lebten im Garten. Sie durften von allem essen, außer von einem Baum. Schaitan flüsterte ihnen ein, und sie aßen davon. Sie bereuten zutiefst, gaben zu, sich selbst Unrecht getan zu haben, und baten Allah um Vergebung – und Allah vergab ihnen. Dann lebten sie auf der Erde.",
+            "bs": "Adem i njegova žena (u islamskoj predaji poznata kao Hava) živjeli su u Džennetu. Smjeli su jesti od svega osim s jednog drveta. Šejtan im je došaptavao, i oni su jeli s njega. Duboko su se pokajali, priznali da su sami sebi nepravdu učinili i zamolili Allaha za oprost – i Allah im je oprostio. Zatim su živjeli na Zemlji."
+          },
+          "scene": { "sky": "sunset", "elements": ["garden", "tree", "hills"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "2:35–38; 7:19–25" }]
+        },
+        { "kind": "question", "questionId": "adam-timeline", "label": "challenge" },
+        { "kind": "lesson", "lessonId": "prophets-lesson-tawbah" },
+        { "kind": "question", "questionId": "adam-forgiven", "label": "quiz" },
+        { "kind": "question", "questionId": "adam-names", "label": "quiz" },
+        {
+          "kind": "learned",
+          "values": [
+            { "title": { "en": "Tawbah", "de": "Tawba", "bs": "Tevba" }, "body": { "en": "Admit mistakes and ask Allah for forgiveness.", "de": "Fehler zugeben und Allah um Vergebung bitten.", "bs": "Priznaj grešku i traži oprost od Allaha." } },
+            { "title": { "en": "Humility", "de": "Demut", "bs": "Skromnost" }, "body": { "en": "Arrogance led Iblis astray – humility is beloved to Allah.", "de": "Hochmut führte Iblis in die Irre – Demut ist Allah lieb.", "bs": "Oholost je odvela Iblisa u zabludu – skromnost je draga Allahu." } },
+            { "title": { "en": "Knowledge", "de": "Wissen", "bs": "Znanje" }, "body": { "en": "Allah honoured Adam with knowledge.", "de": "Allah ehrte Adam mit Wissen.", "bs": "Allah je počastio Adema znanjem." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prophets-nuh",
+      "worldId": "prophets",
+      "order": 2,
+      "kind": "story",
+      "title": { "en": "Nuh – The Great Ark", "de": "Nuh – Die große Arche", "bs": "Nuh – Velika lađa" },
+      "description": { "en": "Patience through years of calling.", "de": "Geduld durch Jahre des Aufrufs.", "bs": "Strpljenje kroz godine pozivanja." },
+      "steps": [
+        {
+          "kind": "intro",
+          "title": { "en": "A long call", "de": "Ein langer Aufruf", "bs": "Dugo pozivanje" },
+          "body": {
+            "en": "Nuh (peace be upon him) was sent to a people who worshipped idols. He called them to worship Allah alone – by day and by night, openly and in private.",
+            "de": "Nuh (Friede sei mit ihm) wurde zu einem Volk gesandt, das Götzen anbetete. Er rief sie auf, Allah allein anzubeten – bei Tag und bei Nacht, öffentlich und im Stillen.",
+            "bs": "Nuh, a.s., poslan je narodu koji je obožavao kipove. Pozivao ih je da robuju samo Allahu – i danju i noću, javno i tajno."
+          },
+          "scene": { "sky": "dusk", "elements": ["stars", "hills", "city"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "71:1–9" }]
+        },
+        {
+          "kind": "story",
+          "body": {
+            "en": "Nuh stayed among his people for 950 years, but only a few believed. Allah commanded him to build an ark. Whenever the leaders of his people passed by, they mocked him.",
+            "de": "Nuh blieb 950 Jahre unter seinem Volk, doch nur wenige glaubten. Allah befahl ihm, eine Arche zu bauen. Immer wenn die Anführer seines Volkes vorbeikamen, verspotteten sie ihn.",
+            "bs": "Nuh je u svom narodu boravio 950 godina, ali je samo malo njih povjerovalo. Allah mu je naredio da napravi lađu. Kad god bi glavešine njegova naroda prolazile pored njega, rugale su mu se."
+          },
+          "scene": { "sky": "day", "elements": ["clouds", "hills", "ark"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "29:14; 11:36–38" }]
+        },
+        { "kind": "question", "questionId": "nuh-build", "label": "interactive" },
+        {
+          "kind": "story",
+          "body": {
+            "en": "Then the flood came: water poured from the sky and burst from the earth. Nuh carried the believers and a pair of every kind of animal in the ark. The ark sailed on waves like mountains, until it came to rest on Mount Judi.",
+            "de": "Dann kam die Flut: Wasser strömte vom Himmel und brach aus der Erde hervor. Nuh nahm die Gläubigen und ein Paar von jeder Tierart in die Arche. Die Arche fuhr auf Wellen wie Berge, bis sie auf dem Berg Dschudi zur Ruhe kam.",
+            "bs": "Tada je došao potop: voda je pljuštala s neba i izbijala iz zemlje. Nuh je u lađu ukrcao vjernike i po par od svake vrste životinja. Lađa je plovila po valovima poput brda, dok se nije zaustavila na brdu Džudi."
+          },
+          "scene": { "sky": "storm", "elements": ["rain", "waves", "ark", "mountains"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "54:11–13; 11:40–44" }]
+        },
+        { "kind": "question", "questionId": "nuh-timeline", "label": "challenge" },
+        { "kind": "lesson", "lessonId": "prophets-lesson-sabr-nuh" },
+        { "kind": "question", "questionId": "nuh-years", "label": "quiz" },
+        { "kind": "question", "questionId": "nuh-judi", "label": "quiz" },
+        {
+          "kind": "learned",
+          "values": [
+            { "title": { "en": "Sabr", "de": "Sabr", "bs": "Sabur" }, "body": { "en": "Keep doing good, even when it takes a long time.", "de": "Tu weiter Gutes, auch wenn es lange dauert.", "bs": "Nastavi činiti dobro, čak i kada dugo traje." } },
+            { "title": { "en": "Obedience", "de": "Gehorsam", "bs": "Pokornost" }, "body": { "en": "Nuh obeyed Allah even when people laughed.", "de": "Nuh gehorchte Allah, auch als die Leute lachten.", "bs": "Nuh se pokorio Allahu čak i kada su mu se ljudi smijali." } },
+            { "title": { "en": "Trust in Allah", "de": "Vertrauen auf Allah", "bs": "Oslonac na Allaha" }, "body": { "en": "Allah saved those who believed.", "de": "Allah rettete die, die glaubten.", "bs": "Allah je spasio one koji su vjerovali." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prophets-ibrahim",
+      "worldId": "prophets",
+      "order": 3,
+      "kind": "story",
+      "title": { "en": "Ibrahim – The Friend of Allah", "de": "Ibrahim – Der Freund Allahs", "bs": "Ibrahim – Allahov prijatelj" },
+      "description": { "en": "Stars, idols, fire and the Kaaba.", "de": "Sterne, Götzen, Feuer und die Kaaba.", "bs": "Zvijezde, kipovi, vatra i Kaba." },
+      "steps": [
+        {
+          "kind": "intro",
+          "title": { "en": "Looking at the sky", "de": "Der Blick in den Himmel", "bs": "Pogled u nebo" },
+          "body": {
+            "en": "Ibrahim (peace be upon him) lived among people who worshipped idols and the stars. The Quran describes how he pointed to a star, then the moon, then the sun – and each of them set.",
+            "de": "Ibrahim (Friede sei mit ihm) lebte unter Menschen, die Götzen und Sterne anbeteten. Der Koran beschreibt, wie er auf einen Stern, dann auf den Mond, dann auf die Sonne zeigte – und jeder von ihnen ging unter.",
+            "bs": "Ibrahim, a.s., živio je među ljudima koji su obožavali kipove i zvijezde. Kur'an opisuje kako je pokazao na zvijezdu, zatim na mjesec, pa na sunce – i svako od njih je zašlo."
+          },
+          "scene": { "sky": "night", "elements": ["stars", "fullMoon", "dunes"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "6:74–79" }]
+        },
+        { "kind": "question", "questionId": "ibrahim-sky", "label": "interactive" },
+        {
+          "kind": "story",
+          "body": {
+            "en": "Ibrahim broke the idols, leaving only the biggest one. When the people asked who did it, he told them to ask the idols – if they could speak. The people knew idols cannot speak. Still, they threw Ibrahim into a great fire. But Allah commanded the fire to be cool and safe for Ibrahim.",
+            "de": "Ibrahim zerbrach die Götzen und ließ nur den größten stehen. Als die Leute fragten, wer das getan habe, sagte er, sie sollten die Götzen fragen – wenn sie sprechen könnten. Die Leute wussten, dass Götzen nicht sprechen können. Trotzdem warfen sie Ibrahim in ein großes Feuer. Doch Allah befahl dem Feuer, kühl und sicher für Ibrahim zu sein.",
+            "bs": "Ibrahim je razbio kipove, ostavivši samo najvećeg. Kada su ljudi pitali ko je to uradio, rekao im je da pitaju kipove – ako mogu govoriti. Ljudi su znali da kipovi ne mogu govoriti. Ipak su Ibrahima bacili u veliku vatru. Ali Allah je naredio vatri da bude hladna i spasonosna za Ibrahima."
+          },
+          "scene": { "sky": "dusk", "elements": ["fire", "city"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "21:57–70" }]
+        },
+        {
+          "kind": "story",
+          "body": {
+            "en": "Years later, Ibrahim and his son Ismail raised the foundations of the Kaaba in Makkah, asking Allah to accept it from them.",
+            "de": "Jahre später errichteten Ibrahim und sein Sohn Ismail die Grundmauern der Kaaba in Mekka und baten Allah, es von ihnen anzunehmen.",
+            "bs": "Godinama kasnije, Ibrahim i njegov sin Ismail podigli su temelje Kabe u Mekki, moleći Allaha da to od njih primi."
+          },
+          "scene": { "sky": "sunset", "elements": ["mountains", "kaaba"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "2:127" }]
+        },
+        { "kind": "question", "questionId": "ibrahim-match", "label": "challenge" },
+        { "kind": "lesson", "lessonId": "prophets-lesson-tawhid" },
+        { "kind": "question", "questionId": "ibrahim-kaaba", "label": "quiz" },
+        { "kind": "question", "questionId": "ibrahim-fire", "label": "quiz" },
+        {
+          "kind": "learned",
+          "values": [
+            { "title": { "en": "Tawhid", "de": "Tawhid", "bs": "Tevhid" }, "body": { "en": "Only Allah deserves worship.", "de": "Nur Allah verdient Anbetung.", "bs": "Samo Allah zaslužuje ibadet." } },
+            { "title": { "en": "Courage", "de": "Mut", "bs": "Hrabrost" }, "body": { "en": "Stand up for the truth with wisdom.", "de": "Steh mit Weisheit für die Wahrheit ein.", "bs": "Zalaži se za istinu mudro." } },
+            { "title": { "en": "Tawakkul", "de": "Tawakkul", "bs": "Tevekkul" }, "body": { "en": "Allah protects those who trust Him.", "de": "Allah beschützt die, die Ihm vertrauen.", "bs": "Allah štiti one koji se na Njega oslanjaju." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prophets-musa",
+      "worldId": "prophets",
+      "order": 4,
+      "kind": "story",
+      "title": { "en": "Musa – The Journey", "de": "Musa – Die Reise", "bs": "Musa – Putovanje" },
+      "description": { "en": "From the river to the parted sea.", "de": "Vom Fluss bis zum geteilten Meer.", "bs": "Od rijeke do razdvojenog mora." },
+      "steps": [
+        {
+          "kind": "intro",
+          "title": { "en": "Egypt by the Nile", "de": "Ägypten am Nil", "bs": "Egipat uz Nil" },
+          "body": {
+            "en": "In Egypt, Fir'awn (Pharaoh) was a tyrant who oppressed the Children of Israel. In those days a baby was born: Musa (peace be upon him).",
+            "de": "In Ägypten war Pharao ein Tyrann, der die Kinder Israels unterdrückte. In jener Zeit wurde ein Baby geboren: Musa (Friede sei mit ihm).",
+            "bs": "U Egiptu je faraon bio silnik koji je tlačio sinove Israilove. U to vrijeme rodila se jedna beba: Musa, a.s."
+          },
+          "scene": { "sky": "day", "elements": ["sun", "dunes", "river", "palms"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "28:4" }]
+        },
+        { "kind": "question", "questionId": "musa-basket", "label": "interactive" },
+        {
+          "kind": "story",
+          "body": {
+            "en": "The chest floated to Fir'awn's household, and they took the baby in. Allah returned Musa to his mother so that she could nurse him and be comforted. Years later, at Mount Tur, Allah spoke to Musa and chose him as a messenger, with his brother Harun as his helper.",
+            "de": "Die Kiste trieb zum Haus des Pharao, und man nahm das Baby auf. Allah gab Musa seiner Mutter zurück, damit sie ihn stillen konnte und getröstet war. Jahre später sprach Allah am Berg Tur zu Musa und erwählte ihn zum Gesandten, mit seinem Bruder Harun als Helfer.",
+            "bs": "Sanduk je doplovio do faraonove porodice i oni su uzeli dijete. Allah je vratio Musaa njegovoj majci da ga doji i da se smiri. Godinama kasnije, na brdu Tur, Allah je govorio Musau i odabrao ga za poslanika, a njegovog brata Haruna za pomagača."
+          },
+          "scene": { "sky": "dusk", "elements": ["stars", "mountains", "fire"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "28:8–13; 20:9–36" }]
+        },
+        {
+          "kind": "story",
+          "body": {
+            "en": "Musa called Fir'awn to believe in Allah and to let the Children of Israel go, but Fir'awn refused. Musa left with the believers at night. At the sea, with Fir'awn's army behind them, Musa said that his Lord was with him and would guide him. Allah told him to strike the sea with his staff – and the sea parted.",
+            "de": "Musa rief Pharao auf, an Allah zu glauben und die Kinder Israels ziehen zu lassen, doch Pharao weigerte sich. Musa zog nachts mit den Gläubigen fort. Am Meer, das Heer des Pharao hinter sich, sagte Musa, dass sein Herr mit ihm sei und ihn leiten werde. Allah befahl ihm, mit seinem Stab auf das Meer zu schlagen – und das Meer teilte sich.",
+            "bs": "Musa je pozvao faraona da vjeruje u Allaha i pusti sinove Israilove, ali je faraon odbio. Musa je noću krenuo s vjernicima. Kod mora, s faraonovom vojskom iza sebe, Musa je rekao da je njegov Gospodar s njim i da će ga uputiti. Allah mu je naredio da udari more štapom – i more se razdvojilo."
+          },
+          "scene": { "sky": "night", "elements": ["stars", "partedSea"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "26:16–66" }]
+        },
+        { "kind": "question", "questionId": "musa-timeline", "label": "challenge" },
+        { "kind": "lesson", "lessonId": "prophets-lesson-tawakkul" },
+        { "kind": "question", "questionId": "musa-sea", "label": "quiz" },
+        { "kind": "question", "questionId": "musa-harun", "label": "quiz" },
+        {
+          "kind": "learned",
+          "values": [
+            { "title": { "en": "Tawakkul", "de": "Tawakkul", "bs": "Tevekkul" }, "body": { "en": "Trust Allah when things look impossible.", "de": "Vertraue Allah, wenn etwas unmöglich scheint.", "bs": "Osloni se na Allaha kada stvari izgledaju nemoguće." } },
+            { "title": { "en": "Justice", "de": "Gerechtigkeit", "bs": "Pravednost" }, "body": { "en": "Speak up against injustice.", "de": "Erhebe die Stimme gegen Ungerechtigkeit.", "bs": "Usprotivi se nepravdi." } },
+            { "title": { "en": "Teamwork", "de": "Zusammenarbeit", "bs": "Saradnja" }, "body": { "en": "Musa asked for his brother's help.", "de": "Musa bat um die Hilfe seines Bruders.", "bs": "Musa je tražio pomoć svog brata." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prophets-yusuf",
+      "worldId": "prophets",
+      "order": 5,
+      "kind": "story",
+      "title": { "en": "Yusuf – From the Well to the Palace", "de": "Yusuf – Vom Brunnen zum Palast", "bs": "Jusuf – Od bunara do dvora" },
+      "description": { "en": "A dream, a well and forgiveness.", "de": "Ein Traum, ein Brunnen und Vergebung.", "bs": "San, bunar i oprost." },
+      "steps": [
+        {
+          "kind": "intro",
+          "title": { "en": "A dream of stars", "de": "Ein Traum von Sternen", "bs": "San o zvijezdama" },
+          "body": {
+            "en": "As a boy, Yusuf (peace be upon him) saw in a dream eleven stars, the sun and the moon prostrating to him. His father, Prophet Yaqub, told him not to tell his brothers.",
+            "de": "Als Junge sah Yusuf (Friede sei mit ihm) im Traum elf Sterne, die Sonne und den Mond, die sich vor ihm niederwarfen. Sein Vater, der Prophet Yaqub, sagte ihm, er solle es seinen Brüdern nicht erzählen.",
+            "bs": "Kao dječak, Jusuf, a.s., sanjao je jedanaest zvijezda, sunce i mjesec kako mu padaju na sedždu. Njegov otac, poslanik Jakub, rekao mu je da to ne priča braći."
+          },
+          "scene": { "sky": "night", "elements": ["stars", "fullMoon", "hills"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "12:4–5" }]
+        },
+        {
+          "kind": "story",
+          "body": {
+            "en": "Yusuf's brothers were jealous of him. They took him out and threw him into the bottom of a well. A caravan came by, found him, and he was taken to Egypt and sold.",
+            "de": "Yusufs Brüder waren neidisch auf ihn. Sie nahmen ihn mit und warfen ihn auf den Grund eines Brunnens. Eine Karawane kam vorbei, fand ihn, und er wurde nach Ägypten gebracht und verkauft.",
+            "bs": "Jusufova braća su mu zavidjela. Odveli su ga i bacili na dno bunara. Naišao je karavan, pronašao ga, i odveden je u Egipat i prodan."
+          },
+          "scene": { "sky": "day", "elements": ["dunes", "well", "caravan"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "12:8–20" }]
+        },
+        { "kind": "question", "questionId": "yusuf-well", "label": "interactive" },
+        {
+          "kind": "story",
+          "body": {
+            "en": "In Egypt, Yusuf stayed honest and refused to do wrong, yet he was put in prison unjustly. Later, the king saw a strange dream: seven fat cows eaten by seven thin cows, and seven green ears of grain and others dry. Yusuf explained it, and the king put him in charge of the storehouses. When his brothers came to buy food, Yusuf forgave them, and the whole family was reunited.",
+            "de": "In Ägypten blieb Yusuf ehrlich und weigerte sich, Unrecht zu tun, und kam dennoch ungerecht ins Gefängnis. Später sah der König einen seltsamen Traum: sieben fette Kühe, die von sieben mageren gefressen wurden, und sieben grüne Ähren und andere vertrocknete. Yusuf deutete ihn, und der König übertrug ihm die Vorratskammern. Als seine Brüder kamen, um Nahrung zu kaufen, vergab Yusuf ihnen, und die ganze Familie fand wieder zusammen.",
+            "bs": "U Egiptu je Jusuf ostao iskren i odbio da čini loše, ali je ipak nepravedno bačen u tamnicu. Kasnije je kralj usnio čudan san: sedam debelih krava koje jede sedam mršavih, i sedam zelenih klasova i drugih suhih. Jusuf ga je protumačio, a kralj ga je postavio nad riznicama. Kada su njegova braća došla kupiti hranu, Jusuf im je oprostio, i cijela porodica se ponovo sastala."
+          },
+          "scene": { "sky": "sunset", "elements": ["river", "grain", "city"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "12:23–100" }]
+        },
+        { "kind": "question", "questionId": "yusuf-timeline", "label": "challenge" },
+        { "kind": "lesson", "lessonId": "prophets-lesson-forgiveness" },
+        { "kind": "question", "questionId": "yusuf-dream", "label": "quiz" },
+        { "kind": "question", "questionId": "yusuf-revenge", "label": "quiz" },
+        {
+          "kind": "learned",
+          "values": [
+            { "title": { "en": "Sabr", "de": "Sabr", "bs": "Sabur" }, "body": { "en": "Yusuf was patient in every hardship.", "de": "Yusuf war in jeder Not geduldig.", "bs": "Jusuf je bio strpljiv u svakoj nevolji." } },
+            { "title": { "en": "Forgiveness", "de": "Vergebung", "bs": "Oprost" }, "body": { "en": "He forgave the ones who hurt him.", "de": "Er vergab denen, die ihn verletzt hatten.", "bs": "Oprostio je onima koji su ga povrijedili." } },
+            { "title": { "en": "Honesty", "de": "Ehrlichkeit", "bs": "Iskrenost" }, "body": { "en": "He stayed honest even when it was hard.", "de": "Er blieb ehrlich, auch als es schwer war.", "bs": "Ostao je iskren i kada je bilo teško." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prophets-yunus",
+      "worldId": "prophets",
+      "order": 6,
+      "kind": "story",
+      "title": { "en": "Yunus – Light in the Darkness", "de": "Yunus – Licht in der Dunkelheit", "bs": "Junus – Svjetlo u tami" },
+      "description": { "en": "A ship, a big fish and a heartfelt dua.", "de": "Ein Schiff, ein großer Fisch und ein aufrichtiges Du'a.", "bs": "Lađa, velika riba i iskrena dova." },
+      "steps": [
+        {
+          "kind": "intro",
+          "title": { "en": "Leaving in anger", "de": "Im Zorn fortgegangen", "bs": "Odlazak u srdžbi" },
+          "body": {
+            "en": "Yunus (peace be upon him) was sent to a people of a hundred thousand or more. When they did not believe at first, he left them in anger.",
+            "de": "Yunus (Friede sei mit ihm) wurde zu einem Volk von hunderttausend oder mehr gesandt. Als sie zunächst nicht glaubten, verließ er sie im Zorn.",
+            "bs": "Junus, a.s., poslan je narodu od sto hiljada ili više. Kada u početku nisu vjerovali, napustio ih je u srdžbi."
+          },
+          "scene": { "sky": "dusk", "elements": ["city", "hills", "stars"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "21:87; 37:147" }]
+        },
+        {
+          "kind": "story",
+          "body": {
+            "en": "Yunus boarded a fully loaded ship. Lots were drawn, and he ended up in the sea, where a big fish swallowed him. Inside the fish, in layers of darkness, he called out that there is no god but Allah, glorified Him, and admitted that he had done wrong.",
+            "de": "Yunus bestieg ein voll beladenes Schiff. Es wurde gelost, und er landete im Meer, wo ein großer Fisch ihn verschluckte. Im Inneren des Fisches, in mehreren Dunkelheiten, rief er, dass es keinen Gott außer Allah gibt, pries Ihn und gab zu, Unrecht getan zu haben.",
+            "bs": "Junus se ukrcao na krcatu lađu. Bacana je kocka, i on je završio u moru, gdje ga je progutala velika riba. U utrobi ribe, u tminama, zavapio je da nema boga osim Allaha, veličao Ga i priznao da je pogriješio."
+          },
+          "scene": { "sky": "sea", "elements": ["waves", "whale"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "37:139–144; 21:87" }]
+        },
+        { "kind": "question", "questionId": "yunus-dark", "label": "interactive" },
+        {
+          "kind": "story",
+          "body": {
+            "en": "Allah answered him and saved him from distress. The fish cast him onto an open shore while he was weak, and Allah caused a gourd plant to grow over him. Then Yunus was sent back to his people – and they believed.",
+            "de": "Allah erhörte ihn und rettete ihn aus der Not. Der Fisch warf ihn geschwächt an ein offenes Ufer, und Allah ließ eine Kürbispflanze über ihm wachsen. Dann wurde Yunus zu seinem Volk zurückgesandt – und sie glaubten.",
+            "bs": "Allah mu se odazvao i spasio ga iz nevolje. Riba ga je izbacila na golu obalu dok je bio slab, a Allah je učinio da nad njim izraste tikva. Zatim je Junus poslan nazad svom narodu – i oni su povjerovali."
+          },
+          "scene": { "sky": "dawn", "elements": ["sea", "palms", "tree"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "21:88; 37:145–148" }]
+        },
+        { "kind": "question", "questionId": "yunus-match", "label": "challenge" },
+        { "kind": "lesson", "lessonId": "prophets-lesson-dua" },
+        { "kind": "question", "questionId": "yunus-plant", "label": "quiz" },
+        { "kind": "question", "questionId": "yunus-people", "label": "quiz" },
+        {
+          "kind": "learned",
+          "values": [
+            { "title": { "en": "Dua", "de": "Du'a", "bs": "Dova" }, "body": { "en": "Call upon Allah in every situation.", "de": "Rufe Allah in jeder Lage an.", "bs": "Zazivaj Allaha u svakoj situaciji." } },
+            { "title": { "en": "Hope", "de": "Hoffnung", "bs": "Nada" }, "body": { "en": "Never give up on Allah's mercy.", "de": "Gib die Hoffnung auf Allahs Barmherzigkeit nie auf.", "bs": "Nikad ne gubi nadu u Allahovu milost." } },
+            { "title": { "en": "Admitting mistakes", "de": "Fehler eingestehen", "bs": "Priznavanje grešaka" }, "body": { "en": "Saying \"I was wrong\" is a strength.", "de": "„Ich lag falsch“ zu sagen ist eine Stärke.", "bs": "Reći „pogriješio sam“ je snaga." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prophets-isa",
+      "worldId": "prophets",
+      "order": 7,
+      "kind": "story",
+      "title": { "en": "Isa – A Miraculous Birth", "de": "Isa – Eine wundersame Geburt", "bs": "Isa – Čudesno rođenje" },
+      "description": { "en": "Maryam, the palm tree and the Injil.", "de": "Maryam, die Palme und der Indschil.", "bs": "Merjema, palma i Indžil." },
+      "steps": [
+        {
+          "kind": "intro",
+          "title": { "en": "Maryam", "de": "Maryam", "bs": "Merjema" },
+          "body": {
+            "en": "Maryam was a pious woman whom Allah chose and purified. An angel brought her the news that she would have a son – Isa (peace be upon him) – although no man had touched her. Allah creates what He wills.",
+            "de": "Maryam war eine fromme Frau, die Allah auserwählte und reinigte. Ein Engel überbrachte ihr die Nachricht, dass sie einen Sohn bekommen werde – Isa (Friede sei mit ihm) –, obwohl kein Mann sie berührt hatte. Allah erschafft, was Er will.",
+            "bs": "Merjema je bila pobožna žena koju je Allah odabrao i očistio. Melek joj je donio vijest da će dobiti sina – Isaa, a.s. – iako je nijedan muškarac nije dotakao. Allah stvara šta hoće."
+          },
+          "scene": { "sky": "dawn", "elements": ["stars", "hills", "palms"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "3:42–47; 19:16–21" }]
+        },
+        {
+          "kind": "story",
+          "body": {
+            "en": "When the time came, Maryam went to a far place, to the trunk of a palm tree. She was told not to grieve: a stream flowed beneath her, and if she shook the trunk of the palm, fresh ripe dates would fall for her.",
+            "de": "Als die Zeit kam, ging Maryam an einen entfernten Ort, zum Stamm einer Palme. Ihr wurde gesagt, sie solle nicht traurig sein: Unter ihr floss ein Bach, und wenn sie den Stamm der Palme schüttelte, würden frische reife Datteln für sie herabfallen.",
+            "bs": "Kada je došlo vrijeme, Merjema je otišla na udaljeno mjesto, do stabla palme. Rečeno joj je da ne tuguje: ispod nje teče potočić, a ako protrese stablo palme, past će joj svježe zrele hurme."
+          },
+          "scene": { "sky": "day", "elements": ["dunes", "palms", "river", "dates"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "19:22–26" }]
+        },
+        { "kind": "question", "questionId": "isa-palm", "label": "interactive" },
+        {
+          "kind": "story",
+          "body": {
+            "en": "As a baby in the cradle, Isa spoke and said that he is a servant of Allah, given the Scripture and made a prophet. Allah gave him the Injil, and by Allah's permission he healed the blind and the sick and brought the dead to life. The Quran teaches that he was not killed or crucified, but Allah raised him up to Himself. Isa also gave good news of a messenger to come after him, named Ahmad.",
+            "de": "Als Baby in der Wiege sprach Isa und sagte, dass er ein Diener Allahs sei, dem die Schrift gegeben und der zum Propheten gemacht wurde. Allah gab ihm den Indschil, und mit Allahs Erlaubnis heilte er Blinde und Kranke und erweckte Tote. Der Koran lehrt, dass er weder getötet noch gekreuzigt wurde, sondern dass Allah ihn zu Sich erhob. Isa verkündete auch einen Gesandten, der nach ihm kommen werde, namens Ahmad.",
+            "bs": "Kao beba u kolijevci, Isa je progovorio i rekao da je Allahov rob, kome je data Knjiga i koji je učinjen poslanikom. Allah mu je dao Indžil, i Allahovom dozvolom liječio je slijepe i bolesne i oživljavao mrtve. Kur'an uči da on nije ubijen ni razapet, nego ga je Allah uzdigao Sebi. Isa je također najavio poslanika koji će doći poslije njega, po imenu Ahmed."
+          },
+          "scene": { "sky": "dusk", "elements": ["stars", "hills", "book"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "19:29–30; 5:46; 3:49; 4:157–158; 61:6" }]
+        },
+        { "kind": "question", "questionId": "isa-match", "label": "challenge" },
+        { "kind": "lesson", "lessonId": "prophets-lesson-isa" },
+        { "kind": "question", "questionId": "isa-book", "label": "quiz" },
+        { "kind": "question", "questionId": "isa-permission", "label": "quiz" },
+        {
+          "kind": "learned",
+          "values": [
+            { "title": { "en": "Trust in Allah", "de": "Vertrauen auf Allah", "bs": "Oslonac na Allaha" }, "body": { "en": "Allah took care of Maryam in a difficult moment.", "de": "Allah sorgte in einem schweren Moment für Maryam.", "bs": "Allah se pobrinuo za Merjemu u teškom trenutku." } },
+            { "title": { "en": "Gratitude", "de": "Dankbarkeit", "bs": "Zahvalnost" }, "body": { "en": "Every gift comes from Allah.", "de": "Jedes Geschenk kommt von Allah.", "bs": "Svaki dar dolazi od Allaha." } },
+            { "title": { "en": "Respect", "de": "Respekt", "bs": "Poštovanje" }, "body": { "en": "Muslims honour Isa and his mother Maryam.", "de": "Muslime ehren Isa und seine Mutter Maryam.", "bs": "Muslimani poštuju Isaa i njegovu majku Merjemu." } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prophets-muhammad",
+      "worldId": "prophets",
+      "order": 8,
+      "kind": "story",
+      "title": { "en": "Muhammad ﷺ – The Final Messenger", "de": "Muhammad ﷺ – Der letzte Gesandte", "bs": "Muhammed ﷺ – Posljednji poslanik" },
+      "description": { "en": "From the cave of Hira to Madinah.", "de": "Von der Höhle Hira bis nach Medina.", "bs": "Od pećine Hira do Medine." },
+      "steps": [
+        {
+          "kind": "intro",
+          "title": { "en": "The trustworthy one", "de": "Der Vertrauenswürdige", "bs": "Povjerljivi" },
+          "body": {
+            "en": "Muhammad ﷺ was born in Makkah. He grew up as an orphan and became known among his people as Al-Amin – the trustworthy one.",
+            "de": "Muhammad ﷺ wurde in Mekka geboren. Er wuchs als Waise auf und wurde unter seinem Volk als Al-Amin bekannt – der Vertrauenswürdige.",
+            "bs": "Muhammed ﷺ rođen je u Mekki. Odrastao je kao siroče i u svom narodu postao poznat kao El-Emin – povjerljivi."
+          },
+          "scene": { "sky": "sunset", "elements": ["mountains", "city", "kaaba"] },
+          "sources": [{ "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "—" }]
+        },
+        {
+          "kind": "story",
+          "body": {
+            "en": "He used to go to the cave of Hira on a mountain near Makkah to reflect. There, at about the age of forty, the angel Jibril came to him with the first revelation, beginning with the word \"Iqra\" – Read!",
+            "de": "Er ging oft in die Höhle Hira auf einem Berg bei Mekka, um nachzudenken. Dort kam im Alter von etwa vierzig Jahren der Engel Dschibril mit der ersten Offenbarung zu ihm, die mit dem Wort „Iqra“ begann – Lies!",
+            "bs": "Odlazio je u pećinu Hira na brdu kod Mekke da razmišlja. Tu mu je, kada je imao oko četrdeset godina, došao melek Džibril s prvom objavom, koja je počela riječju „Ikre'“ – Čitaj!"
+          },
+          "scene": { "sky": "night", "elements": ["stars", "mountains", "cave"] },
+          "sources": [
+            { "sourceName": "Quran", "sourceReference": "96:1–5" },
+            { "sourceName": "Sahih al-Bukhari", "sourceReference": "3" }
+          ]
+        },
+        { "kind": "question", "questionId": "muhammad-iqra", "label": "interactive" },
+        {
+          "kind": "story",
+          "body": {
+            "en": "For about thirteen years he called the people of Makkah to Islam, facing hardship with patience. Then he migrated to Madinah with Abu Bakr – the Hijra. While hiding in a cave on the way, he told his companion not to grieve, for Allah was with them. In Madinah he built the masjid, and the believers lived as brothers and sisters.",
+            "de": "Etwa dreizehn Jahre lang rief er die Menschen in Mekka zum Islam und ertrug Schwierigkeiten mit Geduld. Dann wanderte er mit Abu Bakr nach Medina aus – die Hidschra. Als sie sich unterwegs in einer Höhle versteckten, sagte er zu seinem Gefährten, er solle nicht traurig sein, denn Allah sei mit ihnen. In Medina baute er die Moschee, und die Gläubigen lebten wie Geschwister.",
+            "bs": "Oko trinaest godina pozivao je stanovnike Mekke u islam, strpljivo podnoseći teškoće. Zatim je s Ebu Bekrom preselio u Medinu – hidžra. Dok su se na putu skrivali u pećini, rekao je svom drugu da ne tuguje, jer je Allah s njima. U Medini je sagradio džamiju, a vjernici su živjeli kao braća i sestre."
+          },
+          "scene": { "sky": "dawn", "elements": ["dunes", "palms", "mosque"] },
+          "sources": [{ "sourceName": "Quran", "sourceReference": "9:40" }]
+        },
+        { "kind": "question", "questionId": "muhammad-timeline", "label": "challenge" },
+        { "kind": "lesson", "lessonId": "prophets-lesson-mercy" },
+        { "kind": "question", "questionId": "muhammad-hijra", "label": "quiz" },
+        { "kind": "question", "questionId": "muhammad-last", "label": "quiz" },
+        { "kind": "question", "questionId": "prophets-memory", "label": "challenge" },
+        {
+          "kind": "learned",
+          "values": [
+            { "title": { "en": "Mercy", "de": "Barmherzigkeit", "bs": "Milost" }, "body": { "en": "He was sent as a mercy to the worlds.", "de": "Er wurde als Barmherzigkeit für die Welten gesandt.", "bs": "Poslan je kao milost svjetovima." } },
+            { "title": { "en": "Trustworthiness", "de": "Vertrauenswürdigkeit", "bs": "Povjerljivost" }, "body": { "en": "Be honest and keep your word, like Al-Amin.", "de": "Sei ehrlich und halte dein Wort, wie Al-Amin.", "bs": "Budi iskren i drži riječ, kao El-Emin." } },
+            { "title": { "en": "Sabr", "de": "Sabr", "bs": "Sabur" }, "body": { "en": "He was patient through years of hardship.", "de": "Er war in Jahren der Not geduldig.", "bs": "Bio je strpljiv kroz godine teškoća." } }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "prophets-fact-25",
+      "worldId": "prophets",
+      "text": {
+        "en": "The Quran mentions 25 prophets by name – from Adam to Muhammad ﷺ.",
+        "de": "Der Koran nennt 25 Propheten mit Namen – von Adam bis Muhammad ﷺ.",
+        "bs": "Kur'an spominje 25 poslanika po imenu – od Adema do Muhammeda ﷺ."
+      }
+    },
+    {
+      "id": "prophets-fact-yusuf",
+      "worldId": "prophets",
+      "text": {
+        "en": "The story of Yusuf is told in one surah from beginning to end – Surah Yusuf, the 12th surah.",
+        "de": "Die Geschichte Yusufs wird in einer einzigen Sure von Anfang bis Ende erzählt – Sure Yusuf, die 12. Sure.",
+        "bs": "Kazivanje o Jusufu ispričano je u jednoj suri od početka do kraja – sura Jusuf, 12. sura."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12" }]
+    },
+    {
+      "id": "prophets-fact-maryam",
+      "worldId": "prophets",
+      "text": {
+        "en": "Maryam is the only woman mentioned by name in the Quran, and a whole surah carries her name.",
+        "de": "Maryam ist die einzige Frau, die im Koran mit Namen genannt wird, und eine ganze Sure trägt ihren Namen.",
+        "bs": "Merjema je jedina žena spomenuta imenom u Kur'anu, i cijela jedna sura nosi njeno ime."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "19" }]
+    }
+  ]
+}

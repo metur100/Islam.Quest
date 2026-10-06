@@ -1,0 +1,382 @@
+{
+  "source": {
+    "text": "Tanzil Quran Text (Uthmani), tanzil.net — distributed verbatim via api.alquran.cloud",
+    "translations": {
+      "en": "Saheeh International",
+      "de": "Frank Bubenheim & Nadeem Elyas",
+      "bs": "Besim Korkut"
+    },
+    "transliteration": "alquran.cloud English transliteration"
+  },
+  "basmala": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+  "surahs": [
+    {
+      "number": 1,
+      "nameArabic": "سُورَةُ ٱلْفَاتِحَةِ",
+      "nameTransliterated": "Al-Faatiha",
+      "nameMeaning": "The Opening",
+      "revelationType": "makki",
+      "ayahCount": 7,
+      "ayahs": [
+        {
+          "numberInSurah": 1,
+          "globalNumber": 1,
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "transliteration": "Bismillaahir Rahmaanir Raheem",
+          "translation": {
+            "en": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+            "de": "Im Namen Allahs, des Allerbarmers, des Barmherzigen.",
+            "bs": "U ime Allaha, Milostivog, Samilosnog!"
+          }
+        },
+        {
+          "numberInSurah": 2,
+          "globalNumber": 2,
+          "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+          "transliteration": "Alhamdu lillaahi Rabbil 'aalameen",
+          "translation": {
+            "en": "[All] praise is [due] to Allah, Lord of the worlds -",
+            "de": "(Alles) Lob gehört Allah, dem Herrn der Welten,",
+            "bs": "Tebe, Allaha, Gospodara svjetova, hvalimo,"
+          }
+        },
+        {
+          "numberInSurah": 3,
+          "globalNumber": 3,
+          "arabic": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "transliteration": "Ar-Rahmaanir-Raheem",
+          "translation": {
+            "en": "The Entirely Merciful, the Especially Merciful,",
+            "de": "dem Allerbarmer, dem Barmherzigen,",
+            "bs": "Milostivog, Samilosnog,"
+          }
+        },
+        {
+          "numberInSurah": 4,
+          "globalNumber": 4,
+          "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+          "transliteration": "Maaliki Yawmid-Deen",
+          "translation": {
+            "en": "Sovereign of the Day of Recompense.",
+            "de": "dem Herrscher am Tag des Gerichts.",
+            "bs": "Vladara Dana sudnjeg,"
+          }
+        },
+        {
+          "numberInSurah": 5,
+          "globalNumber": 5,
+          "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "transliteration": "Iyyaaka na'budu wa lyyaaka nasta'een",
+          "translation": {
+            "en": "It is You we worship and You we ask for help.",
+            "de": "Dir allein dienen wir, und zu Dir allein flehen wir um Hilfe.",
+            "bs": "Tebi se klanjamo i od Tebe pomoć tražimo!"
+          }
+        },
+        {
+          "numberInSurah": 6,
+          "globalNumber": 6,
+          "arabic": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "transliteration": "Ihdinas-Siraatal-Mustaqeem",
+          "translation": {
+            "en": "Guide us to the straight path -",
+            "de": "Leite uns den geraden Weg,",
+            "bs": "Uputi nas na Pravi put,"
+          }
+        },
+        {
+          "numberInSurah": 7,
+          "globalNumber": 7,
+          "arabic": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+          "transliteration": "Siraatal-lazeena an'amta 'alaihim ghayril-maghdoobi 'alaihim wa lad-daaalleen",
+          "translation": {
+            "en": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.",
+            "de": "den Weg derjenigen, denen Du Gunst erwiesen hast, nicht derjenigen, die (Deinen) Zorn erregt haben, und nicht der Irregehenden!",
+            "bs": "na Put onih kojima si milost Svoju darovao, a ne onih koji su protiv sebe srdžbu izazvali, niti onih koji su zalutali!"
+          }
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "nameArabic": "سُورَةُ العَصۡرِ",
+      "nameTransliterated": "Al-Asr",
+      "nameMeaning": "The Declining Day, Epoch",
+      "revelationType": "makki",
+      "ayahCount": 3,
+      "ayahs": [
+        {
+          "numberInSurah": 1,
+          "globalNumber": 6177,
+          "arabic": "وَٱلْعَصْرِ",
+          "transliteration": "Wal' asr",
+          "translation": {
+            "en": "By time,",
+            "de": "Beim Zeitalter!",
+            "bs": "Tako mi vremena –"
+          }
+        },
+        {
+          "numberInSurah": 2,
+          "globalNumber": 6178,
+          "arabic": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+          "transliteration": "Innal insaana lafee khusr",
+          "translation": {
+            "en": "Indeed, mankind is in loss,",
+            "de": "Der Mensch befindet sich wahrlich in Verlust,",
+            "bs": "čovjek, doista, gubi,"
+          }
+        },
+        {
+          "numberInSurah": 3,
+          "globalNumber": 6179,
+          "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+          "transliteration": "Il lal lazeena aamanu wa 'amilus saali haati wa tawa saw bil haqqi wa tawa saw bis sabr",
+          "translation": {
+            "en": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",
+            "de": "außer denjenigen, die glauben und rechtschaffene Werke tun und einander die Wahrheit eindringlich empfehlen und einander die Standhaftigkeit eindringlich empfehlen.",
+            "bs": "samo ne oni koji vjeruju i dobra djela čine, i koji jedni drugima istinu preporučuju i koji jedni drugima preporučuju strpljenje."
+          }
+        }
+      ]
+    },
+    {
+      "number": 108,
+      "nameArabic": "سُورَةُ الكَوۡثَرِ",
+      "nameTransliterated": "Al-Kawthar",
+      "nameMeaning": "Abundance",
+      "revelationType": "makki",
+      "ayahCount": 3,
+      "ayahs": [
+        {
+          "numberInSurah": 1,
+          "globalNumber": 6205,
+          "arabic": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+          "transliteration": "Innaa a'taina kal kauthar",
+          "translation": {
+            "en": "Indeed, We have granted you, [O Muhammad], al-Kawthar.",
+            "de": "Wir haben dir ja al-Kautar gegeben.",
+            "bs": "Mi smo ti, uistinu, mnogō dobro dali,"
+          }
+        },
+        {
+          "numberInSurah": 2,
+          "globalNumber": 6206,
+          "arabic": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+          "transliteration": "Fa salli li rabbika wanhar",
+          "translation": {
+            "en": "So pray to your Lord and sacrifice [to Him alone].",
+            "de": "So bete zu deinem Herrn und opfere.",
+            "bs": "zato se Gospodaru svome moli i kurban kolji,"
+          }
+        },
+        {
+          "numberInSurah": 3,
+          "globalNumber": 6207,
+          "arabic": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+          "transliteration": "Inna shani-aka huwal abtar",
+          "translation": {
+            "en": "Indeed, your enemy is the one cut off.",
+            "de": "Gewiß, derjenige, der dich haßt, - er ist vom Guten abgetrennt .",
+            "bs": "onaj koji tebe mrzi sigurno će on bez spomena ostati."
+          }
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "nameArabic": "سُورَةُ الإِخۡلَاصِ",
+      "nameTransliterated": "Al-Ikhlaas",
+      "nameMeaning": "Sincerity",
+      "revelationType": "makki",
+      "ayahCount": 4,
+      "ayahs": [
+        {
+          "numberInSurah": 1,
+          "globalNumber": 6222,
+          "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+          "transliteration": "Qul huwal laahu ahad",
+          "translation": {
+            "en": "Say, \"He is Allah, [who is] One,",
+            "de": "Sag: Er ist Allah, ein Einer,",
+            "bs": "Reci: \"On je Allah – Jedan!"
+          }
+        },
+        {
+          "numberInSurah": 2,
+          "globalNumber": 6223,
+          "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+          "transliteration": "Allah hus-samad",
+          "translation": {
+            "en": "Allah, the Eternal Refuge.",
+            "de": "Allah, der Überlegene.",
+            "bs": "Allah je Utočište svakom!"
+          }
+        },
+        {
+          "numberInSurah": 3,
+          "globalNumber": 6224,
+          "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "transliteration": "Lam yalid wa lam yoolad",
+          "translation": {
+            "en": "He neither begets nor is born,",
+            "de": "Er hat nicht gezeugt und ist nicht gezeugt worden,",
+            "bs": "Nije rodio i rođen nije,"
+          }
+        },
+        {
+          "numberInSurah": 4,
+          "globalNumber": 6225,
+          "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+          "transliteration": "Wa lam yakul-lahu kufuwan ahad",
+          "translation": {
+            "en": "Nor is there to Him any equivalent.\"",
+            "de": "und niemand ist Ihm jemals gleich.",
+            "bs": "i niko Mu ravan nije!\""
+          }
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "nameArabic": "سُورَةُ الفَلَقِ",
+      "nameTransliterated": "Al-Falaq",
+      "nameMeaning": "The Dawn",
+      "revelationType": "makki",
+      "ayahCount": 5,
+      "ayahs": [
+        {
+          "numberInSurah": 1,
+          "globalNumber": 6226,
+          "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+          "transliteration": "Qul a'uzoo bi rabbil-falaq",
+          "translation": {
+            "en": "Say, \"I seek refuge in the Lord of daybreak",
+            "de": "Sag: Ich nehme Zuflucht beim Herrn des Tagesanbruchs",
+            "bs": "Reci: \"Utječem se Gospodaru svitanja"
+          }
+        },
+        {
+          "numberInSurah": 2,
+          "globalNumber": 6227,
+          "arabic": "مِن شَرِّ مَا خَلَقَ",
+          "transliteration": "Min sharri ma khalaq",
+          "translation": {
+            "en": "From the evil of that which He created",
+            "de": "vor dem Übel dessen, was Er erschaffen hat,",
+            "bs": "od zla onoga što On stvara,"
+          }
+        },
+        {
+          "numberInSurah": 3,
+          "globalNumber": 6228,
+          "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+          "transliteration": "Wa min sharri ghasiqin iza waqab",
+          "translation": {
+            "en": "And from the evil of darkness when it settles",
+            "de": "und vor dem Übel der Dunkelheit, wenn sie zunimmt,",
+            "bs": "i od zla mrkle noći kada razastre tmine,"
+          }
+        },
+        {
+          "numberInSurah": 4,
+          "globalNumber": 6229,
+          "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+          "transliteration": "Wa min sharrin-naffaa-thaati fil 'uqad",
+          "translation": {
+            "en": "And from the evil of the blowers in knots",
+            "de": "und vor dem Übel der Knotenanbläserinnen",
+            "bs": "i od zla smutljivca kad smutnje sije,"
+          }
+        },
+        {
+          "numberInSurah": 5,
+          "globalNumber": 6230,
+          "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "transliteration": "Wa min shar ri haasidin iza hasad",
+          "translation": {
+            "en": "And from the evil of an envier when he envies.\"",
+            "de": "und vor dem Übel eines (jeden) Neidenden, wenn er neidet.",
+            "bs": "i od zla zavidljivca kad zavist ne krije!\""
+          }
+        }
+      ]
+    },
+    {
+      "number": 114,
+      "nameArabic": "سُورَةُ النَّاسِ",
+      "nameTransliterated": "An-Naas",
+      "nameMeaning": "Mankind",
+      "revelationType": "makki",
+      "ayahCount": 6,
+      "ayahs": [
+        {
+          "numberInSurah": 1,
+          "globalNumber": 6231,
+          "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+          "transliteration": "Qul a'uzu birabbin naas",
+          "translation": {
+            "en": "Say, \"I seek refuge in the Lord of mankind,",
+            "de": "Sag: Ich nehme Zuflucht beim Herrn der Menschen,",
+            "bs": "Reci: \"Tražim zaštitu Gospodara ljudi,"
+          }
+        },
+        {
+          "numberInSurah": 2,
+          "globalNumber": 6232,
+          "arabic": "مَلِكِ ٱلنَّاسِ",
+          "transliteration": "Malikin naas",
+          "translation": {
+            "en": "The Sovereign of mankind.",
+            "de": "dem König der Menschen,",
+            "bs": "Vladara ljudi,"
+          }
+        },
+        {
+          "numberInSurah": 3,
+          "globalNumber": 6233,
+          "arabic": "إِلَٰهِ ٱلنَّاسِ",
+          "transliteration": "Ilaahin naas",
+          "translation": {
+            "en": "The God of mankind,",
+            "de": "dem Gott der Menschen,",
+            "bs": "Boga ljudi,"
+          }
+        },
+        {
+          "numberInSurah": 4,
+          "globalNumber": 6234,
+          "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+          "transliteration": "Min sharril was waasil khannaas",
+          "translation": {
+            "en": "From the evil of the retreating whisperer -",
+            "de": "vor dem Übel des Einflüsterers, des Davonschleichers,",
+            "bs": "od zla šejtana-napasnika,"
+          }
+        },
+        {
+          "numberInSurah": 5,
+          "globalNumber": 6235,
+          "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+          "transliteration": "Al lazee yuwas wisu fee sudoorin naas",
+          "translation": {
+            "en": "Who whispers [evil] into the breasts of mankind -",
+            "de": "der in die Brüste der Menschen einflüstert,",
+            "bs": "koji zle misli unosi u srca ljudi –"
+          }
+        },
+        {
+          "numberInSurah": 6,
+          "globalNumber": 6236,
+          "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+          "transliteration": "Minal jinnati wan naas",
+          "translation": {
+            "en": "From among the jinn and mankind.\"",
+            "de": "von den Ginn und den Menschen.",
+            "bs": "od džina i od ljudi!\""
+          }
+        }
+      ]
+    }
+  ]
+}

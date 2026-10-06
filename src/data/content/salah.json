@@ -1,0 +1,856 @@
+{
+  "world": {
+    "id": "salah",
+    "order": 1,
+    "title": { "en": "World of Salah", "de": "Welt des Gebets", "bs": "Svijet namaza" },
+    "subtitle": { "en": "The five daily prayers", "de": "Die fünf täglichen Gebete", "bs": "Pet dnevnih namaza" },
+    "description": {
+      "en": "Discover what Salah is, why Muslims pray, how to make wudu and how to behave in the masjid.",
+      "de": "Entdecke, was das Gebet ist, warum Muslime beten, wie man die Gebetswaschung macht und wie man sich in der Moschee verhält.",
+      "bs": "Otkrij šta je namaz, zašto muslimani klanjaju, kako se uzima abdest i kako se ponašamo u džamiji."
+    },
+    "scene": { "sky": "dawn", "elements": ["stars", "crescent", "hills", "mosque", "lanterns"] },
+    "questIds": ["salah-q1", "salah-q2", "salah-q3", "salah-q4", "salah-q5"],
+    "unlockRequirement": null
+  },
+  "lessons": [
+    {
+      "id": "salah-what",
+      "worldId": "salah",
+      "topic": "salah-basics",
+      "title": { "en": "What is Salah?", "de": "Was ist das Gebet (Salah)?", "bs": "Šta je namaz?" },
+      "summary": {
+        "en": "Salah is the special prayer Muslims perform to worship Allah.",
+        "de": "Salah ist das besondere Gebet, mit dem Muslime Allah dienen.",
+        "bs": "Namaz je posebna molitva kojom muslimani ibadete Allahu."
+      },
+      "scene": { "sky": "dawn", "elements": ["hills", "mosque", "prayerMat"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Salah is the prayer that Muslims perform at set times every day. In Salah we stand, bow, prostrate and sit while remembering Allah and reciting from the Quran.",
+            "de": "Salah ist das Gebet, das Muslime jeden Tag zu festen Zeiten verrichten. Im Gebet stehen wir, verbeugen uns, werfen uns nieder und sitzen – und gedenken dabei Allahs und rezitieren aus dem Koran.",
+            "bs": "Namaz je molitva koju muslimani obavljaju svaki dan u određeno vrijeme. U namazu stojimo, činimo ruku' i sedždu i sjedimo, sjećajući se Allaha i učeći iz Kur'ana."
+          },
+          "arabic": "صَلَاة",
+          "transliteration": "ṣalāh"
+        },
+        {
+          "heading": { "en": "A pillar of Islam", "de": "Eine Säule des Islam", "bs": "Stub islama" },
+          "body": {
+            "en": "The Prophet ﷺ taught that Islam is built on five pillars. Salah is the second pillar, right after the Shahada (the declaration of faith).",
+            "de": "Der Prophet ﷺ lehrte, dass der Islam auf fünf Säulen gebaut ist. Das Gebet ist die zweite Säule, direkt nach der Schahada (dem Glaubensbekenntnis).",
+            "bs": "Poslanik ﷺ je poučio da je islam izgrađen na pet temelja. Namaz je drugi temelj, odmah nakon šehadeta (svjedočenja vjere)."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "8" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "16" }
+      ]
+    },
+    {
+      "id": "salah-why",
+      "worldId": "salah",
+      "topic": "salah-basics",
+      "title": { "en": "Why do Muslims pray?", "de": "Warum beten Muslime?", "bs": "Zašto muslimani klanjaju?" },
+      "summary": {
+        "en": "Allah commanded Salah. It helps us remember Him and stay on the good path.",
+        "de": "Allah hat das Gebet geboten. Es hilft uns, an Ihn zu denken und auf dem guten Weg zu bleiben.",
+        "bs": "Allah je naredio namaz. On nam pomaže da Ga se sjećamo i da ostanemo na dobrom putu."
+      },
+      "scene": { "sky": "day", "elements": ["clouds", "hills", "mosque"] },
+      "sections": [
+        {
+          "heading": { "en": "Allah commanded it", "de": "Allah hat es geboten", "bs": "Allah je to naredio" },
+          "body": {
+            "en": "Many times the Quran tells believers to establish the prayer. Muslims pray because Allah asked them to and because they love to obey Him.",
+            "de": "Der Koran fordert die Gläubigen viele Male auf, das Gebet zu verrichten. Muslime beten, weil Allah es von ihnen verlangt und weil sie Ihm gerne gehorchen.",
+            "bs": "Kur'an mnogo puta poziva vjernike da obavljaju namaz. Muslimani klanjaju jer je Allah to od njih tražio i jer Mu se rado pokoravaju."
+          }
+        },
+        {
+          "heading": { "en": "Remembering Allah", "de": "An Allah denken", "bs": "Sjećanje na Allaha" },
+          "body": {
+            "en": "The Quran explains that prayer is for the remembrance of Allah, and that prayer keeps a person away from shameful and bad deeds.",
+            "de": "Der Koran erklärt, dass das Gebet dem Gedenken Allahs dient und dass es den Menschen von schändlichen und schlechten Taten abhält.",
+            "bs": "Kur'an objašnjava da je namaz radi sjećanja na Allaha i da namaz čovjeka odvraća od ružnih i loših djela."
+          }
+        },
+        {
+          "heading": { "en": "Like a river", "de": "Wie ein Fluss", "bs": "Kao rijeka" },
+          "body": {
+            "en": "The Prophet ﷺ compared the five daily prayers to a river at a person's door in which he bathes five times a day: no dirt would remain. In the same way, Allah wipes away small sins through the prayers.",
+            "de": "Der Prophet ﷺ verglich die fünf täglichen Gebete mit einem Fluss vor der Haustür, in dem man sich fünfmal am Tag wäscht: Es bliebe kein Schmutz übrig. So löscht Allah durch die Gebete kleine Sünden.",
+            "bs": "Poslanik ﷺ je pet dnevnih namaza uporedio s rijekom ispred nečijih vrata u kojoj se kupa pet puta dnevno: ne bi ostalo nimalo prljavštine. Tako Allah namazima briše male grijehe."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "2:43" },
+        { "sourceName": "Quran", "sourceReference": "20:14" },
+        { "sourceName": "Quran", "sourceReference": "29:45" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "528" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "667" }
+      ]
+    },
+    {
+      "id": "salah-five",
+      "worldId": "salah",
+      "topic": "salah-times",
+      "title": { "en": "The five daily prayers", "de": "Die fünf täglichen Gebete", "bs": "Pet dnevnih namaza" },
+      "summary": {
+        "en": "Fajr, Dhuhr, Asr, Maghrib and Isha – each at its own time of day.",
+        "de": "Fadschr, Dhuhr, Asr, Maghrib und Ischa – jedes zu seiner eigenen Tageszeit.",
+        "bs": "Sabah, podne, ikindija, akšam i jacija – svaki u svoje vrijeme."
+      },
+      "scene": { "sky": "sunset", "elements": ["sun", "dunes", "mosque"] },
+      "sections": [
+        {
+          "body": {
+            "en": "The Quran says that prayer has been prescribed for the believers at fixed times. There are five obligatory (fard) prayers every day.",
+            "de": "Der Koran sagt, dass das Gebet den Gläubigen zu festgesetzten Zeiten vorgeschrieben ist. Es gibt jeden Tag fünf Pflichtgebete (fard).",
+            "bs": "Kur'an kaže da je namaz vjernicima propisan u tačno određeno vrijeme. Svaki dan ima pet obaveznih (farz) namaza."
+          }
+        },
+        {
+          "heading": { "en": "Fajr – dawn", "de": "Fadschr – Morgendämmerung", "bs": "Sabah – zora" },
+          "body": {
+            "en": "Fajr is prayed between dawn and sunrise. It has 2 obligatory rak'ahs.",
+            "de": "Fadschr wird zwischen Morgendämmerung und Sonnenaufgang gebetet. Es hat 2 Pflicht-Rak'as.",
+            "bs": "Sabah se klanja između zore i izlaska sunca. Ima 2 farz rekata."
+          },
+          "arabic": "الْفَجْر",
+          "transliteration": "al-fajr"
+        },
+        {
+          "heading": { "en": "Dhuhr – midday", "de": "Dhuhr – Mittag", "bs": "Podne" },
+          "body": {
+            "en": "Dhuhr is prayed after the sun passes its highest point. It has 4 obligatory rak'ahs.",
+            "de": "Dhuhr wird gebetet, nachdem die Sonne ihren höchsten Punkt überschritten hat. Es hat 4 Pflicht-Rak'as.",
+            "bs": "Podne se klanja nakon što sunce prođe svoju najvišu tačku. Ima 4 farz rekata."
+          },
+          "arabic": "الظُّهْر",
+          "transliteration": "aẓ-ẓuhr"
+        },
+        {
+          "heading": { "en": "Asr – afternoon", "de": "Asr – Nachmittag", "bs": "Ikindija – poslijepodne" },
+          "body": {
+            "en": "Asr is prayed in the afternoon. It has 4 obligatory rak'ahs.",
+            "de": "Asr wird am Nachmittag gebetet. Es hat 4 Pflicht-Rak'as.",
+            "bs": "Ikindija se klanja poslijepodne. Ima 4 farz rekata."
+          },
+          "arabic": "الْعَصْر",
+          "transliteration": "al-ʿaṣr"
+        },
+        {
+          "heading": { "en": "Maghrib – sunset", "de": "Maghrib – Sonnenuntergang", "bs": "Akšam – zalazak sunca" },
+          "body": {
+            "en": "Maghrib is prayed just after the sun has set. It has 3 obligatory rak'ahs.",
+            "de": "Maghrib wird kurz nach Sonnenuntergang gebetet. Es hat 3 Pflicht-Rak'as.",
+            "bs": "Akšam se klanja odmah nakon zalaska sunca. Ima 3 farz rekata."
+          },
+          "arabic": "الْمَغْرِب",
+          "transliteration": "al-maghrib"
+        },
+        {
+          "heading": { "en": "Isha – night", "de": "Ischa – Nacht", "bs": "Jacija – noć" },
+          "body": {
+            "en": "Isha is prayed at night, after the twilight has gone. It has 4 obligatory rak'ahs.",
+            "de": "Ischa wird nachts gebetet, wenn die Abenddämmerung vorbei ist. Es hat 4 Pflicht-Rak'as.",
+            "bs": "Jacija se klanja noću, kada nestane večernjeg rumenila. Ima 4 farz rekata."
+          },
+          "arabic": "الْعِشَاء",
+          "transliteration": "al-ʿishāʾ"
+        }
+      ],
+      "differenceNote": {
+        "en": "Exact prayer times are calculated differently by different scholars and organisations (for example the start of Asr). Follow the timetable of your local masjid or community.",
+        "de": "Die genauen Gebetszeiten werden von Gelehrten und Organisationen unterschiedlich berechnet (zum Beispiel der Beginn von Asr). Richte dich nach dem Gebetskalender deiner Moschee oder Gemeinde.",
+        "bs": "Tačna vremena namaza različiti učenjaci i organizacije računaju različito (npr. početak ikindije). Prati vaktiju svoje džamije ili zajednice."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "4:103" }]
+    },
+    {
+      "id": "salah-wudu",
+      "worldId": "salah",
+      "topic": "wudu",
+      "title": { "en": "Wudu basics", "de": "Grundlagen der Gebetswaschung", "bs": "Osnove abdesta" },
+      "summary": {
+        "en": "Wudu is the washing we do before Salah so that we are clean and ready.",
+        "de": "Wudu ist die Waschung vor dem Gebet, damit wir rein und bereit sind.",
+        "bs": "Abdest je pranje prije namaza kako bismo bili čisti i spremni."
+      },
+      "scene": { "sky": "day", "elements": ["garden", "river"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Before Salah we make wudu (ablution). The Quran mentions washing the face, washing the arms up to the elbows, wiping the head and washing the feet up to the ankles.",
+            "de": "Vor dem Gebet machen wir Wudu (die Gebetswaschung). Der Koran erwähnt das Waschen des Gesichts, das Waschen der Arme bis zu den Ellenbogen, das Bestreichen des Kopfes und das Waschen der Füße bis zu den Knöcheln.",
+            "bs": "Prije namaza uzimamo abdest. Kur'an spominje pranje lica, pranje ruku do iza laktova, potiranje glave i pranje nogu do iza članaka."
+          },
+          "arabic": "وُضُوء",
+          "transliteration": "wuḍūʾ"
+        },
+        {
+          "heading": { "en": "A common order of steps", "de": "Eine übliche Reihenfolge", "bs": "Uobičajeni redoslijed" },
+          "body": {
+            "en": "1. Make the intention and say Bismillah.\n2. Wash your hands.\n3. Rinse your mouth.\n4. Rinse your nose.\n5. Wash your face.\n6. Wash your arms up to the elbows, right first.\n7. Wipe your head (and ears).\n8. Wash your feet up to the ankles, right first.",
+            "de": "1. Fasse die Absicht und sage Bismillah.\n2. Wasche deine Hände.\n3. Spüle deinen Mund.\n4. Spüle deine Nase.\n5. Wasche dein Gesicht.\n6. Wasche deine Arme bis zu den Ellenbogen, rechts zuerst.\n7. Bestreiche deinen Kopf (und die Ohren).\n8. Wasche deine Füße bis zu den Knöcheln, rechts zuerst.",
+            "bs": "1. Zanijeti i reći Bismillah.\n2. Oprati šake.\n3. Isprati usta.\n4. Isprati nos.\n5. Oprati lice.\n6. Oprati ruke do iza laktova, prvo desnu.\n7. Potrti glavu (i uši).\n8. Oprati noge do iza članaka, prvo desnu."
+          }
+        }
+      ],
+      "differenceNote": {
+        "en": "The schools of Islamic law agree on the parts named in the Quran, but differ on some details – for example which steps are obligatory and which are sunnah, and what breaks wudu. Learn the details from your parents or a trusted teacher.",
+        "de": "Die Rechtsschulen sind sich über die im Koran genannten Teile einig, unterscheiden sich aber in manchen Details – zum Beispiel, welche Schritte Pflicht und welche Sunna sind und was die Waschung ungültig macht. Lerne die Einzelheiten von deinen Eltern oder einer vertrauten Lehrperson.",
+        "bs": "Pravne škole se slažu oko dijelova spomenutih u Kur'anu, ali se razlikuju u nekim detaljima – npr. koji su koraci farz, a koji sunnet, i šta kvari abdest. Detalje nauči od roditelja ili učitelja kojem vjeruješ."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "5:6" }]
+    },
+    {
+      "id": "salah-positions",
+      "worldId": "salah",
+      "topic": "salah-positions",
+      "title": { "en": "Positions of the prayer", "de": "Die Haltungen im Gebet", "bs": "Položaji u namazu" },
+      "summary": {
+        "en": "Standing, bowing, prostrating and sitting – each position has a name.",
+        "de": "Stehen, Verbeugen, Niederwerfen und Sitzen – jede Haltung hat einen Namen.",
+        "bs": "Stajanje, ruku', sedžda i sjedenje – svaki položaj ima svoje ime."
+      },
+      "scene": { "sky": "dusk", "elements": ["stars", "mosque", "prayerMat", "lanterns"] },
+      "sections": [
+        {
+          "heading": { "en": "Takbir – beginning", "de": "Takbir – Beginn", "bs": "Tekbir – početak" },
+          "body": {
+            "en": "The prayer begins by saying \"Allahu Akbar\" (Allah is the Greatest).",
+            "de": "Das Gebet beginnt mit den Worten „Allahu Akbar“ (Allah ist größer).",
+            "bs": "Namaz počinje izgovaranjem „Allahu ekber“ (Allah je najveći)."
+          },
+          "arabic": "اللّٰهُ أَكْبَر",
+          "transliteration": "Allāhu akbar"
+        },
+        {
+          "heading": { "en": "Qiyam – standing", "de": "Qiyam – Stehen", "bs": "Kijam – stajanje" },
+          "body": {
+            "en": "We stand calmly and recite Al-Fatiha.",
+            "de": "Wir stehen ruhig und rezitieren Al-Fatiha.",
+            "bs": "Mirno stojimo i učimo El-Fatihu."
+          }
+        },
+        {
+          "heading": { "en": "Ruku – bowing", "de": "Ruku – Verbeugung", "bs": "Ruku' – pregibanje" },
+          "body": {
+            "en": "We bow with our hands on our knees and glorify Allah.",
+            "de": "Wir verbeugen uns, die Hände auf den Knien, und preisen Allah.",
+            "bs": "Pregnemo se s rukama na koljenima i veličamo Allaha."
+          }
+        },
+        {
+          "heading": { "en": "Sujud – prostration", "de": "Sudschud – Niederwerfung", "bs": "Sedžda" },
+          "body": {
+            "en": "We place our forehead, nose, hands, knees and toes on the ground. It is the moment a person is closest to Allah.",
+            "de": "Wir legen Stirn, Nase, Hände, Knie und Zehen auf den Boden. Es ist der Moment, in dem der Mensch Allah am nächsten ist.",
+            "bs": "Spuštamo čelo, nos, ruke, koljena i prste nogu na tlo. To je trenutak kada je čovjek najbliži Allahu."
+          }
+        },
+        {
+          "heading": { "en": "Julus and Taslim – sitting and ending", "de": "Dschulus und Taslim – Sitzen und Abschluss", "bs": "Sjedenje i selam" },
+          "body": {
+            "en": "We sit for the tashahhud and end the prayer by turning the head to the right and to the left, saying \"As-salamu alaykum wa rahmatullah\".",
+            "de": "Wir sitzen für das Taschahhud und beenden das Gebet, indem wir den Kopf nach rechts und links drehen und „As-salamu alaikum wa rahmatullah“ sagen.",
+            "bs": "Sjedimo na et-tehijjatu i završavamo namaz okrećući glavu desno i lijevo uz riječi „Es-selamu alejkum ve rahmetullah“."
+          }
+        }
+      ],
+      "differenceNote": {
+        "en": "Some details, such as where the hands are placed while standing, differ between the schools of Islamic law. All of them follow evidence from the Sunnah.",
+        "de": "Manche Details, etwa wo die Hände beim Stehen liegen, unterscheiden sich zwischen den Rechtsschulen. Alle stützen sich auf Belege aus der Sunna.",
+        "bs": "Neki detalji, npr. gdje se drže ruke dok stojimo, razlikuju se među pravnim školama. Sve se oslanjaju na dokaze iz sunneta."
+      },
+      "sources": [
+        { "sourceName": "Sahih Muslim", "sourceReference": "482" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "812" }
+      ]
+    },
+    {
+      "id": "salah-qibla",
+      "worldId": "salah",
+      "topic": "qibla",
+      "title": { "en": "The Qibla", "de": "Die Qibla", "bs": "Kibla" },
+      "summary": {
+        "en": "Muslims everywhere face the Kaaba in Makkah when they pray.",
+        "de": "Muslime auf der ganzen Welt richten sich beim Gebet zur Kaaba in Mekka aus.",
+        "bs": "Muslimi svugdje okreću se prema Kabi u Mekki kada klanjaju."
+      },
+      "scene": { "sky": "sunset", "elements": ["dunes", "kaaba"] },
+      "sections": [
+        {
+          "body": {
+            "en": "The Qibla is the direction of the Kaaba in Makkah. Allah commanded the believers to turn their faces towards it in prayer. So Muslims all over the world pray in one direction – like circles around the Kaaba.",
+            "de": "Die Qibla ist die Richtung der Kaaba in Mekka. Allah gebot den Gläubigen, sich im Gebet zu ihr zu wenden. So beten Muslime auf der ganzen Welt in eine Richtung – wie Kreise um die Kaaba.",
+            "bs": "Kibla je smjer Kabe u Mekki. Allah je naredio vjernicima da se u namazu okrenu prema njoj. Tako muslimani širom svijeta klanjaju u jednom smjeru – kao krugovi oko Kabe."
+          },
+          "arabic": "قِبْلَة",
+          "transliteration": "qiblah"
+        },
+        {
+          "heading": { "en": "The first Qibla", "de": "Die erste Qibla", "bs": "Prva kibla" },
+          "body": {
+            "en": "In the early years in Madinah, Muslims prayed towards Bayt al-Maqdis in Jerusalem. Then Allah changed the Qibla to the Kaaba.",
+            "de": "In den ersten Jahren in Medina beteten die Muslime in Richtung Bait al-Maqdis in Jerusalem. Dann änderte Allah die Qibla zur Kaaba.",
+            "bs": "U prvim godinama u Medini muslimani su klanjali prema Bejtul-Makdisu u Jerusalemu. Zatim je Allah promijenio kiblu prema Kabi."
+          }
+        },
+        {
+          "heading": { "en": "Finding the Qibla", "de": "Die Qibla finden", "bs": "Kako pronaći kiblu" },
+          "body": {
+            "en": "In a masjid, the mihrab (the niche at the front) shows the Qibla. Elsewhere, people use a compass or ask someone who knows.",
+            "de": "In der Moschee zeigt der Mihrab (die Nische vorne) die Qibla. Anderswo benutzt man einen Kompass oder fragt jemanden, der es weiß.",
+            "bs": "U džamiji mihrab (niša sprijeda) pokazuje kiblu. Drugdje se koristi kompas ili se pita neko ko zna."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "2:142–144" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "40" }
+      ]
+    },
+    {
+      "id": "salah-masjid",
+      "worldId": "salah",
+      "topic": "masjid",
+      "title": { "en": "Masjid etiquette", "de": "Verhalten in der Moschee", "bs": "Ponašanje u džamiji" },
+      "summary": {
+        "en": "The masjid is the house of prayer – we enter it clean, calm and respectful.",
+        "de": "Die Moschee ist das Haus des Gebets – wir betreten sie sauber, ruhig und respektvoll.",
+        "bs": "Džamija je kuća namaza – u nju ulazimo čisti, mirni i s poštovanjem."
+      },
+      "scene": { "sky": "night", "elements": ["stars", "crescent", "mosque", "lanterns"] },
+      "sections": [
+        {
+          "body": {
+            "en": "A masjid is a place where Muslims pray together, learn and meet. It is a special place, so we come clean and wearing tidy clothes.",
+            "de": "Eine Moschee ist ein Ort, an dem Muslime gemeinsam beten, lernen und sich treffen. Sie ist ein besonderer Ort, deshalb kommen wir sauber und ordentlich gekleidet.",
+            "bs": "Džamija je mjesto gdje muslimani zajedno klanjaju, uče i druže se. To je posebno mjesto, pa dolazimo čisti i uredno obučeni."
+          },
+          "arabic": "مَسْجِد",
+          "transliteration": "masjid"
+        },
+        {
+          "heading": { "en": "Good manners", "de": "Gutes Benehmen", "bs": "Lijepo ponašanje" },
+          "body": {
+            "en": "• Greet others with salam.\n• Put your shoes neatly in their place.\n• Walk calmly and speak quietly.\n• Do not walk directly in front of someone who is praying.\n• Switch your phone to silent.",
+            "de": "• Grüße andere mit Salam.\n• Stelle deine Schuhe ordentlich an ihren Platz.\n• Geh ruhig und sprich leise.\n• Geh nicht direkt vor jemandem vorbei, der betet.\n• Schalte dein Handy stumm.",
+            "bs": "• Pozdravi druge selamom.\n• Uredno ostavi obuću na njeno mjesto.\n• Hodaj mirno i govori tiho.\n• Ne prolazi direktno ispred nekoga ko klanja.\n• Utišaj svoj telefon."
+          }
+        },
+        {
+          "heading": { "en": "Greeting the masjid", "de": "Die Moschee begrüßen", "bs": "Pozdrav džamiji" },
+          "body": {
+            "en": "The Prophet ﷺ taught that when one of us enters the masjid, he should pray two rak'ahs before sitting down. This is called Tahiyyat al-Masjid.",
+            "de": "Der Prophet ﷺ lehrte: Wenn jemand von uns die Moschee betritt, soll er zwei Rak'as beten, bevor er sich setzt. Das nennt man Tahiyyat al-Masdschid.",
+            "bs": "Poslanik ﷺ je poučio da kada neko od nas uđe u džamiju, treba klanjati dva rekata prije nego što sjedne. To se zove tehijjetul-mesdžid."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "444" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "714" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "salah-pillar",
+      "type": "multipleChoice",
+      "worldId": "salah",
+      "topic": "salah-basics",
+      "prompt": { "en": "Salah is which pillar of Islam?", "de": "Die wievielte Säule des Islam ist das Gebet?", "bs": "Koji je namaz temelj islama po redu?" },
+      "options": [
+        { "id": "a", "text": { "en": "The first", "de": "Die erste", "bs": "Prvi" } },
+        { "id": "b", "text": { "en": "The second", "de": "Die zweite", "bs": "Drugi" } },
+        { "id": "c", "text": { "en": "The fifth", "de": "Die fünfte", "bs": "Peti" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Salah is the second pillar of Islam. The first is the Shahada, the declaration of faith.",
+        "de": "Das Gebet ist die zweite Säule des Islam. Die erste ist die Schahada, das Glaubensbekenntnis.",
+        "bs": "Namaz je drugi temelj islama. Prvi je šehadet, svjedočenje vjere."
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "8" }]
+    },
+    {
+      "id": "salah-five-tf",
+      "type": "trueFalse",
+      "worldId": "salah",
+      "topic": "salah-times",
+      "prompt": {
+        "en": "There are five obligatory prayers every day.",
+        "de": "Es gibt jeden Tag fünf Pflichtgebete.",
+        "bs": "Svaki dan ima pet obaveznih namaza."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "Correct – Fajr, Dhuhr, Asr, Maghrib and Isha are the five daily obligatory prayers.",
+        "de": "Richtig – Fadschr, Dhuhr, Asr, Maghrib und Ischa sind die fünf täglichen Pflichtgebete.",
+        "bs": "Tačno – sabah, podne, ikindija, akšam i jacija su pet dnevnih obaveznih namaza."
+      }
+    },
+    {
+      "id": "salah-why-mc",
+      "type": "multipleChoice",
+      "worldId": "salah",
+      "topic": "salah-basics",
+      "prompt": { "en": "Why do Muslims pray?", "de": "Warum beten Muslime?", "bs": "Zašto muslimani klanjaju?" },
+      "options": [
+        { "id": "a", "text": { "en": "Because Allah commanded it and to remember Him", "de": "Weil Allah es geboten hat und um an Ihn zu denken", "bs": "Jer je Allah to naredio i da bi Ga se sjećali" } },
+        { "id": "b", "text": { "en": "Only to do some exercise", "de": "Nur um Sport zu machen", "bs": "Samo radi vježbanja" } },
+        { "id": "c", "text": { "en": "To show off in front of others", "de": "Um vor anderen anzugeben", "bs": "Da bi se pokazali pred drugima" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Allah commanded the prayer, and the Quran says prayer is for His remembrance.",
+        "de": "Allah hat das Gebet geboten, und der Koran sagt, dass das Gebet Seinem Gedenken dient.",
+        "bs": "Allah je naredio namaz, a Kur'an kaže da je namaz radi sjećanja na Njega."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "20:14" }]
+    },
+    {
+      "id": "salah-order",
+      "type": "ordering",
+      "worldId": "salah",
+      "topic": "salah-times",
+      "prompt": {
+        "en": "Put the five daily prayers in order, starting in the morning.",
+        "de": "Bringe die fünf täglichen Gebete in die richtige Reihenfolge, beginnend am Morgen.",
+        "bs": "Poredaj pet dnevnih namaza počevši od jutra."
+      },
+      "items": [
+        { "id": "fajr", "text": { "en": "Fajr", "de": "Fadschr", "bs": "Sabah" } },
+        { "id": "dhuhr", "text": { "en": "Dhuhr", "de": "Dhuhr", "bs": "Podne" } },
+        { "id": "asr", "text": { "en": "Asr", "de": "Asr", "bs": "Ikindija" } },
+        { "id": "maghrib", "text": { "en": "Maghrib", "de": "Maghrib", "bs": "Akšam" } },
+        { "id": "isha", "text": { "en": "Isha", "de": "Ischa", "bs": "Jacija" } }
+      ],
+      "explanation": {
+        "en": "The day of prayer starts with Fajr at dawn, then Dhuhr at midday, Asr in the afternoon, Maghrib after sunset and Isha at night.",
+        "de": "Der Gebetstag beginnt mit Fadschr in der Morgendämmerung, dann Dhuhr am Mittag, Asr am Nachmittag, Maghrib nach Sonnenuntergang und Ischa in der Nacht.",
+        "bs": "Dan počinje sabahom u zoru, zatim podne u podne, ikindija poslijepodne, akšam nakon zalaska sunca i jacija noću."
+      }
+    },
+    {
+      "id": "salah-rakahs-match",
+      "type": "matching",
+      "worldId": "salah",
+      "topic": "salah-times",
+      "prompt": {
+        "en": "Match each prayer with its number of obligatory rak'ahs.",
+        "de": "Ordne jedem Gebet die Zahl seiner Pflicht-Rak'as zu.",
+        "bs": "Spoji svaki namaz s brojem njegovih farz rekata."
+      },
+      "pairs": [
+        { "id": "fajr", "left": { "en": "Fajr", "de": "Fadschr", "bs": "Sabah" }, "right": { "en": "2", "de": "2", "bs": "2" } },
+        { "id": "dhuhr", "left": { "en": "Dhuhr", "de": "Dhuhr", "bs": "Podne" }, "right": { "en": "4", "de": "4", "bs": "4" } },
+        { "id": "asr", "left": { "en": "Asr", "de": "Asr", "bs": "Ikindija" }, "right": { "en": "4", "de": "4", "bs": "4" } },
+        { "id": "maghrib", "left": { "en": "Maghrib", "de": "Maghrib", "bs": "Akšam" }, "right": { "en": "3", "de": "3", "bs": "3" } },
+        { "id": "isha", "left": { "en": "Isha", "de": "Ischa", "bs": "Jacija" }, "right": { "en": "4", "de": "4", "bs": "4" } }
+      ],
+      "explanation": {
+        "en": "Fajr 2, Dhuhr 4, Asr 4, Maghrib 3 and Isha 4 obligatory rak'ahs – 17 in total each day.",
+        "de": "Fadschr 2, Dhuhr 4, Asr 4, Maghrib 3 und Ischa 4 Pflicht-Rak'as – insgesamt 17 am Tag.",
+        "bs": "Sabah 2, podne 4, ikindija 4, akšam 3 i jacija 4 farz rekata – ukupno 17 dnevno."
+      }
+    },
+    {
+      "id": "salah-dhuhr-four",
+      "type": "multipleChoice",
+      "worldId": "salah",
+      "topic": "salah-times",
+      "prompt": {
+        "en": "Which prayer has four obligatory rak'ahs?",
+        "de": "Welches Gebet hat vier Pflicht-Rak'as?",
+        "bs": "Koji namaz ima četiri farz rekata?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Fajr", "de": "Fadschr", "bs": "Sabah" } },
+        { "id": "b", "text": { "en": "Dhuhr", "de": "Dhuhr", "bs": "Podne" } },
+        { "id": "c", "text": { "en": "Maghrib", "de": "Maghrib", "bs": "Akšam" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Dhuhr has four obligatory rak'ahs. Fajr has two and Maghrib has three.",
+        "de": "Dhuhr hat vier Pflicht-Rak'as. Fadschr hat zwei und Maghrib drei.",
+        "bs": "Podne ima četiri farz rekata. Sabah ima dva, a akšam tri."
+      }
+    },
+    {
+      "id": "salah-maghrib-time",
+      "type": "multipleChoice",
+      "worldId": "salah",
+      "topic": "salah-times",
+      "prompt": { "en": "When is Maghrib prayed?", "de": "Wann wird Maghrib gebetet?", "bs": "Kada se klanja akšam?" },
+      "options": [
+        { "id": "a", "text": { "en": "At dawn", "de": "In der Morgendämmerung", "bs": "U zoru" } },
+        { "id": "b", "text": { "en": "Just after sunset", "de": "Kurz nach Sonnenuntergang", "bs": "Odmah nakon zalaska sunca" } },
+        { "id": "c", "text": { "en": "At midday", "de": "Am Mittag", "bs": "U podne" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Maghrib means \"sunset\" – it is prayed just after the sun has set.",
+        "de": "Maghrib bedeutet „Sonnenuntergang“ – es wird kurz nach Sonnenuntergang gebetet.",
+        "bs": "Magrib znači „zalazak“ – akšam se klanja odmah nakon zalaska sunca."
+      }
+    },
+    {
+      "id": "salah-wudu-order",
+      "type": "ordering",
+      "worldId": "salah",
+      "topic": "wudu",
+      "prompt": {
+        "en": "Put these basic wudu steps in a common order.",
+        "de": "Bringe diese Grundschritte der Gebetswaschung in eine übliche Reihenfolge.",
+        "bs": "Poredaj ove osnovne korake abdesta uobičajenim redom."
+      },
+      "items": [
+        { "id": "hands", "text": { "en": "Wash the hands", "de": "Hände waschen", "bs": "Oprati šake" } },
+        { "id": "mouth", "text": { "en": "Rinse the mouth", "de": "Mund ausspülen", "bs": "Isprati usta" } },
+        { "id": "nose", "text": { "en": "Rinse the nose", "de": "Nase ausspülen", "bs": "Isprati nos" } },
+        { "id": "face", "text": { "en": "Wash the face", "de": "Gesicht waschen", "bs": "Oprati lice" } },
+        { "id": "arms", "text": { "en": "Wash the arms to the elbows", "de": "Arme bis zu den Ellenbogen waschen", "bs": "Oprati ruke do laktova" } },
+        { "id": "head", "text": { "en": "Wipe the head", "de": "Kopf bestreichen", "bs": "Potrti glavu" } },
+        { "id": "feet", "text": { "en": "Wash the feet to the ankles", "de": "Füße bis zu den Knöcheln waschen", "bs": "Oprati noge do članaka" } }
+      ],
+      "explanation": {
+        "en": "Hands, mouth, nose, face, arms, head, then feet. The face, arms, head and feet are named in the Quran (5:6).",
+        "de": "Hände, Mund, Nase, Gesicht, Arme, Kopf, dann Füße. Gesicht, Arme, Kopf und Füße werden im Koran genannt (5:6).",
+        "bs": "Šake, usta, nos, lice, ruke, glava, pa noge. Lice, ruke, glava i noge spomenuti su u Kur'anu (5:6)."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "5:6" }]
+    },
+    {
+      "id": "salah-wudu-feet",
+      "type": "trueFalse",
+      "worldId": "salah",
+      "topic": "wudu",
+      "prompt": {
+        "en": "In wudu, the feet are washed up to the ankles.",
+        "de": "Bei der Gebetswaschung werden die Füße bis zu den Knöcheln gewaschen.",
+        "bs": "U abdestu se noge peru do iza članaka."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – the Quran mentions washing the feet up to the ankles.",
+        "de": "Richtig – der Koran erwähnt das Waschen der Füße bis zu den Knöcheln.",
+        "bs": "Tačno – Kur'an spominje pranje nogu do članaka."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "5:6" }]
+    },
+    {
+      "id": "salah-wudu-surah",
+      "type": "multipleChoice",
+      "worldId": "salah",
+      "topic": "wudu",
+      "prompt": {
+        "en": "In which surah does the Quran describe wudu?",
+        "de": "In welcher Sure beschreibt der Koran die Gebetswaschung?",
+        "bs": "U kojoj suri Kur'an opisuje abdest?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Al-Fatiha", "de": "Al-Fatiha", "bs": "El-Fatiha" } },
+        { "id": "b", "text": { "en": "Al-Ma'idah", "de": "Al-Ma'ida", "bs": "El-Maide" } },
+        { "id": "c", "text": { "en": "Al-Ikhlas", "de": "Al-Ichlas", "bs": "El-Ihlas" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Wudu is described in Surah Al-Ma'idah, verse 6.",
+        "de": "Die Gebetswaschung wird in Sure Al-Ma'ida, Vers 6, beschrieben.",
+        "bs": "Abdest je opisan u suri El-Maide, ajet 6."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "5:6" }]
+    },
+    {
+      "id": "salah-sujud",
+      "type": "multipleChoice",
+      "worldId": "salah",
+      "topic": "salah-positions",
+      "prompt": { "en": "What is sujud?", "de": "Was ist Sudschud?", "bs": "Šta je sedžda?" },
+      "options": [
+        { "id": "a", "text": { "en": "Standing upright", "de": "Aufrechtes Stehen", "bs": "Uspravno stajanje" } },
+        { "id": "b", "text": { "en": "Placing the forehead on the ground", "de": "Die Stirn auf den Boden legen", "bs": "Spuštanje čela na tlo" } },
+        { "id": "c", "text": { "en": "Turning the head to the right", "de": "Den Kopf nach rechts drehen", "bs": "Okretanje glave udesno" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Sujud is the prostration: forehead, nose, hands, knees and toes touch the ground.",
+        "de": "Sudschud ist die Niederwerfung: Stirn, Nase, Hände, Knie und Zehen berühren den Boden.",
+        "bs": "Sedžda je padanje ničice: čelo, nos, ruke, koljena i prsti nogu dodiruju tlo."
+      }
+    },
+    {
+      "id": "salah-positions-match",
+      "type": "matching",
+      "worldId": "salah",
+      "topic": "salah-positions",
+      "prompt": {
+        "en": "Match each position with its meaning.",
+        "de": "Ordne jeder Haltung ihre Bedeutung zu.",
+        "bs": "Spoji svaki položaj s njegovim značenjem."
+      },
+      "pairs": [
+        { "id": "qiyam", "left": { "en": "Qiyam", "de": "Qiyam", "bs": "Kijam" }, "right": { "en": "Standing", "de": "Stehen", "bs": "Stajanje" } },
+        { "id": "ruku", "left": { "en": "Ruku", "de": "Ruku", "bs": "Ruku'" }, "right": { "en": "Bowing", "de": "Verbeugen", "bs": "Pregibanje" } },
+        { "id": "sujud", "left": { "en": "Sujud", "de": "Sudschud", "bs": "Sedžda" }, "right": { "en": "Prostration", "de": "Niederwerfung", "bs": "Padanje ničice" } },
+        { "id": "julus", "left": { "en": "Julus", "de": "Dschulus", "bs": "Džulus" }, "right": { "en": "Sitting", "de": "Sitzen", "bs": "Sjedenje" } }
+      ],
+      "explanation": {
+        "en": "Qiyam is standing, Ruku is bowing, Sujud is prostration and Julus is sitting.",
+        "de": "Qiyam ist Stehen, Ruku Verbeugen, Sudschud Niederwerfung und Dschulus Sitzen.",
+        "bs": "Kijam je stajanje, ruku' pregibanje, sedžda padanje ničice, a džulus sjedenje."
+      }
+    },
+    {
+      "id": "salah-takbir",
+      "type": "multipleChoice",
+      "worldId": "salah",
+      "topic": "salah-positions",
+      "prompt": { "en": "With which words does the prayer begin?", "de": "Mit welchen Worten beginnt das Gebet?", "bs": "Kojim riječima počinje namaz?" },
+      "options": [
+        { "id": "a", "text": { "en": "Allahu Akbar", "de": "Allahu Akbar", "bs": "Allahu ekber" } },
+        { "id": "b", "text": { "en": "As-salamu alaykum", "de": "As-salamu alaikum", "bs": "Es-selamu alejkum" } },
+        { "id": "c", "text": { "en": "Alhamdulillah", "de": "Alhamdulillah", "bs": "Elhamdulillah" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The prayer begins with the takbir \"Allahu Akbar\" and ends with the salam.",
+        "de": "Das Gebet beginnt mit dem Takbir „Allahu Akbar“ und endet mit dem Salam.",
+        "bs": "Namaz počinje tekbirom „Allahu ekber“, a završava selamom."
+      }
+    },
+    {
+      "id": "salah-qibla-mc",
+      "type": "multipleChoice",
+      "worldId": "salah",
+      "topic": "qibla",
+      "prompt": { "en": "Which direction do Muslims face in prayer?", "de": "In welche Richtung wenden sich Muslime beim Gebet?", "bs": "U kojem smjeru se muslimani okreću u namazu?" },
+      "options": [
+        { "id": "a", "text": { "en": "Towards the rising sun", "de": "Zur aufgehenden Sonne", "bs": "Prema izlasku sunca" } },
+        { "id": "b", "text": { "en": "Towards the Kaaba in Makkah", "de": "Zur Kaaba in Mekka", "bs": "Prema Kabi u Mekki" } },
+        { "id": "c", "text": { "en": "Any direction they like", "de": "In jede beliebige Richtung", "bs": "U bilo kojem smjeru" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "The Qibla is the direction of the Kaaba in Makkah.",
+        "de": "Die Qibla ist die Richtung der Kaaba in Mekka.",
+        "bs": "Kibla je smjer Kabe u Mekki."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:144" }]
+    },
+    {
+      "id": "salah-first-qibla",
+      "type": "trueFalse",
+      "worldId": "salah",
+      "topic": "qibla",
+      "prompt": {
+        "en": "Before the Kaaba, Muslims prayed towards Bayt al-Maqdis in Jerusalem.",
+        "de": "Vor der Kaaba beteten Muslime in Richtung Bait al-Maqdis in Jerusalem.",
+        "bs": "Prije Kabe muslimani su klanjali prema Bejtul-Makdisu u Jerusalemu."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – then Allah changed the Qibla to the Kaaba.",
+        "de": "Richtig – dann änderte Allah die Qibla zur Kaaba.",
+        "bs": "Tačno – zatim je Allah promijenio kiblu prema Kabi."
+      },
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "2:142–144" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "40" }
+      ]
+    },
+    {
+      "id": "salah-masjid-scenario",
+      "type": "scenario",
+      "worldId": "salah",
+      "topic": "masjid",
+      "prompt": {
+        "en": "You arrive at the masjid and people are already praying. What do you do?",
+        "de": "Du kommst in die Moschee und die Leute beten schon. Was tust du?",
+        "bs": "Stižeš u džamiju, a ljudi već klanjaju. Šta ćeš uraditi?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": { "en": "Run in and call my friend loudly", "de": "Hineinrennen und laut meinen Freund rufen", "bs": "Utrčati i glasno dozvati prijatelja" },
+          "feedback": { "en": "Shouting would disturb the people who are praying.", "de": "Rufen würde die Betenden stören.", "bs": "Vikanje bi ometalo one koji klanjaju." }
+        },
+        {
+          "id": "b",
+          "text": { "en": "Put my shoes away, walk calmly and stay quiet", "de": "Schuhe wegstellen, ruhig gehen und leise sein", "bs": "Odložiti obuću, hodati mirno i biti tih" },
+          "feedback": { "en": "Excellent – calm and respectful.", "de": "Sehr gut – ruhig und respektvoll.", "bs": "Odlično – mirno i s poštovanjem." }
+        },
+        {
+          "id": "c",
+          "text": { "en": "Play a video on my phone", "de": "Ein Video auf dem Handy abspielen", "bs": "Pustiti video na telefonu" },
+          "feedback": { "en": "Phones should be silent in the masjid.", "de": "Handys sollten in der Moschee stumm sein.", "bs": "Telefoni u džamiji trebaju biti utišani." }
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "The masjid is a place of worship. Being calm and quiet helps everyone focus on their prayer.",
+        "de": "Die Moschee ist ein Ort der Anbetung. Ruhe hilft allen, sich auf ihr Gebet zu konzentrieren.",
+        "bs": "Džamija je mjesto ibadeta. Mir i tišina pomažu svima da se usredsrede na namaz."
+      }
+    },
+    {
+      "id": "salah-tahiyyah",
+      "type": "trueFalse",
+      "worldId": "salah",
+      "topic": "masjid",
+      "prompt": {
+        "en": "The Prophet ﷺ taught us to pray two rak'ahs when we enter the masjid, before sitting down.",
+        "de": "Der Prophet ﷺ lehrte uns, beim Betreten der Moschee zwei Rak'as zu beten, bevor wir uns setzen.",
+        "bs": "Poslanik ﷺ nas je poučio da klanjamo dva rekata kada uđemo u džamiju, prije nego što sjednemo."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – this prayer is called Tahiyyat al-Masjid, the greeting of the masjid.",
+        "de": "Richtig – dieses Gebet heißt Tahiyyat al-Masdschid, der Gruß der Moschee.",
+        "bs": "Tačno – ovaj namaz se zove tehijjetul-mesdžid, pozdrav džamiji."
+      },
+      "sources": [
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "444" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "714" }
+      ]
+    },
+    {
+      "id": "salah-memory",
+      "type": "memory",
+      "worldId": "salah",
+      "topic": "salah-basics",
+      "prompt": {
+        "en": "Find the matching pairs of words and meanings.",
+        "de": "Finde die passenden Paare aus Wörtern und Bedeutungen.",
+        "bs": "Pronađi parove riječi i njihovih značenja."
+      },
+      "pairs": [
+        { "id": "wudu", "left": { "en": "Wudu", "de": "Wudu", "bs": "Abdest" }, "right": { "en": "Washing before prayer", "de": "Waschung vor dem Gebet", "bs": "Pranje prije namaza" } },
+        { "id": "qibla", "left": { "en": "Qibla", "de": "Qibla", "bs": "Kibla" }, "right": { "en": "Direction of the Kaaba", "de": "Richtung der Kaaba", "bs": "Smjer Kabe" } },
+        { "id": "masjid", "left": { "en": "Masjid", "de": "Moschee", "bs": "Džamija" }, "right": { "en": "House of prayer", "de": "Haus des Gebets", "bs": "Kuća namaza" } },
+        { "id": "adhan", "left": { "en": "Adhan", "de": "Adhan", "bs": "Ezan" }, "right": { "en": "Call to prayer", "de": "Gebetsruf", "bs": "Poziv na namaz" } },
+        { "id": "rakah", "left": { "en": "Rak'ah", "de": "Rak'a", "bs": "Rekat" }, "right": { "en": "One unit of prayer", "de": "Eine Gebetseinheit", "bs": "Jedna jedinica namaza" } }
+      ],
+      "explanation": {
+        "en": "Wudu, Qibla, Masjid, Adhan and Rak'ah are important words of Salah.",
+        "de": "Wudu, Qibla, Moschee, Adhan und Rak'a sind wichtige Wörter des Gebets.",
+        "bs": "Abdest, kibla, džamija, ezan i rekat su važne riječi namaza."
+      }
+    }
+  ],
+  "quests": [
+    {
+      "id": "salah-q1",
+      "worldId": "salah",
+      "order": 1,
+      "kind": "lesson",
+      "title": { "en": "What is Salah?", "de": "Was ist das Gebet?", "bs": "Šta je namaz?" },
+      "description": { "en": "Begin your journey with the prayer.", "de": "Beginne deine Reise mit dem Gebet.", "bs": "Započni svoje putovanje namazom." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "salah-what" },
+        { "kind": "question", "questionId": "salah-pillar", "label": "quiz" },
+        { "kind": "lesson", "lessonId": "salah-why" },
+        { "kind": "question", "questionId": "salah-why-mc", "label": "quiz" },
+        { "kind": "question", "questionId": "salah-five-tf", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "salah-q2",
+      "worldId": "salah",
+      "order": 2,
+      "kind": "game",
+      "title": { "en": "Five Daily Prayers", "de": "Fünf tägliche Gebete", "bs": "Pet dnevnih namaza" },
+      "description": { "en": "Learn the prayers and their rak'ahs.", "de": "Lerne die Gebete und ihre Rak'as.", "bs": "Nauči namaze i njihove rekate." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "salah-five" },
+        { "kind": "question", "questionId": "salah-order", "label": "challenge" },
+        { "kind": "question", "questionId": "salah-rakahs-match", "label": "challenge" },
+        { "kind": "question", "questionId": "salah-dhuhr-four", "label": "quiz" },
+        { "kind": "question", "questionId": "salah-maghrib-time", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "salah-q3",
+      "worldId": "salah",
+      "order": 3,
+      "kind": "game",
+      "title": { "en": "The Wudu Spring", "de": "Die Quelle der Waschung", "bs": "Izvor abdesta" },
+      "description": { "en": "Get ready for prayer with wudu.", "de": "Mach dich mit der Waschung bereit fürs Gebet.", "bs": "Pripremi se za namaz abdestom." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "salah-wudu" },
+        { "kind": "question", "questionId": "salah-wudu-order", "label": "challenge" },
+        { "kind": "question", "questionId": "salah-wudu-feet", "label": "quiz" },
+        { "kind": "question", "questionId": "salah-wudu-surah", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "salah-q4",
+      "worldId": "salah",
+      "order": 4,
+      "kind": "lesson",
+      "title": { "en": "Positions & Qibla", "de": "Haltungen & Qibla", "bs": "Položaji i kibla" },
+      "description": { "en": "How we pray and where we face.", "de": "Wie wir beten und wohin wir uns wenden.", "bs": "Kako klanjamo i kamo se okrećemo." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "salah-positions" },
+        { "kind": "question", "questionId": "salah-positions-match", "label": "challenge" },
+        { "kind": "question", "questionId": "salah-sujud", "label": "quiz" },
+        { "kind": "question", "questionId": "salah-takbir", "label": "quiz" },
+        { "kind": "lesson", "lessonId": "salah-qibla" },
+        { "kind": "question", "questionId": "salah-qibla-mc", "label": "quiz" },
+        { "kind": "question", "questionId": "salah-first-qibla", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "salah-q5",
+      "worldId": "salah",
+      "order": 5,
+      "kind": "game",
+      "title": { "en": "In the Masjid", "de": "In der Moschee", "bs": "U džamiji" },
+      "description": { "en": "Manners in the house of prayer.", "de": "Benehmen im Haus des Gebets.", "bs": "Ponašanje u kući namaza." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "salah-masjid" },
+        { "kind": "question", "questionId": "salah-masjid-scenario", "label": "interactive" },
+        { "kind": "question", "questionId": "salah-tahiyyah", "label": "quiz" },
+        { "kind": "question", "questionId": "salah-memory", "label": "challenge" }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "salah-fact-17",
+      "worldId": "salah",
+      "text": {
+        "en": "The five daily prayers have 17 obligatory rak'ahs altogether: 2 + 4 + 4 + 3 + 4.",
+        "de": "Die fünf täglichen Gebete haben zusammen 17 Pflicht-Rak'as: 2 + 4 + 4 + 3 + 4.",
+        "bs": "Pet dnevnih namaza ukupno ima 17 farz rekata: 2 + 4 + 4 + 3 + 4."
+      }
+    },
+    {
+      "id": "salah-fact-qibla",
+      "worldId": "salah",
+      "text": {
+        "en": "Muslims all over the world face the same direction when they pray: the Kaaba in Makkah.",
+        "de": "Muslime auf der ganzen Welt beten in dieselbe Richtung: zur Kaaba in Mekka.",
+        "bs": "Muslimani širom svijeta klanjaju u istom smjeru: prema Kabi u Mekki."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:144" }]
+    },
+    {
+      "id": "salah-fact-mihrab",
+      "worldId": "salah",
+      "text": {
+        "en": "The mihrab is the niche in the front wall of a masjid. It shows the direction of the Qibla.",
+        "de": "Der Mihrab ist die Nische in der vorderen Wand einer Moschee. Er zeigt die Richtung der Qibla.",
+        "bs": "Mihrab je niša u prednjem zidu džamije. On pokazuje smjer kible."
+      }
+    }
+  ]
+}

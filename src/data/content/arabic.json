@@ -1,0 +1,643 @@
+{
+  "world": {
+    "id": "arabic",
+    "order": 6,
+    "title": { "en": "World of Arabic", "de": "Welt des Arabischen", "bs": "Svijet arapskog" },
+    "subtitle": { "en": "Letters and words", "de": "Buchstaben und Wörter", "bs": "Harfovi i riječi" },
+    "description": {
+      "en": "Take your first steps in Arabic: the alphabet, the harakat and important Islamic words. This is a beginning – it does not replace learning with a qualified teacher.",
+      "de": "Mach deine ersten Schritte im Arabischen: das Alphabet, die Harakat und wichtige islamische Wörter. Das ist ein Anfang – es ersetzt nicht das Lernen mit einer qualifizierten Lehrkraft.",
+      "bs": "Napravi prve korake u arapskom: harfovi, harekati i važne islamske riječi. Ovo je početak – ne zamjenjuje učenje s kvalifikovanim učiteljem."
+    },
+    "scene": { "sky": "day", "elements": ["sun", "city", "pattern", "book"] },
+    "questIds": ["arabic-q1", "arabic-q2", "arabic-q3", "arabic-q4", "arabic-q5", "arabic-q6", "arabic-q7"],
+    "unlockRequirement": { "worldId": "ramadan", "questsCompleted": 3 }
+  },
+  "lessons": [
+    {
+      "id": "arabic-intro",
+      "worldId": "arabic",
+      "topic": "arabic-alphabet",
+      "title": { "en": "The Arabic alphabet", "de": "Das arabische Alphabet", "bs": "Arapsko pismo" },
+      "summary": {
+        "en": "28 letters, written from right to left.",
+        "de": "28 Buchstaben, von rechts nach links geschrieben.",
+        "bs": "28 harfova, pišu se zdesna nalijevo."
+      },
+      "scene": { "sky": "day", "elements": ["pattern", "book"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Arabic is the language of the Quran. Its alphabet has 28 letters. Arabic is written and read from right to left, and most letters connect to each other, so their shape changes a little depending on where they are in a word.",
+            "de": "Arabisch ist die Sprache des Korans. Sein Alphabet hat 28 Buchstaben. Arabisch wird von rechts nach links geschrieben und gelesen, und die meisten Buchstaben werden verbunden, deshalb ändert sich ihre Form etwas, je nachdem, wo sie im Wort stehen.",
+            "bs": "Arapski je jezik Kur'ana. Njegovo pismo ima 28 harfova. Arapski se piše i čita zdesna nalijevo, a većina harfova se spaja, pa im se oblik malo mijenja zavisno od mjesta u riječi."
+          },
+          "arabic": "ا ب ت ث",
+          "transliteration": "alif, bāʾ, tāʾ, thāʾ"
+        },
+        {
+          "heading": { "en": "Good to know", "de": "Gut zu wissen", "bs": "Dobro je znati" },
+          "body": {
+            "en": "Some Arabic sounds do not exist in English, German or Bosnian. Listen to a teacher or a good reciter and practise slowly. Use the speaker button to hear an example.",
+            "de": "Manche arabischen Laute gibt es im Deutschen, Englischen oder Bosnischen nicht. Höre einer Lehrkraft oder einem guten Rezitator zu und übe langsam. Mit dem Lautsprecher-Knopf hörst du ein Beispiel.",
+            "bs": "Neki arapski glasovi ne postoje u bosanskom, njemačkom ili engleskom. Slušaj učitelja ili dobrog učača i vježbaj polahko. Dugmetom zvučnika čuješ primjer."
+          }
+        }
+      ]
+    },
+    {
+      "id": "arabic-letters-1",
+      "worldId": "arabic",
+      "topic": "arabic-letters-1",
+      "title": { "en": "Letters: Alif to Kha", "de": "Buchstaben: Alif bis Cha", "bs": "Harfovi: od elifa do hı" },
+      "summary": { "en": "ا ب ت ث ج ح خ", "de": "ا ب ت ث ج ح خ", "bs": "ا ب ت ث ج ح خ" },
+      "sections": [
+        { "arabic": "ا", "transliteration": "alif", "body": { "en": "Alif – carries a long \"a\" or a hamza.", "de": "Alif – trägt ein langes „a“ oder eine Hamza.", "bs": "Elif – nosi dugo „a“ ili hemzu." } },
+        { "arabic": "ب", "transliteration": "bāʾ", "body": { "en": "Ba – sounds like \"b\". One dot below.", "de": "Ba – klingt wie „b“. Ein Punkt unten.", "bs": "Be – čita se kao „b“. Jedna tačka ispod." } },
+        { "arabic": "ت", "transliteration": "tāʾ", "body": { "en": "Ta – sounds like \"t\". Two dots above.", "de": "Ta – klingt wie „t“. Zwei Punkte oben.", "bs": "Te – čita se kao „t“. Dvije tačke iznad." } },
+        { "arabic": "ث", "transliteration": "thāʾ", "body": { "en": "Tha – like \"th\" in \"think\". Three dots above.", "de": "Tha – wie englisch „th“ in „think“. Drei Punkte oben.", "bs": "Se – kao englesko „th“ u „think“. Tri tačke iznad." } },
+        { "arabic": "ج", "transliteration": "jīm", "body": { "en": "Jim – sounds like \"j\". One dot inside.", "de": "Dschim – klingt wie „dsch“. Ein Punkt innen.", "bs": "Džim – čita se kao „dž“. Jedna tačka unutra." } },
+        { "arabic": "ح", "transliteration": "ḥāʾ", "body": { "en": "Ha – a strong, breathy \"h\" from the throat. No dots.", "de": "Ha – ein kräftiges, gehauchtes „h“ aus dem Hals. Keine Punkte.", "bs": "Ha – snažno, hrapavo „h“ iz grla. Bez tačaka." } },
+        { "arabic": "خ", "transliteration": "khāʾ", "body": { "en": "Kha – like \"ch\" in the Scottish \"loch\". One dot above.", "de": "Cha – wie „ch“ in „Bach“. Ein Punkt oben.", "bs": "Hı – kao „h“ u „hljeb“, dublje. Jedna tačka iznad." } }
+      ]
+    },
+    {
+      "id": "arabic-letters-2",
+      "worldId": "arabic",
+      "topic": "arabic-letters-2",
+      "title": { "en": "Letters: Dal to Sad", "de": "Buchstaben: Dal bis Sad", "bs": "Harfovi: od dala do sada" },
+      "summary": { "en": "د ذ ر ز س ش ص", "de": "د ذ ر ز س ش ص", "bs": "د ذ ر ز س ش ص" },
+      "sections": [
+        { "arabic": "د", "transliteration": "dāl", "body": { "en": "Dal – sounds like \"d\".", "de": "Dal – klingt wie „d“.", "bs": "Dal – čita se kao „d“." } },
+        { "arabic": "ذ", "transliteration": "dhāl", "body": { "en": "Dhal – like \"th\" in \"this\". One dot above.", "de": "Dhal – wie englisch „th“ in „this“. Ein Punkt oben.", "bs": "Zel – kao englesko „th“ u „this“. Jedna tačka iznad." } },
+        { "arabic": "ر", "transliteration": "rāʾ", "body": { "en": "Ra – a rolled \"r\".", "de": "Ra – ein gerolltes „r“.", "bs": "Ra – kotrljajuće „r“." } },
+        { "arabic": "ز", "transliteration": "zāy", "body": { "en": "Zay – sounds like \"z\" in \"zoo\". One dot above.", "de": "Zay – klingt wie stimmhaftes „s“ in „Sonne“. Ein Punkt oben.", "bs": "Ze – čita se kao „z“. Jedna tačka iznad." } },
+        { "arabic": "س", "transliteration": "sīn", "body": { "en": "Sin – sounds like \"s\".", "de": "Sin – klingt wie scharfes „s“.", "bs": "Sin – čita se kao „s“." } },
+        { "arabic": "ش", "transliteration": "shīn", "body": { "en": "Shin – sounds like \"sh\". Three dots above.", "de": "Schin – klingt wie „sch“. Drei Punkte oben.", "bs": "Šin – čita se kao „š“. Tri tačke iznad." } },
+        { "arabic": "ص", "transliteration": "ṣād", "body": { "en": "Sad – a heavy, deep \"s\".", "de": "Sad – ein schweres, dunkles „s“.", "bs": "Sad – teško, debelo „s“." } }
+      ]
+    },
+    {
+      "id": "arabic-letters-3",
+      "worldId": "arabic",
+      "topic": "arabic-letters-3",
+      "title": { "en": "Letters: Dad to Qaf", "de": "Buchstaben: Dad bis Qaf", "bs": "Harfovi: od dada do kafa" },
+      "summary": { "en": "ض ط ظ ع غ ف ق", "de": "ض ط ظ ع غ ف ق", "bs": "ض ط ظ ع غ ف ق" },
+      "sections": [
+        { "arabic": "ض", "transliteration": "ḍād", "body": { "en": "Dad – a heavy \"d\". Arabic is sometimes called \"the language of Dad\".", "de": "Dad – ein schweres „d“. Arabisch wird manchmal „die Sprache des Dad“ genannt.", "bs": "Dad – teško „d“. Arapski se ponekad naziva „jezikom dada“." } },
+        { "arabic": "ط", "transliteration": "ṭāʾ", "body": { "en": "Ta – a heavy \"t\".", "de": "Ta – ein schweres „t“.", "bs": "Tı – teško „t“." } },
+        { "arabic": "ظ", "transliteration": "ẓāʾ", "body": { "en": "Dha – a heavy \"th\" as in \"this\".", "de": "Za – ein schweres, stimmhaftes „th“.", "bs": "Zı – teško, zvučno „z“." } },
+        { "arabic": "ع", "transliteration": "ʿayn", "body": { "en": "Ayn – a sound from the middle of the throat. Listen carefully to a teacher.", "de": "Ain – ein Laut aus der Mitte der Kehle. Hör einer Lehrkraft gut zu.", "bs": "Ajn – glas iz sredine grla. Pažljivo slušaj učitelja." } },
+        { "arabic": "غ", "transliteration": "ghayn", "body": { "en": "Ghayn – like a French \"r\", gargled softly.", "de": "Ghain – wie ein Zäpfchen-„r“ im Deutschen.", "bs": "Gajn – kao meko, grleno „g“." } },
+        { "arabic": "ف", "transliteration": "fāʾ", "body": { "en": "Fa – sounds like \"f\". One dot above.", "de": "Fa – klingt wie „f“. Ein Punkt oben.", "bs": "Fe – čita se kao „f“. Jedna tačka iznad." } },
+        { "arabic": "ق", "transliteration": "qāf", "body": { "en": "Qaf – a deep \"q\" from the back of the throat. Two dots above.", "de": "Qaf – ein tiefes „k“ aus dem hinteren Rachen. Zwei Punkte oben.", "bs": "Kaf – duboko „k“ iz stražnjeg dijela grla. Dvije tačke iznad." } }
+      ]
+    },
+    {
+      "id": "arabic-letters-4",
+      "worldId": "arabic",
+      "topic": "arabic-letters-4",
+      "title": { "en": "Letters: Kaf to Ya", "de": "Buchstaben: Kaf bis Ya", "bs": "Harfovi: od kefa do je" },
+      "summary": { "en": "ك ل م ن ه و ي", "de": "ك ل م ن ه و ي", "bs": "ك ل م ن ه و ي" },
+      "sections": [
+        { "arabic": "ك", "transliteration": "kāf", "body": { "en": "Kaf – sounds like \"k\".", "de": "Kaf – klingt wie „k“.", "bs": "Kef – čita se kao „k“." } },
+        { "arabic": "ل", "transliteration": "lām", "body": { "en": "Lam – sounds like \"l\".", "de": "Lam – klingt wie „l“.", "bs": "Lam – čita se kao „l“." } },
+        { "arabic": "م", "transliteration": "mīm", "body": { "en": "Mim – sounds like \"m\".", "de": "Mim – klingt wie „m“.", "bs": "Mim – čita se kao „m“." } },
+        { "arabic": "ن", "transliteration": "nūn", "body": { "en": "Nun – sounds like \"n\". One dot above.", "de": "Nun – klingt wie „n“. Ein Punkt oben.", "bs": "Nun – čita se kao „n“. Jedna tačka iznad." } },
+        { "arabic": "ه", "transliteration": "hāʾ", "body": { "en": "Ha – a soft \"h\" as in \"hello\".", "de": "Ha – ein weiches „h“ wie in „Hallo“.", "bs": "He – meko „h“." } },
+        { "arabic": "و", "transliteration": "wāw", "body": { "en": "Waw – sounds like \"w\", or a long \"u\".", "de": "Waw – klingt wie englisches „w“ oder ein langes „u“.", "bs": "Vav – čita se kao „v/w“ ili dugo „u“." } },
+        { "arabic": "ي", "transliteration": "yāʾ", "body": { "en": "Ya – sounds like \"y\", or a long \"i\". Two dots below.", "de": "Ya – klingt wie „j“ oder ein langes „i“. Zwei Punkte unten.", "bs": "Je – čita se kao „j“ ili dugo „i“. Dvije tačke ispod." } }
+      ]
+    },
+    {
+      "id": "arabic-harakat",
+      "worldId": "arabic",
+      "topic": "harakat",
+      "title": { "en": "Harakat – the short vowels", "de": "Harakat – die kurzen Vokale", "bs": "Harekati – kratki samoglasnici" },
+      "summary": {
+        "en": "Small marks that tell us how to pronounce a letter.",
+        "de": "Kleine Zeichen, die zeigen, wie ein Buchstabe ausgesprochen wird.",
+        "bs": "Mali znakovi koji pokazuju kako se harf izgovara."
+      },
+      "sections": [
+        { "heading": { "en": "Fatha", "de": "Fatha", "bs": "Fetha" }, "arabic": "بَ", "transliteration": "ba", "body": { "en": "A small line above the letter: short \"a\".", "de": "Ein kleiner Strich über dem Buchstaben: kurzes „a“.", "bs": "Mala crtica iznad harfa: kratko „e/a“." } },
+        { "heading": { "en": "Kasra", "de": "Kasra", "bs": "Kesra" }, "arabic": "بِ", "transliteration": "bi", "body": { "en": "A small line below the letter: short \"i\".", "de": "Ein kleiner Strich unter dem Buchstaben: kurzes „i“.", "bs": "Mala crtica ispod harfa: kratko „i“." } },
+        { "heading": { "en": "Damma", "de": "Damma", "bs": "Damma" }, "arabic": "بُ", "transliteration": "bu", "body": { "en": "A small waw-shape above the letter: short \"u\".", "de": "Ein kleines Waw-Zeichen über dem Buchstaben: kurzes „u“.", "bs": "Mali znak poput vava iznad harfa: kratko „u“." } },
+        { "heading": { "en": "Sukun", "de": "Sukun", "bs": "Sukun" }, "arabic": "بْ", "transliteration": "b", "body": { "en": "A small circle: the letter has no vowel.", "de": "Ein kleiner Kreis: Der Buchstabe hat keinen Vokal.", "bs": "Mali kružić: harf nema samoglasnika." } },
+        { "heading": { "en": "Shadda", "de": "Schadda", "bs": "Šedda" }, "arabic": "بّ", "transliteration": "bb", "body": { "en": "A small \"w\" shape: the letter is doubled.", "de": "Ein kleines „w“-Zeichen: Der Buchstabe wird verdoppelt.", "bs": "Mali znak poput „w“: harf se udvostručuje." } },
+        { "heading": { "en": "Tanween", "de": "Tanwin", "bs": "Tenvin" }, "arabic": "بٌ بٍ بً", "transliteration": "bun, bin, ban", "body": { "en": "A doubled vowel mark adds an \"n\" sound at the end.", "de": "Ein doppeltes Vokalzeichen fügt am Ende ein „n“ hinzu.", "bs": "Dvostruki znak samoglasnika dodaje „n“ na kraju." } }
+      ]
+    },
+    {
+      "id": "arabic-words",
+      "worldId": "arabic",
+      "topic": "arabic-words",
+      "title": { "en": "Islamic words", "de": "Islamische Wörter", "bs": "Islamske riječi" },
+      "summary": {
+        "en": "Words you will hear again and again.",
+        "de": "Wörter, die du immer wieder hören wirst.",
+        "bs": "Riječi koje ćeš stalno slušati."
+      },
+      "sections": [
+        { "arabic": "سَلَام", "transliteration": "salām", "body": { "en": "Peace", "de": "Frieden", "bs": "Mir" } },
+        { "arabic": "كِتَاب", "transliteration": "kitāb", "body": { "en": "Book", "de": "Buch", "bs": "Knjiga" } },
+        { "arabic": "مَسْجِد", "transliteration": "masjid", "body": { "en": "Mosque – place of prostration", "de": "Moschee – Ort der Niederwerfung", "bs": "Džamija – mjesto sedžde" } },
+        { "arabic": "نُور", "transliteration": "nūr", "body": { "en": "Light", "de": "Licht", "bs": "Svjetlo" } },
+        { "arabic": "عِلْم", "transliteration": "ʿilm", "body": { "en": "Knowledge", "de": "Wissen", "bs": "Znanje" } },
+        { "arabic": "جَنَّة", "transliteration": "jannah", "body": { "en": "Garden; Paradise", "de": "Garten; Paradies", "bs": "Bašča; Džennet" } },
+        { "arabic": "رَحْمَة", "transliteration": "raḥmah", "body": { "en": "Mercy", "de": "Barmherzigkeit", "bs": "Milost" } },
+        { "arabic": "صَبْر", "transliteration": "ṣabr", "body": { "en": "Patience", "de": "Geduld", "bs": "Strpljenje" } }
+      ]
+    },
+    {
+      "id": "arabic-prayer",
+      "worldId": "arabic",
+      "topic": "arabic-prayer",
+      "title": { "en": "Words of prayer and remembrance", "de": "Wörter des Gebets und Gedenkens", "bs": "Riječi namaza i zikra" },
+      "summary": {
+        "en": "Phrases Muslims say every day.",
+        "de": "Sätze, die Muslime jeden Tag sagen.",
+        "bs": "Izrazi koje muslimani izgovaraju svaki dan."
+      },
+      "sections": [
+        { "arabic": "بِسْمِ اللّٰه", "transliteration": "bismillāh", "body": { "en": "In the name of Allah – said before eating, reading, starting something.", "de": "Im Namen Allahs – sagt man vor dem Essen, Lesen, wenn man etwas beginnt.", "bs": "U ime Allaha – izgovara se prije jela, čitanja, početka nečega." } },
+        { "arabic": "اللّٰهُ أَكْبَر", "transliteration": "Allāhu akbar", "body": { "en": "Allah is the Greatest – said in prayer and in the adhan.", "de": "Allah ist größer – im Gebet und im Gebetsruf.", "bs": "Allah je najveći – u namazu i ezanu." } },
+        { "arabic": "سُبْحَانَ اللّٰه", "transliteration": "subḥānallāh", "body": { "en": "Glory be to Allah – said when we see something amazing.", "de": "Gepriesen sei Allah – sagt man, wenn man etwas Wunderbares sieht.", "bs": "Slavljen neka je Allah – kada vidimo nešto zadivljujuće." } },
+        { "arabic": "الْحَمْدُ لِلّٰه", "transliteration": "al-ḥamdu lillāh", "body": { "en": "All praise is for Allah – said to thank Allah.", "de": "Alles Lob gebührt Allah – um Allah zu danken.", "bs": "Hvala Allahu – da zahvalimo Allahu." } },
+        { "arabic": "السَّلَامُ عَلَيْكُم", "transliteration": "as-salāmu ʿalaykum", "body": { "en": "Peace be upon you – the Muslim greeting.", "de": "Friede sei mit euch – der muslimische Gruß.", "bs": "Mir s vama – muslimanski pozdrav." } },
+        { "arabic": "أَذَان", "transliteration": "adhān", "body": { "en": "The call to prayer", "de": "Der Gebetsruf", "bs": "Ezan – poziv na namaz" } },
+        { "arabic": "سُجُود", "transliteration": "sujūd", "body": { "en": "Prostration", "de": "Niederwerfung", "bs": "Sedžda" } }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "arabic-28",
+      "type": "multipleChoice",
+      "worldId": "arabic",
+      "topic": "arabic-alphabet",
+      "prompt": { "en": "How many letters does the Arabic alphabet have?", "de": "Wie viele Buchstaben hat das arabische Alphabet?", "bs": "Koliko harfova ima arapsko pismo?" },
+      "options": [
+        { "id": "a", "text": { "en": "26", "de": "26", "bs": "26" } },
+        { "id": "b", "text": { "en": "28", "de": "28", "bs": "28" } },
+        { "id": "c", "text": { "en": "30", "de": "30", "bs": "30" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "The Arabic alphabet has 28 letters.",
+        "de": "Das arabische Alphabet hat 28 Buchstaben.",
+        "bs": "Arapsko pismo ima 28 harfova."
+      }
+    },
+    {
+      "id": "arabic-rtl",
+      "type": "trueFalse",
+      "worldId": "arabic",
+      "topic": "arabic-alphabet",
+      "prompt": { "en": "Arabic is written from right to left.", "de": "Arabisch wird von rechts nach links geschrieben.", "bs": "Arapski se piše zdesna nalijevo." },
+      "correct": true,
+      "explanation": {
+        "en": "True – Arabic starts on the right side of the page.",
+        "de": "Richtig – Arabisch beginnt auf der rechten Seite.",
+        "bs": "Tačno – arapski počinje s desne strane."
+      }
+    },
+    {
+      "id": "arabic-letters1-match",
+      "type": "matching",
+      "worldId": "arabic",
+      "topic": "arabic-letters-1",
+      "prompt": { "en": "Match each letter with its name.", "de": "Ordne jedem Buchstaben seinen Namen zu.", "bs": "Spoji svaki harf s njegovim imenom." },
+      "pairs": [
+        { "id": "alif", "left": { "en": "ا", "de": "ا", "bs": "ا" }, "right": { "en": "Alif", "de": "Alif", "bs": "Elif" } },
+        { "id": "ba", "left": { "en": "ب", "de": "ب", "bs": "ب" }, "right": { "en": "Ba", "de": "Ba", "bs": "Be" } },
+        { "id": "ta", "left": { "en": "ت", "de": "ت", "bs": "ت" }, "right": { "en": "Ta", "de": "Ta", "bs": "Te" } },
+        { "id": "jim", "left": { "en": "ج", "de": "ج", "bs": "ج" }, "right": { "en": "Jim", "de": "Dschim", "bs": "Džim" } },
+        { "id": "kha", "left": { "en": "خ", "de": "خ", "bs": "خ" }, "right": { "en": "Kha", "de": "Cha", "bs": "Hı" } }
+      ],
+      "explanation": {
+        "en": "ا Alif, ب Ba, ت Ta, ج Jim, خ Kha.",
+        "de": "ا Alif, ب Ba, ت Ta, ج Dschim, خ Cha.",
+        "bs": "ا Elif, ب Be, ت Te, ج Džim, خ Hı."
+      }
+    },
+    {
+      "id": "arabic-dots-ba",
+      "type": "multipleChoice",
+      "worldId": "arabic",
+      "topic": "arabic-letters-1",
+      "prompt": { "en": "Which letter has one dot below?", "de": "Welcher Buchstabe hat einen Punkt unten?", "bs": "Koji harf ima jednu tačku ispod?" },
+      "options": [
+        { "id": "a", "text": { "en": "ب", "de": "ب", "bs": "ب" } },
+        { "id": "b", "text": { "en": "ت", "de": "ت", "bs": "ت" } },
+        { "id": "c", "text": { "en": "ث", "de": "ث", "bs": "ث" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "ب (Ba) has one dot below. ت has two dots above and ث three dots above.",
+        "de": "ب (Ba) hat einen Punkt unten. ت hat zwei Punkte oben und ث drei Punkte oben.",
+        "bs": "ب (Be) ima jednu tačku ispod. ت ima dvije tačke iznad, a ث tri tačke iznad."
+      }
+    },
+    {
+      "id": "arabic-letters2-match",
+      "type": "matching",
+      "worldId": "arabic",
+      "topic": "arabic-letters-2",
+      "prompt": { "en": "Match each letter with its name.", "de": "Ordne jedem Buchstaben seinen Namen zu.", "bs": "Spoji svaki harf s njegovim imenom." },
+      "pairs": [
+        { "id": "dal", "left": { "en": "د", "de": "د", "bs": "د" }, "right": { "en": "Dal", "de": "Dal", "bs": "Dal" } },
+        { "id": "ra", "left": { "en": "ر", "de": "ر", "bs": "ر" }, "right": { "en": "Ra", "de": "Ra", "bs": "Ra" } },
+        { "id": "sin", "left": { "en": "س", "de": "س", "bs": "س" }, "right": { "en": "Sin", "de": "Sin", "bs": "Sin" } },
+        { "id": "shin", "left": { "en": "ش", "de": "ش", "bs": "ش" }, "right": { "en": "Shin", "de": "Schin", "bs": "Šin" } }
+      ],
+      "explanation": {
+        "en": "د Dal, ر Ra, س Sin, ش Shin.",
+        "de": "د Dal, ر Ra, س Sin, ش Schin.",
+        "bs": "د Dal, ر Ra, س Sin, ش Šin."
+      }
+    },
+    {
+      "id": "arabic-shin",
+      "type": "multipleChoice",
+      "worldId": "arabic",
+      "topic": "arabic-letters-2",
+      "prompt": { "en": "Which letter sounds like \"sh\"?", "de": "Welcher Buchstabe klingt wie „sch“?", "bs": "Koji harf se čita kao „š“?" },
+      "options": [
+        { "id": "a", "text": { "en": "س", "de": "س", "bs": "س" } },
+        { "id": "b", "text": { "en": "ش", "de": "ش", "bs": "ش" } },
+        { "id": "c", "text": { "en": "ص", "de": "ص", "bs": "ص" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "ش (Shin) has three dots and sounds like \"sh\".",
+        "de": "ش (Schin) hat drei Punkte und klingt wie „sch“.",
+        "bs": "ش (Šin) ima tri tačke i čita se kao „š“."
+      }
+    },
+    {
+      "id": "arabic-letters3-match",
+      "type": "matching",
+      "worldId": "arabic",
+      "topic": "arabic-letters-3",
+      "prompt": { "en": "Match each letter with its name.", "de": "Ordne jedem Buchstaben seinen Namen zu.", "bs": "Spoji svaki harf s njegovim imenom." },
+      "pairs": [
+        { "id": "ayn", "left": { "en": "ع", "de": "ع", "bs": "ع" }, "right": { "en": "Ayn", "de": "Ain", "bs": "Ajn" } },
+        { "id": "ghayn", "left": { "en": "غ", "de": "غ", "bs": "غ" }, "right": { "en": "Ghayn", "de": "Ghain", "bs": "Gajn" } },
+        { "id": "fa", "left": { "en": "ف", "de": "ف", "bs": "ف" }, "right": { "en": "Fa", "de": "Fa", "bs": "Fe" } },
+        { "id": "qaf", "left": { "en": "ق", "de": "ق", "bs": "ق" }, "right": { "en": "Qaf", "de": "Qaf", "bs": "Kaf" } }
+      ],
+      "explanation": {
+        "en": "ع Ayn, غ Ghayn, ف Fa, ق Qaf.",
+        "de": "ع Ain, غ Ghain, ف Fa, ق Qaf.",
+        "bs": "ع Ajn, غ Gajn, ف Fe, ق Kaf."
+      }
+    },
+    {
+      "id": "arabic-letters4-match",
+      "type": "matching",
+      "worldId": "arabic",
+      "topic": "arabic-letters-4",
+      "prompt": { "en": "Match each letter with its name.", "de": "Ordne jedem Buchstaben seinen Namen zu.", "bs": "Spoji svaki harf s njegovim imenom." },
+      "pairs": [
+        { "id": "lam", "left": { "en": "ل", "de": "ل", "bs": "ل" }, "right": { "en": "Lam", "de": "Lam", "bs": "Lam" } },
+        { "id": "mim", "left": { "en": "م", "de": "م", "bs": "م" }, "right": { "en": "Mim", "de": "Mim", "bs": "Mim" } },
+        { "id": "nun", "left": { "en": "ن", "de": "ن", "bs": "ن" }, "right": { "en": "Nun", "de": "Nun", "bs": "Nun" } },
+        { "id": "waw", "left": { "en": "و", "de": "و", "bs": "و" }, "right": { "en": "Waw", "de": "Waw", "bs": "Vav" } },
+        { "id": "ya", "left": { "en": "ي", "de": "ي", "bs": "ي" }, "right": { "en": "Ya", "de": "Ya", "bs": "Je" } }
+      ],
+      "explanation": {
+        "en": "ل Lam, م Mim, ن Nun, و Waw, ي Ya.",
+        "de": "ل Lam, م Mim, ن Nun, و Waw, ي Ya.",
+        "bs": "ل Lam, م Mim, ن Nun, و Vav, ي Je."
+      }
+    },
+    {
+      "id": "arabic-mim",
+      "type": "multipleChoice",
+      "worldId": "arabic",
+      "topic": "arabic-letters-4",
+      "prompt": { "en": "Which letter makes the sound \"m\"?", "de": "Welcher Buchstabe macht den Laut „m“?", "bs": "Koji harf daje glas „m“?" },
+      "options": [
+        { "id": "a", "text": { "en": "ن", "de": "ن", "bs": "ن" } },
+        { "id": "b", "text": { "en": "م", "de": "م", "bs": "م" } },
+        { "id": "c", "text": { "en": "ل", "de": "ل", "bs": "ل" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "م (Mim) makes the \"m\" sound.",
+        "de": "م (Mim) macht den Laut „m“.",
+        "bs": "م (Mim) daje glas „m“."
+      }
+    },
+    {
+      "id": "arabic-alphabet-order",
+      "type": "ordering",
+      "worldId": "arabic",
+      "topic": "arabic-alphabet",
+      "prompt": { "en": "Put the first letters of the alphabet in order.", "de": "Bringe die ersten Buchstaben des Alphabets in die richtige Reihenfolge.", "bs": "Poredaj prve harfove pisma." },
+      "items": [
+        { "id": "alif", "text": { "en": "ا Alif", "de": "ا Alif", "bs": "ا Elif" } },
+        { "id": "ba", "text": { "en": "ب Ba", "de": "ب Ba", "bs": "ب Be" } },
+        { "id": "ta", "text": { "en": "ت Ta", "de": "ت Ta", "bs": "ت Te" } },
+        { "id": "tha", "text": { "en": "ث Tha", "de": "ث Tha", "bs": "ث Se" } },
+        { "id": "jim", "text": { "en": "ج Jim", "de": "ج Dschim", "bs": "ج Džim" } }
+      ],
+      "explanation": {
+        "en": "Alif, Ba, Ta, Tha, Jim – the alphabet begins like this.",
+        "de": "Alif, Ba, Ta, Tha, Dschim – so beginnt das Alphabet.",
+        "bs": "Elif, be, te, se, džim – tako počinje pismo."
+      }
+    },
+    {
+      "id": "arabic-fatha",
+      "type": "multipleChoice",
+      "worldId": "arabic",
+      "topic": "harakat",
+      "prompt": { "en": "How do you read بَ ?", "de": "Wie liest man بَ ?", "bs": "Kako se čita بَ ?" },
+      "options": [
+        { "id": "a", "text": { "en": "ba", "de": "ba", "bs": "be" } },
+        { "id": "b", "text": { "en": "bi", "de": "bi", "bs": "bi" } },
+        { "id": "c", "text": { "en": "bu", "de": "bu", "bs": "bu" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The fatha (a line above) gives a short \"a\": ba.",
+        "de": "Die Fatha (Strich oben) ergibt ein kurzes „a“: ba.",
+        "bs": "Fetha (crtica iznad) daje kratko „e/a“: be."
+      }
+    },
+    {
+      "id": "arabic-harakat-match",
+      "type": "matching",
+      "worldId": "arabic",
+      "topic": "harakat",
+      "prompt": { "en": "Match each mark with its sound.", "de": "Ordne jedem Zeichen seinen Laut zu.", "bs": "Spoji svaki znak s njegovim glasom." },
+      "pairs": [
+        { "id": "fatha", "left": { "en": "بَ", "de": "بَ", "bs": "بَ" }, "right": { "en": "ba", "de": "ba", "bs": "be" } },
+        { "id": "kasra", "left": { "en": "بِ", "de": "بِ", "bs": "بِ" }, "right": { "en": "bi", "de": "bi", "bs": "bi" } },
+        { "id": "damma", "left": { "en": "بُ", "de": "بُ", "bs": "بُ" }, "right": { "en": "bu", "de": "bu", "bs": "bu" } },
+        { "id": "sukun", "left": { "en": "بْ", "de": "بْ", "bs": "بْ" }, "right": { "en": "b (no vowel)", "de": "b (kein Vokal)", "bs": "b (bez samoglasnika)" } }
+      ],
+      "explanation": {
+        "en": "Fatha = a, Kasra = i, Damma = u, Sukun = no vowel.",
+        "de": "Fatha = a, Kasra = i, Damma = u, Sukun = kein Vokal.",
+        "bs": "Fetha = e/a, kesra = i, damma = u, sukun = bez samoglasnika."
+      }
+    },
+    {
+      "id": "arabic-shadda",
+      "type": "trueFalse",
+      "worldId": "arabic",
+      "topic": "harakat",
+      "prompt": { "en": "A shadda means the letter is doubled.", "de": "Eine Schadda bedeutet, dass der Buchstabe verdoppelt wird.", "bs": "Šedda znači da se harf udvostručuje." },
+      "correct": true,
+      "explanation": {
+        "en": "True – for example in جَنَّة (jannah), the nun is doubled.",
+        "de": "Richtig – zum Beispiel in جَنَّة (Dschanna) wird das Nun verdoppelt.",
+        "bs": "Tačno – npr. u جَنَّة (džennet) nun je udvostručen."
+      }
+    },
+    {
+      "id": "arabic-words-match",
+      "type": "matching",
+      "worldId": "arabic",
+      "topic": "arabic-words",
+      "prompt": { "en": "Match each Arabic word with its meaning.", "de": "Ordne jedem arabischen Wort seine Bedeutung zu.", "bs": "Spoji svaku arapsku riječ s njenim značenjem." },
+      "pairs": [
+        { "id": "salam", "left": { "en": "سَلَام", "de": "سَلَام", "bs": "سَلَام" }, "right": { "en": "Peace", "de": "Frieden", "bs": "Mir" } },
+        { "id": "kitab", "left": { "en": "كِتَاب", "de": "كِتَاب", "bs": "كِتَاب" }, "right": { "en": "Book", "de": "Buch", "bs": "Knjiga" } },
+        { "id": "nur", "left": { "en": "نُور", "de": "نُور", "bs": "نُور" }, "right": { "en": "Light", "de": "Licht", "bs": "Svjetlo" } },
+        { "id": "ilm", "left": { "en": "عِلْم", "de": "عِلْم", "bs": "عِلْم" }, "right": { "en": "Knowledge", "de": "Wissen", "bs": "Znanje" } }
+      ],
+      "explanation": {
+        "en": "Salam = peace, Kitab = book, Nur = light, 'Ilm = knowledge.",
+        "de": "Salam = Frieden, Kitab = Buch, Nur = Licht, 'Ilm = Wissen.",
+        "bs": "Selam = mir, kitab = knjiga, nur = svjetlo, ilm = znanje."
+      }
+    },
+    {
+      "id": "arabic-masjid-word",
+      "type": "multipleChoice",
+      "worldId": "arabic",
+      "topic": "arabic-words",
+      "prompt": { "en": "What does مَسْجِد (masjid) mean?", "de": "Was bedeutet مَسْجِد (Masdschid)?", "bs": "Šta znači مَسْجِد (mesdžid)?" },
+      "options": [
+        { "id": "a", "text": { "en": "Place of prostration (mosque)", "de": "Ort der Niederwerfung (Moschee)", "bs": "Mjesto sedžde (džamija)" } },
+        { "id": "b", "text": { "en": "Market", "de": "Markt", "bs": "Pijaca" } },
+        { "id": "c", "text": { "en": "School", "de": "Schule", "bs": "Škola" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Masjid comes from sujud – it is the place where people prostrate.",
+        "de": "Masdschid kommt von Sudschud – der Ort, an dem man sich niederwirft.",
+        "bs": "Mesdžid dolazi od riječi sedžda – mjesto gdje se čini sedžda."
+      }
+    },
+    {
+      "id": "arabic-words-memory",
+      "type": "memory",
+      "worldId": "arabic",
+      "topic": "arabic-words",
+      "prompt": { "en": "Find the pairs: Arabic word and meaning.", "de": "Finde die Paare: arabisches Wort und Bedeutung.", "bs": "Pronađi parove: arapska riječ i značenje." },
+      "pairs": [
+        { "id": "jannah", "left": { "en": "جَنَّة", "de": "جَنَّة", "bs": "جَنَّة" }, "right": { "en": "Paradise", "de": "Paradies", "bs": "Džennet" } },
+        { "id": "rahmah", "left": { "en": "رَحْمَة", "de": "رَحْمَة", "bs": "رَحْمَة" }, "right": { "en": "Mercy", "de": "Barmherzigkeit", "bs": "Milost" } },
+        { "id": "sabr", "left": { "en": "صَبْر", "de": "صَبْر", "bs": "صَبْر" }, "right": { "en": "Patience", "de": "Geduld", "bs": "Strpljenje" } },
+        { "id": "salam", "left": { "en": "سَلَام", "de": "سَلَام", "bs": "سَلَام" }, "right": { "en": "Peace", "de": "Frieden", "bs": "Mir" } }
+      ],
+      "explanation": {
+        "en": "Jannah, Rahmah, Sabr and Salam – beautiful words to remember.",
+        "de": "Dschanna, Rahma, Sabr und Salam – schöne Wörter zum Merken.",
+        "bs": "Džennet, rahma, sabur i selam – lijepe riječi za pamćenje."
+      }
+    },
+    {
+      "id": "arabic-bismillah",
+      "type": "multipleChoice",
+      "worldId": "arabic",
+      "topic": "arabic-prayer",
+      "prompt": { "en": "What do we say before eating?", "de": "Was sagen wir vor dem Essen?", "bs": "Šta kažemo prije jela?" },
+      "options": [
+        { "id": "a", "text": { "en": "Bismillah", "de": "Bismillah", "bs": "Bismillah" } },
+        { "id": "b", "text": { "en": "Subhanallah", "de": "Subhanallah", "bs": "Subhanallah" } },
+        { "id": "c", "text": { "en": "As-salamu alaykum", "de": "As-salamu alaikum", "bs": "Es-selamu alejkum" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Bismillah – in the name of Allah. We say it before eating and when starting good things.",
+        "de": "Bismillah – im Namen Allahs. Wir sagen es vor dem Essen und wenn wir etwas Gutes beginnen.",
+        "bs": "Bismillah – u ime Allaha. Kažemo ga prije jela i kada počinjemo nešto dobro."
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "5376" }]
+    },
+    {
+      "id": "arabic-phrases-match",
+      "type": "matching",
+      "worldId": "arabic",
+      "topic": "arabic-prayer",
+      "prompt": { "en": "Match each phrase with its meaning.", "de": "Ordne jedem Ausdruck seine Bedeutung zu.", "bs": "Spoji svaki izraz s njegovim značenjem." },
+      "pairs": [
+        { "id": "akbar", "left": { "en": "Allahu Akbar", "de": "Allahu Akbar", "bs": "Allahu ekber" }, "right": { "en": "Allah is the Greatest", "de": "Allah ist größer", "bs": "Allah je najveći" } },
+        { "id": "subhan", "left": { "en": "Subhanallah", "de": "Subhanallah", "bs": "Subhanallah" }, "right": { "en": "Glory be to Allah", "de": "Gepriesen sei Allah", "bs": "Slavljen neka je Allah" } },
+        { "id": "hamd", "left": { "en": "Alhamdulillah", "de": "Alhamdulillah", "bs": "Elhamdulillah" }, "right": { "en": "All praise is for Allah", "de": "Alles Lob gebührt Allah", "bs": "Hvala Allahu" } },
+        { "id": "salam", "left": { "en": "As-salamu alaykum", "de": "As-salamu alaikum", "bs": "Es-selamu alejkum" }, "right": { "en": "Peace be upon you", "de": "Friede sei mit euch", "bs": "Mir s vama" } }
+      ],
+      "explanation": {
+        "en": "These phrases fill a Muslim's day with remembrance of Allah.",
+        "de": "Diese Ausdrücke füllen den Tag eines Muslims mit dem Gedenken an Allah.",
+        "bs": "Ovi izrazi ispunjavaju dan muslimana sjećanjem na Allaha."
+      }
+    },
+    {
+      "id": "arabic-adhan",
+      "type": "multipleChoice",
+      "worldId": "arabic",
+      "topic": "arabic-prayer",
+      "prompt": { "en": "What is the adhan?", "de": "Was ist der Adhan?", "bs": "Šta je ezan?" },
+      "options": [
+        { "id": "a", "text": { "en": "The call to prayer", "de": "Der Gebetsruf", "bs": "Poziv na namaz" } },
+        { "id": "b", "text": { "en": "A type of food", "de": "Eine Speise", "bs": "Vrsta jela" } },
+        { "id": "c", "text": { "en": "A book", "de": "Ein Buch", "bs": "Knjiga" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The adhan is the call to prayer, announcing that the time of prayer has come.",
+        "de": "Der Adhan ist der Gebetsruf, der ankündigt, dass die Gebetszeit gekommen ist.",
+        "bs": "Ezan je poziv na namaz koji objavljuje da je nastupilo vrijeme namaza."
+      }
+    }
+  ],
+  "quests": [
+    {
+      "id": "arabic-q1",
+      "worldId": "arabic",
+      "order": 1,
+      "kind": "game",
+      "title": { "en": "First Letters", "de": "Erste Buchstaben", "bs": "Prvi harfovi" },
+      "description": { "en": "Alif to Kha.", "de": "Alif bis Cha.", "bs": "Od elifa do hı." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "arabic-intro" },
+        { "kind": "question", "questionId": "arabic-28", "label": "quiz" },
+        { "kind": "question", "questionId": "arabic-rtl", "label": "quiz" },
+        { "kind": "lesson", "lessonId": "arabic-letters-1" },
+        { "kind": "tracing", "letters": ["ا", "ب", "ت", "ج"] },
+        { "kind": "question", "questionId": "arabic-letters1-match", "label": "challenge" },
+        { "kind": "question", "questionId": "arabic-dots-ba", "label": "quiz" },
+        { "kind": "question", "questionId": "arabic-alphabet-order", "label": "challenge" }
+      ]
+    },
+    {
+      "id": "arabic-q2",
+      "worldId": "arabic",
+      "order": 2,
+      "kind": "game",
+      "title": { "en": "Dal to Sad", "de": "Dal bis Sad", "bs": "Od dala do sada" },
+      "description": { "en": "Seven new letters.", "de": "Sieben neue Buchstaben.", "bs": "Sedam novih harfova." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "arabic-letters-2" },
+        { "kind": "tracing", "letters": ["د", "ر", "س", "ش"] },
+        { "kind": "question", "questionId": "arabic-letters2-match", "label": "challenge" },
+        { "kind": "question", "questionId": "arabic-shin", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "arabic-q3",
+      "worldId": "arabic",
+      "order": 3,
+      "kind": "game",
+      "title": { "en": "Dad to Qaf", "de": "Dad bis Qaf", "bs": "Od dada do kafa" },
+      "description": { "en": "Letters from the throat.", "de": "Buchstaben aus der Kehle.", "bs": "Harfovi iz grla." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "arabic-letters-3" },
+        { "kind": "tracing", "letters": ["ع", "ف", "ق"] },
+        { "kind": "question", "questionId": "arabic-letters3-match", "label": "challenge" }
+      ]
+    },
+    {
+      "id": "arabic-q4",
+      "worldId": "arabic",
+      "order": 4,
+      "kind": "game",
+      "title": { "en": "Kaf to Ya", "de": "Kaf bis Ya", "bs": "Od kefa do je" },
+      "description": { "en": "The last letters.", "de": "Die letzten Buchstaben.", "bs": "Posljednji harfovi." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "arabic-letters-4" },
+        { "kind": "tracing", "letters": ["ل", "م", "ن", "و"] },
+        { "kind": "question", "questionId": "arabic-letters4-match", "label": "challenge" },
+        { "kind": "question", "questionId": "arabic-mim", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "arabic-q5",
+      "worldId": "arabic",
+      "order": 5,
+      "kind": "game",
+      "title": { "en": "Harakat", "de": "Harakat", "bs": "Harekati" },
+      "description": { "en": "The short vowels.", "de": "Die kurzen Vokale.", "bs": "Kratki samoglasnici." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "arabic-harakat" },
+        { "kind": "question", "questionId": "arabic-fatha", "label": "quiz" },
+        { "kind": "question", "questionId": "arabic-harakat-match", "label": "challenge" },
+        { "kind": "question", "questionId": "arabic-shadda", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "arabic-q6",
+      "worldId": "arabic",
+      "order": 6,
+      "kind": "game",
+      "title": { "en": "Islamic Words", "de": "Islamische Wörter", "bs": "Islamske riječi" },
+      "description": { "en": "Your first Arabic vocabulary.", "de": "Dein erster arabischer Wortschatz.", "bs": "Tvoje prve arapske riječi." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "arabic-words" },
+        { "kind": "question", "questionId": "arabic-words-match", "label": "challenge" },
+        { "kind": "question", "questionId": "arabic-masjid-word", "label": "quiz" },
+        { "kind": "question", "questionId": "arabic-words-memory", "label": "challenge" }
+      ]
+    },
+    {
+      "id": "arabic-q7",
+      "worldId": "arabic",
+      "order": 7,
+      "kind": "game",
+      "title": { "en": "Words of Prayer", "de": "Wörter des Gebets", "bs": "Riječi namaza" },
+      "description": { "en": "Phrases of remembrance.", "de": "Ausdrücke des Gedenkens.", "bs": "Izrazi zikra." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "arabic-prayer" },
+        { "kind": "question", "questionId": "arabic-bismillah", "label": "quiz" },
+        { "kind": "question", "questionId": "arabic-phrases-match", "label": "challenge" },
+        { "kind": "question", "questionId": "arabic-adhan", "label": "quiz" }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "arabic-fact-dad",
+      "worldId": "arabic",
+      "text": {
+        "en": "Arabic is sometimes called \"the language of Dad\" (ض), because this sound is special to Arabic.",
+        "de": "Arabisch wird manchmal „die Sprache des Dad“ (ض) genannt, weil dieser Laut typisch für das Arabische ist.",
+        "bs": "Arapski se ponekad naziva „jezikom dada“ (ض), jer je taj glas poseban za arapski."
+      }
+    },
+    {
+      "id": "arabic-fact-masjid",
+      "worldId": "arabic",
+      "text": {
+        "en": "The word \"masjid\" comes from \"sujud\" – it means the place of prostration.",
+        "de": "Das Wort „Masdschid“ kommt von „Sudschud“ – es bedeutet Ort der Niederwerfung.",
+        "bs": "Riječ „mesdžid“ dolazi od „sedžda“ – znači mjesto sedžde."
+      }
+    },
+    {
+      "id": "arabic-fact-rtl",
+      "worldId": "arabic",
+      "text": {
+        "en": "Arabic is written from right to left, and most letters join to the next letter.",
+        "de": "Arabisch wird von rechts nach links geschrieben, und die meisten Buchstaben werden mit dem nächsten verbunden.",
+        "bs": "Arapski se piše zdesna nalijevo, a većina harfova se spaja sa sljedećim."
+      }
+    }
+  ]
+}

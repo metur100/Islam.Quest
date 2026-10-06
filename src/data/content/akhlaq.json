@@ -1,0 +1,787 @@
+{
+  "world": {
+    "id": "akhlaq",
+    "order": 4,
+    "title": { "en": "World of Akhlaq", "de": "Welt des Charakters", "bs": "Svijet ahlaka" },
+    "subtitle": { "en": "Beautiful character", "de": "Schöner Charakter", "bs": "Lijep ahlak" },
+    "description": {
+      "en": "Patience, gratitude, honesty, mercy and kindness – learn how a Muslim treats others.",
+      "de": "Geduld, Dankbarkeit, Ehrlichkeit, Barmherzigkeit und Freundlichkeit – lerne, wie ein Muslim andere behandelt.",
+      "bs": "Strpljenje, zahvalnost, iskrenost, milost i ljubaznost – nauči kako se musliman odnosi prema drugima."
+    },
+    "scene": { "sky": "day", "elements": ["sun", "clouds", "garden", "tree"] },
+    "questIds": ["akhlaq-q1", "akhlaq-q2", "akhlaq-q3", "akhlaq-q4", "akhlaq-q5"],
+    "unlockRequirement": { "worldId": "quran", "questsCompleted": 3 }
+  },
+  "lessons": [
+    {
+      "id": "akhlaq-sabr",
+      "worldId": "akhlaq",
+      "topic": "sabr",
+      "title": { "en": "Sabr – patience", "de": "Sabr – Geduld", "bs": "Sabur – strpljenje" },
+      "summary": { "en": "Staying calm and firm when things are hard.", "de": "Ruhig und standhaft bleiben, wenn es schwer ist.", "bs": "Ostati miran i čvrst kada je teško." },
+      "scene": { "sky": "dawn", "elements": ["mountains", "hills"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Sabr means patience: not giving up, controlling anger, and continuing to do good when things are difficult. The Quran says that Allah is with the patient.",
+            "de": "Sabr bedeutet Geduld: nicht aufgeben, Wut beherrschen und weiter Gutes tun, wenn es schwierig ist. Der Koran sagt, dass Allah mit den Geduldigen ist.",
+            "bs": "Sabur znači strpljenje: ne odustati, obuzdati ljutnju i nastaviti činiti dobro kada je teško. Kur'an kaže da je Allah sa strpljivima."
+          },
+          "arabic": "صَبْر",
+          "transliteration": "ṣabr"
+        },
+        {
+          "heading": { "en": "Example", "de": "Beispiel", "bs": "Primjer" },
+          "body": {
+            "en": "You practise a hard task many times and it still doesn't work. Instead of quitting angrily, you take a breath, make dua and try again.",
+            "de": "Du übst eine schwierige Aufgabe viele Male, und sie klappt immer noch nicht. Statt wütend aufzugeben, atmest du durch, machst Du'a und versuchst es erneut.",
+            "bs": "Mnogo puta vježbaš težak zadatak i još uvijek ne ide. Umjesto da ljutito odustaneš, duboko udahneš, uputiš dovu i pokušaš ponovo."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:153" }]
+    },
+    {
+      "id": "akhlaq-shukr",
+      "worldId": "akhlaq",
+      "topic": "shukr",
+      "title": { "en": "Shukr – gratitude", "de": "Schukr – Dankbarkeit", "bs": "Šukr – zahvalnost" },
+      "summary": { "en": "Thanking Allah and thanking people.", "de": "Allah danken und den Menschen danken.", "bs": "Zahvaljivati Allahu i zahvaljivati ljudima." },
+      "scene": { "sky": "day", "elements": ["sun", "garden", "dates"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Shukr means being grateful. We thank Allah with our words (\"Alhamdulillah\"), with our hearts and by using His gifts in good ways. Allah says in the Quran: if you are grateful, He will give you more.",
+            "de": "Schukr bedeutet Dankbarkeit. Wir danken Allah mit unseren Worten („Alhamdulillah“), mit dem Herzen und indem wir Seine Gaben gut nutzen. Allah sagt im Koran: Wenn ihr dankbar seid, wird Er euch noch mehr geben.",
+            "bs": "Šukr znači zahvalnost. Allahu zahvaljujemo riječima („Elhamdulillah“), srcem i korištenjem Njegovih darova na dobar način. Allah u Kur'anu kaže: ako budete zahvalni, On će vam još više dati."
+          },
+          "arabic": "الْحَمْدُ لِلّٰه",
+          "transliteration": "al-ḥamdu lillāh"
+        },
+        {
+          "heading": { "en": "Thanking people", "de": "Menschen danken", "bs": "Zahvaljivanje ljudima" },
+          "body": {
+            "en": "Saying \"thank you\" to parents, teachers and friends is also part of gratitude.",
+            "de": "„Danke“ zu Eltern, Lehrern und Freunden zu sagen ist auch Teil der Dankbarkeit.",
+            "bs": "Reći „hvala“ roditeljima, učiteljima i prijateljima također je dio zahvalnosti."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Quran", "sourceReference": "14:7" }]
+    },
+    {
+      "id": "akhlaq-sidq",
+      "worldId": "akhlaq",
+      "topic": "sidq",
+      "title": { "en": "Sidq – honesty", "de": "Sidq – Ehrlichkeit", "bs": "Sidk – iskrenost" },
+      "summary": { "en": "Telling the truth, even when it is hard.", "de": "Die Wahrheit sagen, auch wenn es schwer ist.", "bs": "Govoriti istinu, čak i kada je teško." },
+      "scene": { "sky": "day", "elements": ["clouds", "hills", "city"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Sidq means truthfulness. The Prophet ﷺ taught that truthfulness leads to goodness, and goodness leads to Paradise. Allah tells the believers to be with those who are truthful.",
+            "de": "Sidq bedeutet Wahrhaftigkeit. Der Prophet ﷺ lehrte, dass Wahrhaftigkeit zum Guten führt und das Gute ins Paradies. Allah fordert die Gläubigen auf, mit den Wahrhaftigen zu sein.",
+            "bs": "Sidk znači iskrenost, istinoljubivost. Poslanik ﷺ je poučio da iskrenost vodi dobročinstvu, a dobročinstvo vodi u Džennet. Allah naređuje vjernicima da budu s iskrenima."
+          },
+          "arabic": "صِدْق",
+          "transliteration": "ṣidq"
+        },
+        {
+          "heading": { "en": "Example", "de": "Beispiel", "bs": "Primjer" },
+          "body": {
+            "en": "You broke something by accident. Telling the truth might feel scary, but it builds trust – and people respect honesty.",
+            "de": "Du hast aus Versehen etwas kaputt gemacht. Die Wahrheit zu sagen kann sich beängstigend anfühlen, aber sie schafft Vertrauen – und Menschen respektieren Ehrlichkeit.",
+            "bs": "Slučajno si nešto razbio. Reći istinu može biti strašno, ali to gradi povjerenje – a ljudi poštuju iskrenost."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "9:119" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "6094" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "2607" }
+      ]
+    },
+    {
+      "id": "akhlaq-amanah",
+      "worldId": "akhlaq",
+      "topic": "amanah",
+      "title": { "en": "Amanah – trustworthiness", "de": "Amana – Vertrauenswürdigkeit", "bs": "Emanet – povjerljivost" },
+      "summary": { "en": "Taking care of what others trust us with.", "de": "Gut auf das aufpassen, was andere uns anvertrauen.", "bs": "Čuvati ono što su nam drugi povjerili." },
+      "scene": { "sky": "sunset", "elements": ["dunes", "caravan"] },
+      "sections": [
+        {
+          "body": {
+            "en": "An amanah is something entrusted to you: a borrowed book, a secret, a promise, or a task. Allah commands us to return trusts to their owners and to keep our promises.",
+            "de": "Eine Amana ist etwas, das dir anvertraut wurde: ein geliehenes Buch, ein Geheimnis, ein Versprechen oder eine Aufgabe. Allah gebietet uns, anvertraute Dinge ihren Besitzern zurückzugeben und Versprechen zu halten.",
+            "bs": "Emanet je nešto što ti je povjereno: posuđena knjiga, tajna, obećanje ili zadatak. Allah nam naređuje da emanete vraćamo vlasnicima i da ispunjavamo obećanja."
+          },
+          "arabic": "أَمَانَة",
+          "transliteration": "amānah"
+        },
+        {
+          "heading": { "en": "Example", "de": "Beispiel", "bs": "Primjer" },
+          "body": {
+            "en": "A friend lends you a game. You look after it and give it back on time, in good condition.",
+            "de": "Ein Freund leiht dir ein Spiel. Du passt darauf auf und gibst es pünktlich und in gutem Zustand zurück.",
+            "bs": "Prijatelj ti posudi igricu. Paziš na nju i vratiš je na vrijeme, u dobrom stanju."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "4:58" },
+        { "sourceName": "Quran", "sourceReference": "17:34" }
+      ]
+    },
+    {
+      "id": "akhlaq-rahmah",
+      "worldId": "akhlaq",
+      "topic": "rahmah",
+      "title": { "en": "Rahmah – mercy", "de": "Rahma – Barmherzigkeit", "bs": "Rahma – milost" },
+      "summary": { "en": "Caring for people and animals.", "de": "Sich um Menschen und Tiere kümmern.", "bs": "Brinuti se o ljudima i životinjama." },
+      "scene": { "sky": "day", "elements": ["garden", "tree", "river"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Rahmah means mercy and compassion. Allah is Ar-Rahman and Ar-Rahim, and He sent the Prophet ﷺ as a mercy to the worlds. The Prophet ﷺ taught that those who are merciful will be shown mercy by the Most Merciful.",
+            "de": "Rahma bedeutet Barmherzigkeit und Mitgefühl. Allah ist Ar-Rahman und Ar-Rahim, und Er sandte den Propheten ﷺ als Barmherzigkeit für die Welten. Der Prophet ﷺ lehrte, dass sich der Allerbarmer derer erbarmt, die barmherzig sind.",
+            "bs": "Rahma znači milost i samilost. Allah je Er-Rahman i Er-Rahim, i poslao je Poslanika ﷺ kao milost svjetovima. Poslanik ﷺ je poučio da se Milostivi smiluje onima koji su milostivi."
+          },
+          "arabic": "رَحْمَة",
+          "transliteration": "raḥmah"
+        },
+        {
+          "heading": { "en": "Example", "de": "Beispiel", "bs": "Primjer" },
+          "body": {
+            "en": "On a hot day you put out a bowl of water for birds and cats, and you are gentle with younger children.",
+            "de": "An einem heißen Tag stellst du eine Schale Wasser für Vögel und Katzen hin und bist sanft zu jüngeren Kindern.",
+            "bs": "Po vrućem danu ostaviš posudu vode za ptice i mačke i nježan si prema mlađoj djeci."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "21:107" },
+        { "sourceName": "Sunan Abi Dawud", "sourceReference": "4941" },
+        { "sourceName": "Jami' at-Tirmidhi", "sourceReference": "1924" }
+      ]
+    },
+    {
+      "id": "akhlaq-kindness",
+      "worldId": "akhlaq",
+      "topic": "kindness",
+      "title": { "en": "Kindness and respect", "de": "Freundlichkeit und Respekt", "bs": "Ljubaznost i poštovanje" },
+      "summary": { "en": "Gentle words and good manners.", "de": "Sanfte Worte und gutes Benehmen.", "bs": "Blage riječi i lijepo ponašanje." },
+      "scene": { "sky": "day", "elements": ["clouds", "city", "palms"] },
+      "sections": [
+        {
+          "body": {
+            "en": "The Prophet ﷺ taught that gentleness makes everything beautiful. The Quran tells us not to mock others and not to call people by hurtful nicknames.",
+            "de": "Der Prophet ﷺ lehrte, dass Sanftheit alles verschönert. Der Koran sagt uns, dass wir andere nicht verspotten und niemanden mit verletzenden Spitznamen rufen sollen.",
+            "bs": "Poslanik ﷺ je poučio da blagost uljepšava sve. Kur'an nam kaže da se ne rugamo drugima i da ne nazivamo ljude pogrdnim nadimcima."
+          }
+        },
+        {
+          "heading": { "en": "Smiling is charity", "de": "Ein Lächeln ist eine Spende", "bs": "Osmijeh je sadaka" },
+          "body": {
+            "en": "The Prophet ﷺ said that smiling at your brother is charity. Small kindnesses count!",
+            "de": "Der Prophet ﷺ sagte, dass das Lächeln gegenüber deinem Bruder eine Spende (Sadaqa) ist. Auch kleine Freundlichkeiten zählen!",
+            "bs": "Poslanik ﷺ je rekao da je osmijeh tvom bratu sadaka. I mala dobra djela se računaju!"
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Sahih Muslim", "sourceReference": "2594" },
+        { "sourceName": "Quran", "sourceReference": "49:11" },
+        { "sourceName": "Jami' at-Tirmidhi", "sourceReference": "1956" }
+      ]
+    },
+    {
+      "id": "akhlaq-parents",
+      "worldId": "akhlaq",
+      "topic": "parents",
+      "title": { "en": "Honouring parents", "de": "Die Eltern ehren", "bs": "Poštovanje roditelja" },
+      "summary": { "en": "Kind words, help and dua for our parents.", "de": "Freundliche Worte, Hilfe und Du'a für unsere Eltern.", "bs": "Lijepe riječi, pomoć i dova za roditelje." },
+      "scene": { "sky": "sunset", "elements": ["hills", "city", "lanterns"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Right after commanding us to worship Him alone, Allah commands kindness to parents. We should not even say \"uff\" to them in annoyance; we should speak to them gently, be humble with them, and pray: \"My Lord, have mercy on them as they raised me when I was small.\"",
+            "de": "Direkt nach dem Gebot, Ihn allein anzubeten, gebietet Allah Güte zu den Eltern. Wir sollen nicht einmal genervt „uff“ zu ihnen sagen; wir sollen sanft mit ihnen sprechen, demütig sein und beten: „Mein Herr, erbarme Dich ihrer, wie sie mich aufgezogen haben, als ich klein war.“",
+            "bs": "Odmah nakon naredbe da samo Njemu robujemo, Allah naređuje dobročinstvo prema roditeljima. Ne smijemo im reći ni „uf“ iz nervoze; trebamo im se blago obraćati, biti ponizni prema njima i moliti: „Gospodaru moj, smiluj im se kao što su oni mene odgajali kad sam bio malen.“"
+          }
+        },
+        {
+          "heading": { "en": "Example", "de": "Beispiel", "bs": "Primjer" },
+          "body": {
+            "en": "Your mother is carrying heavy shopping bags. You stop playing and help without being asked.",
+            "de": "Deine Mutter trägt schwere Einkaufstaschen. Du hörst auf zu spielen und hilfst, ohne gefragt zu werden.",
+            "bs": "Tvoja majka nosi teške kese iz prodavnice. Prestaneš se igrati i pomogneš bez da te je zamolila."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "17:23–24" },
+        { "sourceName": "Quran", "sourceReference": "31:14" }
+      ]
+    },
+    {
+      "id": "akhlaq-helping",
+      "worldId": "akhlaq",
+      "topic": "helping",
+      "title": { "en": "Helping others", "de": "Anderen helfen", "bs": "Pomaganje drugima" },
+      "summary": { "en": "Wanting for others what we want for ourselves.", "de": "Für andere wollen, was wir für uns selbst wollen.", "bs": "Željeti drugima ono što želimo sebi." },
+      "scene": { "sky": "day", "elements": ["sun", "city", "basket"] },
+      "sections": [
+        {
+          "body": {
+            "en": "The Prophet ﷺ said that none of us truly believes until he loves for his brother what he loves for himself. Helping neighbours, classmates and people in need is part of faith.",
+            "de": "Der Prophet ﷺ sagte, dass keiner von uns wirklich glaubt, bis er für seinen Bruder liebt, was er für sich selbst liebt. Nachbarn, Mitschülern und Bedürftigen zu helfen ist Teil des Glaubens.",
+            "bs": "Poslanik ﷺ je rekao da niko od nas istinski ne vjeruje dok ne bude volio svom bratu ono što voli sebi. Pomaganje komšijama, drugovima iz razreda i potrebnima dio je vjere."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "13" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "45" }
+      ]
+    },
+    {
+      "id": "akhlaq-forgiveness",
+      "worldId": "akhlaq",
+      "topic": "forgiveness",
+      "title": { "en": "Forgiving others", "de": "Anderen vergeben", "bs": "Opraštanje drugima" },
+      "summary": { "en": "Controlling anger and pardoning people.", "de": "Wut beherrschen und Menschen verzeihen.", "bs": "Obuzdavanje ljutnje i opraštanje ljudima." },
+      "scene": { "sky": "dusk", "elements": ["stars", "hills", "garden"] },
+      "sections": [
+        {
+          "body": {
+            "en": "The Quran praises those who control their anger and pardon people. It also asks: would you not love for Allah to forgive you? So let us forgive others too.",
+            "de": "Der Koran lobt diejenigen, die ihren Zorn beherrschen und den Menschen verzeihen. Er fragt auch: Möchtet ihr nicht, dass Allah euch vergibt? Also lasst uns auch anderen vergeben.",
+            "bs": "Kur'an hvali one koji obuzdavaju srdžbu i ljudima opraštaju. Također pita: zar ne želite da vam Allah oprosti? Zato i mi oprostimo drugima."
+          },
+          "arabic": "عَفْو",
+          "transliteration": "ʿafw"
+        }
+      ],
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "3:134" },
+        { "sourceName": "Quran", "sourceReference": "24:22" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "akhlaq-toy",
+      "type": "scenario",
+      "worldId": "akhlaq",
+      "topic": "sabr",
+      "prompt": {
+        "en": "Your friend takes your toy without asking. What should you do?",
+        "de": "Dein Freund nimmt dein Spielzeug, ohne zu fragen. Was solltest du tun?",
+        "bs": "Prijatelj ti uzme igračku bez pitanja. Šta trebaš uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Hit him", "de": "Ihn schlagen", "bs": "Udariti ga" }, "feedback": { "en": "Hitting hurts and makes things worse.", "de": "Schlagen tut weh und macht alles schlimmer.", "bs": "Udaranje boli i pogoršava stvari." } },
+        { "id": "b", "text": { "en": "Shout at him", "de": "Ihn anschreien", "bs": "Vikati na njega" }, "feedback": { "en": "Shouting usually leads to a bigger fight.", "de": "Schreien führt meist zu einem größeren Streit.", "bs": "Vikanje obično vodi većoj svađi." } },
+        { "id": "c", "text": { "en": "Talk calmly and solve the problem", "de": "Ruhig reden und das Problem lösen", "bs": "Mirno razgovarati i riješiti problem" }, "feedback": { "en": "Yes – that is sabr and good character.", "de": "Ja – das ist Sabr und guter Charakter.", "bs": "Da – to je sabur i lijep ahlak." } }
+      ],
+      "correctOptionId": "c",
+      "explanation": {
+        "en": "Islam teaches us to control our anger. The Quran praises those who restrain their anger and pardon people.",
+        "de": "Der Islam lehrt uns, unseren Zorn zu beherrschen. Der Koran lobt die, die ihren Zorn zurückhalten und den Menschen verzeihen.",
+        "bs": "Islam nas uči da obuzdamo ljutnju. Kur'an hvali one koji suzbijaju srdžbu i ljudima opraštaju."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "3:134" }]
+    },
+    {
+      "id": "akhlaq-sabr-mc",
+      "type": "multipleChoice",
+      "worldId": "akhlaq",
+      "topic": "sabr",
+      "prompt": { "en": "According to the Quran, Allah is with…", "de": "Laut dem Koran ist Allah mit…", "bs": "Prema Kur'anu, Allah je sa…" },
+      "options": [
+        { "id": "a", "text": { "en": "the patient", "de": "den Geduldigen", "bs": "strpljivima" } },
+        { "id": "b", "text": { "en": "the loudest", "de": "den Lautesten", "bs": "najglasnijima" } },
+        { "id": "c", "text": { "en": "the richest", "de": "den Reichsten", "bs": "najbogatijima" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "\"Indeed, Allah is with the patient\" – Surah Al-Baqarah, verse 153.",
+        "de": "„Allah ist mit den Geduldigen“ – Sure Al-Baqara, Vers 153.",
+        "bs": "„Allah je, zaista, sa strpljivima“ – sura El-Bekare, ajet 153."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:153" }]
+    },
+    {
+      "id": "akhlaq-shukr-scenario",
+      "type": "scenario",
+      "worldId": "akhlaq",
+      "topic": "shukr",
+      "prompt": {
+        "en": "You get a present, but it's not exactly what you wanted. What do you do?",
+        "de": "Du bekommst ein Geschenk, aber es ist nicht genau das, was du wolltest. Was tust du?",
+        "bs": "Dobiješ poklon, ali nije baš ono što si želio. Šta ćeš uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Complain that it's boring", "de": "Mich beschweren, dass es langweilig ist", "bs": "Žaliti se da je dosadan" }, "feedback": { "en": "That could hurt the giver's feelings.", "de": "Das könnte den Schenkenden verletzen.", "bs": "To bi moglo povrijediti onoga ko je dao poklon." } },
+        { "id": "b", "text": { "en": "Say thank you and appreciate the thought", "de": "Danke sagen und die Geste schätzen", "bs": "Reći hvala i cijeniti pažnju" }, "feedback": { "en": "Wonderful – that is shukr.", "de": "Wunderbar – das ist Schukr.", "bs": "Divno – to je šukr." } },
+        { "id": "c", "text": { "en": "Ignore the present", "de": "Das Geschenk ignorieren", "bs": "Ignorisati poklon" }, "feedback": { "en": "A gift deserves thanks.", "de": "Ein Geschenk verdient Dank.", "bs": "Poklon zaslužuje zahvalnost." } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Gratitude means valuing what we receive. Allah promises to increase those who are grateful.",
+        "de": "Dankbarkeit bedeutet, das Erhaltene wertzuschätzen. Allah verspricht, den Dankbaren mehr zu geben.",
+        "bs": "Zahvalnost znači cijeniti ono što dobijemo. Allah obećava da će zahvalnima dati više."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "14:7" }]
+    },
+    {
+      "id": "akhlaq-shukr-tf",
+      "type": "trueFalse",
+      "worldId": "akhlaq",
+      "topic": "shukr",
+      "prompt": {
+        "en": "Saying \"Alhamdulillah\" is a way of thanking Allah.",
+        "de": "„Alhamdulillah“ zu sagen ist eine Art, Allah zu danken.",
+        "bs": "Izgovaranje „Elhamdulillah“ je način zahvaljivanja Allahu."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – \"Alhamdulillah\" means \"all praise is for Allah\".",
+        "de": "Richtig – „Alhamdulillah“ bedeutet „alles Lob gebührt Allah“.",
+        "bs": "Tačno – „Elhamdulillah“ znači „sva hvala pripada Allahu“."
+      }
+    },
+    {
+      "id": "akhlaq-vase",
+      "type": "scenario",
+      "worldId": "akhlaq",
+      "topic": "sidq",
+      "prompt": {
+        "en": "You accidentally break your mum's favourite cup. Nobody saw it. What do you do?",
+        "de": "Du zerbrichst aus Versehen die Lieblingstasse deiner Mutter. Niemand hat es gesehen. Was tust du?",
+        "bs": "Slučajno razbiješ maminu omiljenu šoljicu. Niko nije vidio. Šta ćeš uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Hide the pieces", "de": "Die Scherben verstecken", "bs": "Sakriti komadiće" }, "feedback": { "en": "Hiding it is not honest – and Allah sees everything.", "de": "Verstecken ist nicht ehrlich – und Allah sieht alles.", "bs": "Skrivanje nije iskreno – a Allah sve vidi." } },
+        { "id": "b", "text": { "en": "Blame my little sister", "de": "Meiner kleinen Schwester die Schuld geben", "bs": "Okriviti mlađu sestru" }, "feedback": { "en": "Blaming someone else adds a second wrong.", "de": "Jemand anderem die Schuld zu geben ist ein zweites Unrecht.", "bs": "Okrivljavanje drugoga je druga nepravda." } },
+        { "id": "c", "text": { "en": "Tell her the truth and say sorry", "de": "Ihr die Wahrheit sagen und mich entschuldigen", "bs": "Reći joj istinu i izviniti se" }, "feedback": { "en": "Brave and honest – that is sidq.", "de": "Mutig und ehrlich – das ist Sidq.", "bs": "Hrabro i iskreno – to je sidk." } }
+      ],
+      "correctOptionId": "c",
+      "explanation": {
+        "en": "The Prophet ﷺ taught that truthfulness leads to goodness. Honesty builds trust in your family.",
+        "de": "Der Prophet ﷺ lehrte, dass Wahrhaftigkeit zum Guten führt. Ehrlichkeit schafft Vertrauen in der Familie.",
+        "bs": "Poslanik ﷺ je poučio da iskrenost vodi dobru. Iskrenost gradi povjerenje u porodici."
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "6094" }]
+    },
+    {
+      "id": "akhlaq-found-money",
+      "type": "scenario",
+      "worldId": "akhlaq",
+      "topic": "amanah",
+      "prompt": {
+        "en": "You find a wallet with money on the school playground. What do you do?",
+        "de": "Du findest auf dem Schulhof ein Portemonnaie mit Geld. Was tust du?",
+        "bs": "Na školskom igralištu pronađeš novčanik s novcem. Šta ćeš uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Keep the money", "de": "Das Geld behalten", "bs": "Zadržati novac" }, "feedback": { "en": "It belongs to someone else – keeping it would be wrong.", "de": "Es gehört jemand anderem – es zu behalten wäre falsch.", "bs": "Pripada nekom drugom – zadržati ga bilo bi pogrešno." } },
+        { "id": "b", "text": { "en": "Give it to a teacher so it reaches its owner", "de": "Es einer Lehrkraft geben, damit es den Besitzer erreicht", "bs": "Dati ga učitelju da stigne do vlasnika" }, "feedback": { "en": "Excellent – you returned the amanah.", "de": "Ausgezeichnet – du hast die Amana zurückgegeben.", "bs": "Odlično – vratio si emanet." } },
+        { "id": "c", "text": { "en": "Leave it lying there", "de": "Es liegen lassen", "bs": "Ostaviti ga da leži" }, "feedback": { "en": "Someone else might take it – it's better to help it get back.", "de": "Jemand anderes könnte es nehmen – besser, du hilfst, dass es zurückkommt.", "bs": "Neko drugi bi ga mogao uzeti – bolje je pomoći da se vrati." } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Allah commands us to return trusts to their owners. Lost things should go back to the people they belong to.",
+        "de": "Allah gebietet uns, anvertraute Dinge ihren Besitzern zurückzugeben. Verlorenes soll zu seinen Eigentümern zurück.",
+        "bs": "Allah nam naređuje da emanete vraćamo vlasnicima. Izgubljene stvari trebaju se vratiti onima kojima pripadaju."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "4:58" }]
+    },
+    {
+      "id": "akhlaq-amanah-mc",
+      "type": "multipleChoice",
+      "worldId": "akhlaq",
+      "topic": "amanah",
+      "prompt": { "en": "Which of these is an amanah?", "de": "Was davon ist eine Amana?", "bs": "Šta je od ovoga emanet?" },
+      "options": [
+        { "id": "a", "text": { "en": "A secret your friend told you", "de": "Ein Geheimnis, das dein Freund dir erzählt hat", "bs": "Tajna koju ti je prijatelj povjerio" } },
+        { "id": "b", "text": { "en": "A book you borrowed", "de": "Ein Buch, das du geliehen hast", "bs": "Knjiga koju si posudio" } },
+        { "id": "c", "text": { "en": "Both of them", "de": "Beides", "bs": "Oboje" } }
+      ],
+      "correctOptionId": "c",
+      "explanation": {
+        "en": "Secrets, borrowed things, promises and tasks are all trusts we must take care of.",
+        "de": "Geheimnisse, Geliehenes, Versprechen und Aufgaben sind alles anvertraute Dinge, auf die wir achten müssen.",
+        "bs": "Tajne, posuđene stvari, obećanja i zadaci su emaneti o kojima moramo voditi brigu."
+      }
+    },
+    {
+      "id": "akhlaq-sidq-tf",
+      "type": "trueFalse",
+      "worldId": "akhlaq",
+      "topic": "sidq",
+      "prompt": {
+        "en": "The people of Makkah called the Prophet ﷺ \"Al-Amin\" because he was trustworthy.",
+        "de": "Die Menschen in Mekka nannten den Propheten ﷺ „Al-Amin“, weil er vertrauenswürdig war.",
+        "bs": "Stanovnici Mekke zvali su Poslanika ﷺ „El-Emin“ jer je bio povjerljiv."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – even before prophethood he was known for honesty and trustworthiness.",
+        "de": "Richtig – schon vor dem Prophetentum war er für Ehrlichkeit und Vertrauenswürdigkeit bekannt.",
+        "bs": "Tačno – još prije poslanstva bio je poznat po iskrenosti i povjerljivosti."
+      },
+      "sources": [{ "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "—" }]
+    },
+    {
+      "id": "akhlaq-animal",
+      "type": "scenario",
+      "worldId": "akhlaq",
+      "topic": "rahmah",
+      "prompt": {
+        "en": "Some kids are throwing stones at a stray cat. What do you do?",
+        "de": "Ein paar Kinder werfen Steine nach einer streunenden Katze. Was tust du?",
+        "bs": "Neka djeca bacaju kamenje na mačku lutalicu. Šta ćeš uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Join in", "de": "Mitmachen", "bs": "Pridružiti se" }, "feedback": { "en": "Hurting animals is cruel – Islam forbids it.", "de": "Tieren wehzutun ist grausam – der Islam verbietet es.", "bs": "Povređivanje životinja je okrutno – islam to zabranjuje." } },
+        { "id": "b", "text": { "en": "Ask them to stop, and get an adult if needed", "de": "Sie bitten aufzuhören und notfalls einen Erwachsenen holen", "bs": "Zamoliti ih da prestanu i pozvati odraslu osobu ako treba" }, "feedback": { "en": "That is rahmah in action!", "de": "Das ist gelebte Rahma!", "bs": "To je rahma na djelu!" } },
+        { "id": "c", "text": { "en": "Laugh and walk away", "de": "Lachen und weggehen", "bs": "Nasmijati se i otići" }, "feedback": { "en": "The cat needs help – mercy means caring.", "de": "Die Katze braucht Hilfe – Barmherzigkeit heißt, sich zu kümmern.", "bs": "Mački treba pomoć – milost znači brinuti se." } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Mercy includes animals. The Prophet ﷺ taught that the merciful will be shown mercy by the Most Merciful.",
+        "de": "Barmherzigkeit gilt auch Tieren. Der Prophet ﷺ lehrte, dass sich der Allerbarmer der Barmherzigen erbarmt.",
+        "bs": "Milost obuhvata i životinje. Poslanik ﷺ je poučio da se Milostivi smiluje milostivima."
+      },
+      "sources": [{ "sourceName": "Sunan Abi Dawud", "sourceReference": "4941" }]
+    },
+    {
+      "id": "akhlaq-rahmah-mc",
+      "type": "multipleChoice",
+      "worldId": "akhlaq",
+      "topic": "rahmah",
+      "prompt": {
+        "en": "The Quran says Allah sent the Prophet ﷺ as…",
+        "de": "Der Koran sagt, Allah sandte den Propheten ﷺ als…",
+        "bs": "Kur'an kaže da je Allah poslao Poslanika ﷺ kao…"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "a mercy to the worlds", "de": "Barmherzigkeit für die Welten", "bs": "milost svjetovima" } },
+        { "id": "b", "text": { "en": "a king", "de": "einen König", "bs": "kralja" } },
+        { "id": "c", "text": { "en": "a soldier", "de": "einen Soldaten", "bs": "vojnika" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "\"We have not sent you except as a mercy to the worlds\" – Surah Al-Anbiya, 107.",
+        "de": "„Wir haben dich nur als Barmherzigkeit für die Welten gesandt“ – Sure Al-Anbiya, 107.",
+        "bs": "„A tebe smo samo kao milost svjetovima poslali“ – sura El-Enbija, 107."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:107" }]
+    },
+    {
+      "id": "akhlaq-mocking",
+      "type": "scenario",
+      "worldId": "akhlaq",
+      "topic": "kindness",
+      "prompt": {
+        "en": "Your classmates are laughing at a new student's accent. What do you do?",
+        "de": "Deine Mitschüler lachen über den Akzent eines neuen Schülers. Was tust du?",
+        "bs": "Tvoji drugovi iz razreda smiju se naglasku novog učenika. Šta ćeš uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Laugh along so I fit in", "de": "Mitlachen, um dazuzugehören", "bs": "Smijati se s njima da bih se uklopio" }, "feedback": { "en": "Mocking hurts – the Quran forbids it.", "de": "Spott verletzt – der Koran verbietet ihn.", "bs": "Ruganje boli – Kur'an ga zabranjuje." } },
+        { "id": "b", "text": { "en": "Say hello and invite them to play", "de": "Hallo sagen und zum Spielen einladen", "bs": "Pozdraviti ga i pozvati da se igra" }, "feedback": { "en": "Beautiful – you made someone feel welcome.", "de": "Wunderschön – du hast jemandem das Gefühl gegeben, willkommen zu sein.", "bs": "Prelijepo – pomogao si da se neko osjeća dobrodošlo." } },
+        { "id": "c", "text": { "en": "Give them a funny nickname", "de": "Ihm einen lustigen Spitznamen geben", "bs": "Dati mu smiješan nadimak" }, "feedback": { "en": "Hurtful nicknames are forbidden in the Quran.", "de": "Verletzende Spitznamen sind im Koran verboten.", "bs": "Pogrdni nadimci zabranjeni su u Kur'anu." } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Allah tells us not to mock one another or call each other by offensive nicknames. Kindness makes everything beautiful.",
+        "de": "Allah sagt uns, dass wir einander nicht verspotten und uns nicht mit beleidigenden Spitznamen rufen sollen. Freundlichkeit macht alles schön.",
+        "bs": "Allah nam kaže da se ne rugamo jedni drugima i da se ne nazivamo pogrdnim nadimcima. Ljubaznost sve uljepšava."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "49:11" }]
+    },
+    {
+      "id": "akhlaq-smile",
+      "type": "trueFalse",
+      "worldId": "akhlaq",
+      "topic": "kindness",
+      "prompt": {
+        "en": "The Prophet ﷺ said that smiling at your brother is a form of charity.",
+        "de": "Der Prophet ﷺ sagte, dass ein Lächeln gegenüber deinem Bruder eine Form der Spende ist.",
+        "bs": "Poslanik ﷺ je rekao da je osmijeh tvom bratu vrsta sadake."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – even a smile is sadaqah.",
+        "de": "Richtig – selbst ein Lächeln ist Sadaqa.",
+        "bs": "Tačno – i osmijeh je sadaka."
+      },
+      "sources": [{ "sourceName": "Jami' at-Tirmidhi", "sourceReference": "1956" }]
+    },
+    {
+      "id": "akhlaq-parents-scenario",
+      "type": "scenario",
+      "worldId": "akhlaq",
+      "topic": "parents",
+      "prompt": {
+        "en": "Your dad asks you to help clear the table, but you are in the middle of a game. What do you do?",
+        "de": "Dein Vater bittet dich, beim Abräumen zu helfen, aber du bist mitten in einem Spiel. Was tust du?",
+        "bs": "Tvoj otac te zamoli da pomogneš pospremiti sto, a ti si usred igre. Šta ćeš uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Say \"uff!\" and keep playing", "de": "„Uff!“ sagen und weiterspielen", "bs": "Reći „uf!“ i nastaviti igrati" }, "feedback": { "en": "The Quran tells us not even to say \"uff\" to parents.", "de": "Der Koran sagt, wir sollen nicht einmal „uff“ zu den Eltern sagen.", "bs": "Kur'an kaže da roditeljima ne kažemo ni „uf“." } },
+        { "id": "b", "text": { "en": "Pause the game and help with a smile", "de": "Das Spiel pausieren und lächelnd helfen", "bs": "Pauzirati igru i pomoći s osmijehom" }, "feedback": { "en": "That is birr – goodness to parents!", "de": "Das ist Birr – Güte zu den Eltern!", "bs": "To je birr – dobročinstvo prema roditeljima!" } },
+        { "id": "c", "text": { "en": "Pretend I didn't hear", "de": "So tun, als hätte ich nichts gehört", "bs": "Praviti se da nisam čuo" }, "feedback": { "en": "Ignoring parents is not kind.", "de": "Eltern zu ignorieren ist nicht freundlich.", "bs": "Ignorisanje roditelja nije lijepo." } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Allah commands kindness to parents and tells us to speak to them with gentle, respectful words.",
+        "de": "Allah gebietet Güte zu den Eltern und sagt uns, mit ihnen sanft und respektvoll zu sprechen.",
+        "bs": "Allah naređuje dobročinstvo prema roditeljima i da im se obraćamo blagim riječima punim poštovanja."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "17:23–24" }]
+    },
+    {
+      "id": "akhlaq-parents-dua",
+      "type": "multipleChoice",
+      "worldId": "akhlaq",
+      "topic": "parents",
+      "prompt": {
+        "en": "The Quran teaches a dua for parents. What do we ask for?",
+        "de": "Der Koran lehrt ein Du'a für die Eltern. Worum bitten wir?",
+        "bs": "Kur'an uči dovu za roditelje. Šta tražimo?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "That Allah has mercy on them as they raised us when we were small", "de": "Dass Allah sich ihrer erbarmt, wie sie uns aufzogen, als wir klein waren", "bs": "Da im se Allah smiluje kao što su nas odgajali kad smo bili mali" } },
+        { "id": "b", "text": { "en": "That they buy us more games", "de": "Dass sie uns mehr Spiele kaufen", "bs": "Da nam kupe više igrica" } },
+        { "id": "c", "text": { "en": "That they let us stay up late", "de": "Dass wir länger aufbleiben dürfen", "bs": "Da nam dozvole da kasno ostanemo budni" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "We pray: \"My Lord, have mercy on them as they brought me up when I was small\" (17:24).",
+        "de": "Wir beten: „Mein Herr, erbarme Dich ihrer, wie sie mich aufgezogen haben, als ich klein war“ (17:24).",
+        "bs": "Molimo: „Gospodaru moj, smiluj im se kao što su oni mene, kad sam bio malen, odgajali“ (17:24)."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "17:24" }]
+    },
+    {
+      "id": "akhlaq-helping-scenario",
+      "type": "scenario",
+      "worldId": "akhlaq",
+      "topic": "helping",
+      "prompt": {
+        "en": "An elderly neighbour is struggling to carry water bottles up the stairs. What do you do?",
+        "de": "Eine ältere Nachbarin hat Mühe, Wasserflaschen die Treppe hinaufzutragen. Was tust du?",
+        "bs": "Starija komšinica se muči da nosi boce vode uz stepenice. Šta ćeš uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Offer to carry them for her", "de": "Anbieten, sie für sie zu tragen", "bs": "Ponuditi da ih nosim umjesto nje" }, "feedback": { "en": "Wonderful – helping neighbours is part of faith.", "de": "Wunderbar – Nachbarn zu helfen ist Teil des Glaubens.", "bs": "Divno – pomaganje komšijama dio je vjere." } },
+        { "id": "b", "text": { "en": "Walk past quickly", "de": "Schnell vorbeigehen", "bs": "Brzo proći pored nje" }, "feedback": { "en": "She needs help – would you want help if it were you?", "de": "Sie braucht Hilfe – würdest du an ihrer Stelle Hilfe wollen?", "bs": "Treba joj pomoć – bi li ti želio pomoć na njenom mjestu?" } },
+        { "id": "c", "text": { "en": "Film her for fun", "de": "Sie zum Spaß filmen", "bs": "Snimati je iz zabave" }, "feedback": { "en": "That would be disrespectful and hurtful.", "de": "Das wäre respektlos und verletzend.", "bs": "To bi bilo nepristojno i povređujuće." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The Prophet ﷺ taught us to love for others what we love for ourselves. Helping is love in action.",
+        "de": "Der Prophet ﷺ lehrte uns, für andere zu lieben, was wir für uns selbst lieben. Helfen ist gelebte Liebe.",
+        "bs": "Poslanik ﷺ nas je naučio da drugima volimo ono što volimo sebi. Pomaganje je ljubav na djelu."
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "13" }]
+    },
+    {
+      "id": "akhlaq-forgive-scenario",
+      "type": "scenario",
+      "worldId": "akhlaq",
+      "topic": "forgiveness",
+      "prompt": {
+        "en": "A friend said something mean yesterday. Today they come and say sorry. What do you do?",
+        "de": "Ein Freund hat gestern etwas Gemeines gesagt. Heute kommt er und entschuldigt sich. Was tust du?",
+        "bs": "Prijatelj je jučer rekao nešto ružno. Danas dolazi i izvinjava se. Šta ćeš uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Forgive them and move on", "de": "Ihm vergeben und weitermachen", "bs": "Oprostiti mu i ići dalje" }, "feedback": { "en": "That is beautiful forgiveness.", "de": "Das ist schöne Vergebung.", "bs": "To je lijep oprost." } },
+        { "id": "b", "text": { "en": "Say something mean back", "de": "Etwas Gemeines zurücksagen", "bs": "Uzvratiti nečim ružnim" }, "feedback": { "en": "Revenge keeps the hurt going.", "de": "Rache hält den Schmerz am Leben.", "bs": "Osveta produžava bol." } },
+        { "id": "c", "text": { "en": "Never speak to them again", "de": "Nie wieder mit ihm sprechen", "bs": "Nikad više ne razgovarati s njim" }, "feedback": { "en": "Islam encourages us to reconcile, not cut off.", "de": "Der Islam ermutigt zur Versöhnung, nicht zum Abbruch.", "bs": "Islam podstiče pomirenje, a ne prekidanje odnosa." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The Quran asks: would you not love for Allah to forgive you? Forgiving others is noble.",
+        "de": "Der Koran fragt: Möchtet ihr nicht, dass Allah euch vergibt? Anderen zu vergeben ist edel.",
+        "bs": "Kur'an pita: zar ne želite da vam Allah oprosti? Opraštati drugima je plemenito."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "24:22" }]
+    },
+    {
+      "id": "akhlaq-believe-tf",
+      "type": "trueFalse",
+      "worldId": "akhlaq",
+      "topic": "helping",
+      "prompt": {
+        "en": "The Prophet ﷺ said none of us truly believes until he loves for his brother what he loves for himself.",
+        "de": "Der Prophet ﷺ sagte, keiner von uns glaubt wirklich, bis er für seinen Bruder liebt, was er für sich selbst liebt.",
+        "bs": "Poslanik ﷺ je rekao da niko od nas istinski ne vjeruje dok ne bude volio svom bratu ono što voli sebi."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – this famous hadith is in Sahih al-Bukhari and Sahih Muslim.",
+        "de": "Richtig – dieser bekannte Hadith steht in Sahih al-Bukhari und Sahih Muslim.",
+        "bs": "Tačno – ovaj poznati hadis nalazi se u Sahihu el-Buhari i Sahihu Muslim."
+      },
+      "sources": [
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "13" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "45" }
+      ]
+    },
+    {
+      "id": "akhlaq-values-match",
+      "type": "matching",
+      "worldId": "akhlaq",
+      "topic": "values",
+      "prompt": { "en": "Match each value with its meaning.", "de": "Ordne jedem Wert seine Bedeutung zu.", "bs": "Spoji svaku vrijednost s njenim značenjem." },
+      "pairs": [
+        { "id": "sabr", "left": { "en": "Sabr", "de": "Sabr", "bs": "Sabur" }, "right": { "en": "Patience", "de": "Geduld", "bs": "Strpljenje" } },
+        { "id": "shukr", "left": { "en": "Shukr", "de": "Schukr", "bs": "Šukr" }, "right": { "en": "Gratitude", "de": "Dankbarkeit", "bs": "Zahvalnost" } },
+        { "id": "sidq", "left": { "en": "Sidq", "de": "Sidq", "bs": "Sidk" }, "right": { "en": "Truthfulness", "de": "Wahrhaftigkeit", "bs": "Iskrenost" } },
+        { "id": "amanah", "left": { "en": "Amanah", "de": "Amana", "bs": "Emanet" }, "right": { "en": "Trustworthiness", "de": "Vertrauenswürdigkeit", "bs": "Povjerljivost" } },
+        { "id": "rahmah", "left": { "en": "Rahmah", "de": "Rahma", "bs": "Rahma" }, "right": { "en": "Mercy", "de": "Barmherzigkeit", "bs": "Milost" } }
+      ],
+      "explanation": {
+        "en": "Sabr = patience, Shukr = gratitude, Sidq = truthfulness, Amanah = trustworthiness, Rahmah = mercy.",
+        "de": "Sabr = Geduld, Schukr = Dankbarkeit, Sidq = Wahrhaftigkeit, Amana = Vertrauenswürdigkeit, Rahma = Barmherzigkeit.",
+        "bs": "Sabur = strpljenje, šukr = zahvalnost, sidk = iskrenost, emanet = povjerljivost, rahma = milost."
+      }
+    },
+    {
+      "id": "akhlaq-memory",
+      "type": "memory",
+      "worldId": "akhlaq",
+      "topic": "values",
+      "prompt": { "en": "Match each good deed with its value.", "de": "Ordne jede gute Tat ihrem Wert zu.", "bs": "Spoji svako dobro djelo s vrijednošću." },
+      "pairs": [
+        { "id": "truth", "left": { "en": "Telling the truth", "de": "Die Wahrheit sagen", "bs": "Govoriti istinu" }, "right": { "en": "Sidq", "de": "Sidq", "bs": "Sidk" } },
+        { "id": "thanks", "left": { "en": "Saying Alhamdulillah", "de": "Alhamdulillah sagen", "bs": "Reći Elhamdulillah" }, "right": { "en": "Shukr", "de": "Schukr", "bs": "Šukr" } },
+        { "id": "calm", "left": { "en": "Staying calm", "de": "Ruhig bleiben", "bs": "Ostati miran" }, "right": { "en": "Sabr", "de": "Sabr", "bs": "Sabur" } },
+        { "id": "return", "left": { "en": "Returning a borrowed book", "de": "Ein geliehenes Buch zurückgeben", "bs": "Vratiti posuđenu knjigu" }, "right": { "en": "Amanah", "de": "Amana", "bs": "Emanet" } }
+      ],
+      "explanation": {
+        "en": "Good deeds come from good values – and good values grow through good deeds.",
+        "de": "Gute Taten kommen aus guten Werten – und gute Werte wachsen durch gute Taten.",
+        "bs": "Dobra djela proizlaze iz dobrih vrijednosti – a dobre vrijednosti rastu kroz dobra djela."
+      }
+    }
+  ],
+  "quests": [
+    {
+      "id": "akhlaq-q1",
+      "worldId": "akhlaq",
+      "order": 1,
+      "kind": "game",
+      "title": { "en": "Patience & Gratitude", "de": "Geduld & Dankbarkeit", "bs": "Strpljenje i zahvalnost" },
+      "description": { "en": "Sabr and Shukr in daily life.", "de": "Sabr und Schukr im Alltag.", "bs": "Sabur i šukr u svakodnevici." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "akhlaq-sabr" },
+        { "kind": "question", "questionId": "akhlaq-toy", "label": "interactive" },
+        { "kind": "question", "questionId": "akhlaq-sabr-mc", "label": "quiz" },
+        { "kind": "lesson", "lessonId": "akhlaq-shukr" },
+        { "kind": "question", "questionId": "akhlaq-shukr-scenario", "label": "interactive" },
+        { "kind": "question", "questionId": "akhlaq-shukr-tf", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "akhlaq-q2",
+      "worldId": "akhlaq",
+      "order": 2,
+      "kind": "game",
+      "title": { "en": "Honesty & Trust", "de": "Ehrlichkeit & Vertrauen", "bs": "Iskrenost i povjerenje" },
+      "description": { "en": "Sidq and Amanah.", "de": "Sidq und Amana.", "bs": "Sidk i emanet." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "akhlaq-sidq" },
+        { "kind": "question", "questionId": "akhlaq-vase", "label": "interactive" },
+        { "kind": "question", "questionId": "akhlaq-sidq-tf", "label": "quiz" },
+        { "kind": "lesson", "lessonId": "akhlaq-amanah" },
+        { "kind": "question", "questionId": "akhlaq-found-money", "label": "interactive" },
+        { "kind": "question", "questionId": "akhlaq-amanah-mc", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "akhlaq-q3",
+      "worldId": "akhlaq",
+      "order": 3,
+      "kind": "game",
+      "title": { "en": "Mercy & Kindness", "de": "Barmherzigkeit & Freundlichkeit", "bs": "Milost i ljubaznost" },
+      "description": { "en": "Rahmah for people and animals.", "de": "Rahma für Menschen und Tiere.", "bs": "Rahma prema ljudima i životinjama." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "akhlaq-rahmah" },
+        { "kind": "question", "questionId": "akhlaq-animal", "label": "interactive" },
+        { "kind": "question", "questionId": "akhlaq-rahmah-mc", "label": "quiz" },
+        { "kind": "lesson", "lessonId": "akhlaq-kindness" },
+        { "kind": "question", "questionId": "akhlaq-mocking", "label": "interactive" },
+        { "kind": "question", "questionId": "akhlaq-smile", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "akhlaq-q4",
+      "worldId": "akhlaq",
+      "order": 4,
+      "kind": "game",
+      "title": { "en": "Honouring Parents", "de": "Die Eltern ehren", "bs": "Poštovanje roditelja" },
+      "description": { "en": "Goodness to our parents.", "de": "Güte zu unseren Eltern.", "bs": "Dobročinstvo prema roditeljima." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "akhlaq-parents" },
+        { "kind": "question", "questionId": "akhlaq-parents-scenario", "label": "interactive" },
+        { "kind": "question", "questionId": "akhlaq-parents-dua", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "akhlaq-q5",
+      "worldId": "akhlaq",
+      "order": 5,
+      "kind": "game",
+      "title": { "en": "Helping & Forgiving", "de": "Helfen & Vergeben", "bs": "Pomaganje i opraštanje" },
+      "description": { "en": "Being there for others.", "de": "Für andere da sein.", "bs": "Biti tu za druge." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "akhlaq-helping" },
+        { "kind": "question", "questionId": "akhlaq-helping-scenario", "label": "interactive" },
+        { "kind": "question", "questionId": "akhlaq-believe-tf", "label": "quiz" },
+        { "kind": "lesson", "lessonId": "akhlaq-forgiveness" },
+        { "kind": "question", "questionId": "akhlaq-forgive-scenario", "label": "interactive" },
+        { "kind": "question", "questionId": "akhlaq-values-match", "label": "challenge" },
+        { "kind": "question", "questionId": "akhlaq-memory", "label": "challenge" }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "akhlaq-fact-smile",
+      "worldId": "akhlaq",
+      "text": {
+        "en": "The Prophet ﷺ said that even smiling at your brother is a charity.",
+        "de": "Der Prophet ﷺ sagte, dass schon ein Lächeln gegenüber deinem Bruder eine Spende ist.",
+        "bs": "Poslanik ﷺ je rekao da je i osmijeh tvom bratu sadaka."
+      },
+      "sources": [{ "sourceName": "Jami' at-Tirmidhi", "sourceReference": "1956" }]
+    },
+    {
+      "id": "akhlaq-fact-character",
+      "worldId": "akhlaq",
+      "text": {
+        "en": "The Quran describes the Prophet ﷺ as having great character.",
+        "de": "Der Koran beschreibt den Propheten ﷺ als jemanden mit großartigem Charakter.",
+        "bs": "Kur'an opisuje Poslanika ﷺ kao osobu uzvišenog ahlaka."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "68:4" }]
+    },
+    {
+      "id": "akhlaq-fact-gentle",
+      "worldId": "akhlaq",
+      "text": {
+        "en": "The Prophet ﷺ taught that gentleness makes everything beautiful, and its absence makes things ugly.",
+        "de": "Der Prophet ﷺ lehrte, dass Sanftheit alles verschönert und ihr Fehlen die Dinge hässlich macht.",
+        "bs": "Poslanik ﷺ je poučio da blagost sve uljepšava, a njeno odsustvo sve nagrđuje."
+      },
+      "sources": [{ "sourceName": "Sahih Muslim", "sourceReference": "2594" }]
+    }
+  ]
+}

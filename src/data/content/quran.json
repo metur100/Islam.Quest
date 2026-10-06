@@ -1,0 +1,914 @@
+{
+  "world": {
+    "id": "quran",
+    "order": 3,
+    "title": { "en": "World of the Quran", "de": "Welt des Korans", "bs": "Svijet Kur'ana" },
+    "subtitle": { "en": "The words of Allah", "de": "Die Worte Allahs", "bs": "Allahove riječi" },
+    "description": {
+      "en": "Learn what the Quran is, how it was revealed, how it is organised – and memorise short surahs.",
+      "de": "Lerne, was der Koran ist, wie er offenbart wurde, wie er aufgebaut ist – und lerne kurze Suren auswendig.",
+      "bs": "Nauči šta je Kur'an, kako je objavljen, kako je uređen – i nauči napamet kratke sure."
+    },
+    "scene": { "sky": "night", "elements": ["stars", "crescent", "mountains", "book", "lanterns"] },
+    "questIds": ["quran-q1", "quran-q2", "quran-q3", "quran-q4", "quran-q5", "quran-q6", "quran-q7"],
+    "unlockRequirement": { "worldId": "prophets", "questsCompleted": 3 }
+  },
+  "lessons": [
+    {
+      "id": "quran-what",
+      "worldId": "quran",
+      "topic": "quran-basics",
+      "title": { "en": "What is the Quran?", "de": "Was ist der Koran?", "bs": "Šta je Kur'an?" },
+      "summary": {
+        "en": "The Quran is the word of Allah, revealed to Prophet Muhammad ﷺ.",
+        "de": "Der Koran ist das Wort Allahs, offenbart dem Propheten Muhammad ﷺ.",
+        "bs": "Kur'an je Allahov govor, objavljen poslaniku Muhammedu ﷺ."
+      },
+      "scene": { "sky": "night", "elements": ["stars", "crescent", "book"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Muslims believe the Quran is the word of Allah. It was brought by the angel Jibril to Prophet Muhammad ﷺ in the Arabic language. The Quran calls itself a guidance for those who are mindful of Allah.",
+            "de": "Muslime glauben, dass der Koran das Wort Allahs ist. Der Engel Dschibril brachte ihn dem Propheten Muhammad ﷺ in arabischer Sprache. Der Koran nennt sich selbst eine Rechtleitung für die Gottesfürchtigen.",
+            "bs": "Muslimani vjeruju da je Kur'an Allahov govor. Donio ga je melek Džibril poslaniku Muhammedu ﷺ na arapskom jeziku. Kur'an sebe naziva uputom onima koji se Allaha boje."
+          },
+          "arabic": "الْقُرْآن",
+          "transliteration": "al-qurʾān"
+        },
+        {
+          "heading": { "en": "The word \"Quran\"", "de": "Das Wort „Koran“", "bs": "Riječ „Kur'an“" },
+          "body": {
+            "en": "\"Quran\" means \"recitation\" – something that is read aloud. Muslims recite it in prayer, learn it by heart and try to live by it.",
+            "de": "„Quran“ bedeutet „Rezitation“ – etwas, das laut gelesen wird. Muslime rezitieren ihn im Gebet, lernen ihn auswendig und versuchen, nach ihm zu leben.",
+            "bs": "„Kur'an“ znači „učenje, kazivanje“ – nešto što se čita naglas. Muslimani ga uče u namazu, pamte napamet i trude se živjeti po njemu."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "2:2" },
+        { "sourceName": "Quran", "sourceReference": "12:2" },
+        { "sourceName": "Quran", "sourceReference": "26:192–195" }
+      ]
+    },
+    {
+      "id": "quran-revelation",
+      "worldId": "quran",
+      "topic": "quran-basics",
+      "title": { "en": "How the Quran was revealed", "de": "Wie der Koran offenbart wurde", "bs": "Kako je Kur'an objavljen" },
+      "summary": {
+        "en": "Step by step over about 23 years, starting in Ramadan.",
+        "de": "Schritt für Schritt über etwa 23 Jahre, beginnend im Ramadan.",
+        "bs": "Postepeno, tokom oko 23 godine, počevši u ramazanu."
+      },
+      "scene": { "sky": "night", "elements": ["stars", "mountains", "cave"] },
+      "sections": [
+        {
+          "body": {
+            "en": "The first verses came in the cave of Hira, in the month of Ramadan, on Laylat al-Qadr. After that, the Quran was revealed bit by bit over about 23 years – often in answer to what was happening at the time.",
+            "de": "Die ersten Verse kamen in der Höhle Hira, im Monat Ramadan, in der Laylat al-Qadr. Danach wurde der Koran Stück für Stück über etwa 23 Jahre offenbart – oft als Antwort auf das, was gerade geschah.",
+            "bs": "Prvi ajeti objavljeni su u pećini Hira, u mjesecu ramazanu, u Lejletul-kadru. Nakon toga Kur'an je objavljivan dio po dio tokom oko 23 godine – često kao odgovor na ono što se tada dešavalo."
+          }
+        },
+        {
+          "heading": { "en": "Protected", "de": "Bewahrt", "bs": "Sačuvan" },
+          "body": {
+            "en": "The companions memorised the verses and wrote them down. Later, under the caliphs Abu Bakr and Uthman, they were gathered into one book called the Mushaf. Allah says in the Quran that He protects it.",
+            "de": "Die Gefährten lernten die Verse auswendig und schrieben sie auf. Später, unter den Kalifen Abu Bakr und Uthman, wurden sie in einem Buch gesammelt, dem Mushaf. Allah sagt im Koran, dass Er ihn bewahrt.",
+            "bs": "Ashabi su pamtili ajete i zapisivali ih. Kasnije, za vrijeme halifa Ebu Bekra i Osmana, sakupljeni su u jednu knjigu – mushaf. Allah u Kur'anu kaže da ga On čuva."
+          }
+        }
+      ],
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "2:185; 97:1; 15:9" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "3; 4986; 4987" }
+      ]
+    },
+    {
+      "id": "quran-structure",
+      "worldId": "quran",
+      "topic": "quran-structure",
+      "title": { "en": "Surahs and ayahs", "de": "Suren und Verse", "bs": "Sure i ajeti" },
+      "summary": {
+        "en": "The Quran has 114 surahs, and each surah is made of ayahs.",
+        "de": "Der Koran hat 114 Suren, und jede Sure besteht aus Versen (Ayat).",
+        "bs": "Kur'an ima 114 sura, a svaka sura se sastoji od ajeta."
+      },
+      "scene": { "sky": "dusk", "elements": ["book", "lanterns", "pattern"] },
+      "sections": [
+        {
+          "heading": { "en": "Surah", "de": "Sure", "bs": "Sura" },
+          "body": {
+            "en": "A surah is a chapter of the Quran. There are 114 surahs. The first is Al-Fatiha, the longest is Al-Baqarah and one of the shortest is Al-Kawthar with only 3 ayahs.",
+            "de": "Eine Sure ist ein Kapitel des Korans. Es gibt 114 Suren. Die erste ist Al-Fatiha, die längste Al-Baqara, und eine der kürzesten ist Al-Kauthar mit nur 3 Versen.",
+            "bs": "Sura je poglavlje Kur'ana. Ima 114 sura. Prva je El-Fatiha, najduža El-Bekare, a jedna od najkraćih je El-Kevser sa samo 3 ajeta."
+          },
+          "arabic": "سُورَة",
+          "transliteration": "sūrah"
+        },
+        {
+          "heading": { "en": "Ayah", "de": "Aya (Vers)", "bs": "Ajet" },
+          "body": {
+            "en": "An ayah is a verse. The word ayah also means \"sign\" – every verse is a sign from Allah. The Quran is also divided into 30 parts called juz', which helps people read it in a month.",
+            "de": "Eine Aya ist ein Vers. Das Wort bedeutet auch „Zeichen“ – jeder Vers ist ein Zeichen Allahs. Der Koran ist außerdem in 30 Teile (Dschuz') geteilt, damit man ihn in einem Monat lesen kann.",
+            "bs": "Ajet je stih. Riječ ajet znači i „znak“ – svaki ajet je znak od Allaha. Kur'an je podijeljen i na 30 dijelova (džuzova), što pomaže da se prouči za mjesec dana."
+          },
+          "arabic": "آيَة",
+          "transliteration": "āyah"
+        }
+      ],
+      "differenceNote": {
+        "en": "The total number of ayahs is often given as 6,236. Scholars of the different recitation traditions count some verse endings differently, so other totals exist – the text itself is the same.",
+        "de": "Die Gesamtzahl der Verse wird oft mit 6.236 angegeben. Gelehrte der verschiedenen Rezitationstraditionen zählen manche Versenden unterschiedlich, daher gibt es auch andere Zahlen – der Text selbst ist derselbe.",
+        "bs": "Ukupan broj ajeta često se navodi kao 6.236. Učenjaci različitih tradicija učenja različito broje neke krajeve ajeta, pa postoje i drugi zbirovi – sam tekst je isti."
+      }
+    },
+    {
+      "id": "quran-makki-madani",
+      "worldId": "quran",
+      "topic": "quran-structure",
+      "title": { "en": "Makki and Madani", "de": "Mekkanisch und medinensisch", "bs": "Mekanske i medinske sure" },
+      "summary": {
+        "en": "Surahs revealed before the Hijra are Makki, those after it are Madani.",
+        "de": "Suren, die vor der Hidschra offenbart wurden, sind mekkanisch, die danach medinensisch.",
+        "bs": "Sure objavljene prije hidžre su mekanske, a one poslije nje medinske."
+      },
+      "scene": { "sky": "sunset", "elements": ["mountains", "kaaba", "palms", "mosque"] },
+      "sections": [
+        {
+          "heading": { "en": "Makki surahs", "de": "Mekkanische Suren", "bs": "Mekanske sure" },
+          "body": {
+            "en": "Makki surahs were revealed before the Prophet ﷺ migrated to Madinah. Many are short and speak about belief in Allah, the Day of Judgement and stories of earlier prophets.",
+            "de": "Mekkanische Suren wurden offenbart, bevor der Prophet ﷺ nach Medina auswanderte. Viele sind kurz und sprechen vom Glauben an Allah, vom Tag des Gerichts und von früheren Propheten.",
+            "bs": "Mekanske sure objavljene su prije nego što je Poslanik ﷺ preselio u Medinu. Mnoge su kratke i govore o vjerovanju u Allaha, Sudnjem danu i kazivanjima o ranijim poslanicima."
+          }
+        },
+        {
+          "heading": { "en": "Madani surahs", "de": "Medinensische Suren", "bs": "Medinske sure" },
+          "body": {
+            "en": "Madani surahs were revealed after the Hijra. They often explain how the Muslim community lives together: family, fairness, worship and rules.",
+            "de": "Medinensische Suren wurden nach der Hidschra offenbart. Sie erklären oft, wie die muslimische Gemeinschaft zusammenlebt: Familie, Gerechtigkeit, Gottesdienst und Regeln.",
+            "bs": "Medinske sure objavljene su nakon hidžre. Često objašnjavaju kako muslimanska zajednica živi zajedno: porodica, pravednost, ibadet i propisi."
+          }
+        }
+      ],
+      "differenceNote": {
+        "en": "For a few surahs (for example Al-Falaq and An-Nas), scholars hold different views on whether they are Makki or Madani.",
+        "de": "Bei einigen Suren (zum Beispiel Al-Falaq und An-Nas) haben Gelehrte unterschiedliche Ansichten, ob sie mekkanisch oder medinensisch sind.",
+        "bs": "Za nekoliko sura (npr. El-Felek i En-Nas) učenjaci imaju različita mišljenja jesu li mekanske ili medinske."
+      }
+    },
+    {
+      "id": "quran-etiquette",
+      "worldId": "quran",
+      "topic": "quran-etiquette",
+      "title": { "en": "Quran etiquette", "de": "Umgang mit dem Koran", "bs": "Adab prema Kur'anu" },
+      "summary": {
+        "en": "We treat the Quran with love and respect.",
+        "de": "Wir behandeln den Koran mit Liebe und Respekt.",
+        "bs": "Prema Kur'anu se odnosimo s ljubavlju i poštovanjem."
+      },
+      "scene": { "sky": "dusk", "elements": ["lanterns", "book", "pattern"] },
+      "sections": [
+        {
+          "body": {
+            "en": "• Keep the Mushaf in a clean place, not on the floor.\n• Many scholars say we should have wudu before touching the Mushaf.\n• Begin reciting by seeking refuge in Allah from Shaytan, as the Quran teaches.\n• When the Quran is recited, listen quietly and attentively.\n• Recite slowly and beautifully.",
+            "de": "• Bewahre den Mushaf an einem sauberen Ort auf, nicht auf dem Boden.\n• Viele Gelehrte sagen, dass man vor dem Berühren des Mushaf die Gebetswaschung haben sollte.\n• Beginne die Rezitation, indem du bei Allah Zuflucht vor Schaitan suchst, wie der Koran es lehrt.\n• Wenn der Koran rezitiert wird, höre still und aufmerksam zu.\n• Rezitiere langsam und schön.",
+            "bs": "• Mushaf drži na čistom mjestu, ne na podu.\n• Mnogi učenjaci kažu da trebamo imati abdest prije dodirivanja mushafa.\n• Učenje počni traženjem utočišta kod Allaha od šejtana, kako Kur'an uči.\n• Kada se uči Kur'an, slušaj šutke i pažljivo.\n• Uči polahko i lijepo."
+          }
+        }
+      ],
+      "differenceNote": {
+        "en": "Scholars differ on whether wudu is required for touching the Mushaf (most say yes) and on reciting from memory without wudu. Ask your family or teacher what they follow.",
+        "de": "Gelehrte sind sich uneinig, ob die Gebetswaschung zum Berühren des Mushaf Pflicht ist (die meisten sagen ja) und ob man ohne sie auswendig rezitieren darf. Frag deine Familie oder Lehrperson, wem sie folgen.",
+        "bs": "Učenjaci se razilaze je li abdest obavezan za dodirivanje mushafa (većina kaže da jeste) i o učenju napamet bez abdesta. Pitaj porodicu ili učitelja koga slijede."
+      },
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "16:98" },
+        { "sourceName": "Quran", "sourceReference": "7:204" },
+        { "sourceName": "Quran", "sourceReference": "73:4" },
+        { "sourceName": "Quran", "sourceReference": "56:77–79" }
+      ]
+    },
+    {
+      "id": "quran-fatiha",
+      "worldId": "quran",
+      "topic": "surah-fatiha",
+      "title": { "en": "Surah Al-Fatiha", "de": "Sure Al-Fatiha", "bs": "Sura El-Fatiha" },
+      "summary": {
+        "en": "\"The Opening\" – the surah recited in every rak'ah of the prayer.",
+        "de": "„Die Eröffnende“ – die Sure, die in jeder Rak'a des Gebets rezitiert wird.",
+        "bs": "„Pristupnica“ – sura koja se uči u svakom rekatu namaza."
+      },
+      "scene": { "sky": "dawn", "elements": ["stars", "book", "mosque"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Al-Fatiha is the first surah of the Quran and has seven ayahs. The Prophet ﷺ said that there is no prayer for the one who does not recite it. It praises Allah and asks Him for guidance to the straight path.",
+            "de": "Al-Fatiha ist die erste Sure des Korans und hat sieben Verse. Der Prophet ﷺ sagte, dass es kein Gebet gibt für den, der sie nicht rezitiert. Sie lobt Allah und bittet Ihn um Rechtleitung auf den geraden Weg.",
+            "bs": "El-Fatiha je prva sura Kur'ana i ima sedam ajeta. Poslanik ﷺ je rekao da nema namaza onome ko je ne prouči. U njoj se hvali Allah i traži od Njega uputa na pravi put."
+          }
+        }
+      ],
+      "differenceNote": {
+        "en": "In the counting used here, the Basmala is the first ayah of Al-Fatiha. Other valid counting traditions start the count after it – all agree the surah has seven ayahs.",
+        "de": "In der hier verwendeten Zählung ist die Basmala der erste Vers von Al-Fatiha. Andere anerkannte Zählweisen beginnen danach – alle sind sich einig, dass die Sure sieben Verse hat.",
+        "bs": "U ovdje korištenom brojanju, Bismila je prvi ajet El-Fatihe. Druge priznate tradicije brojanja počinju nakon nje – svi se slažu da sura ima sedam ajeta."
+      },
+      "sources": [
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "756" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "394" }
+      ]
+    },
+    {
+      "id": "quran-ikhlas",
+      "worldId": "quran",
+      "topic": "surah-ikhlas",
+      "title": { "en": "Surah Al-Ikhlas", "de": "Sure Al-Ichlas", "bs": "Sura El-Ihlas" },
+      "summary": {
+        "en": "\"Sincerity\" – four ayahs about the Oneness of Allah.",
+        "de": "„Die Aufrichtigkeit“ – vier Verse über die Einheit Allahs.",
+        "bs": "„Iskrenost“ – četiri ajeta o Allahovoj jednoći."
+      },
+      "scene": { "sky": "night", "elements": ["stars", "crescent", "pattern"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Surah Al-Ikhlas describes Allah: He is One, everyone depends on Him, He has no children and no parents, and nothing is like Him. The Prophet ﷺ said it is equal to a third of the Quran.",
+            "de": "Sure Al-Ichlas beschreibt Allah: Er ist Einer, alle sind auf Ihn angewiesen, Er hat weder Kinder noch Eltern, und nichts ist Ihm gleich. Der Prophet ﷺ sagte, sie gleiche einem Drittel des Korans.",
+            "bs": "Sura El-Ihlas opisuje Allaha: On je Jedan, svi ovise o Njemu, nema djece ni roditelja i ništa Mu nije ravno. Poslanik ﷺ je rekao da je ona ravna trećini Kur'ana."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "5013" }]
+    },
+    {
+      "id": "quran-falaq-nas",
+      "worldId": "quran",
+      "topic": "surah-falaq-nas",
+      "title": { "en": "Al-Falaq and An-Nas", "de": "Al-Falaq und An-Nas", "bs": "El-Felek i En-Nas" },
+      "summary": {
+        "en": "Two surahs of seeking protection with Allah.",
+        "de": "Zwei Suren, in denen man bei Allah Schutz sucht.",
+        "bs": "Dvije sure traženja zaštite kod Allaha."
+      },
+      "scene": { "sky": "night", "elements": ["stars", "fullMoon", "hills", "lanterns"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Al-Falaq and An-Nas are the last two surahs of the Quran. In them we seek refuge with Allah from every harm. The Prophet ﷺ used to recite them, together with Al-Ikhlas, before going to sleep.",
+            "de": "Al-Falaq und An-Nas sind die letzten beiden Suren des Korans. In ihnen suchen wir bei Allah Zuflucht vor allem Übel. Der Prophet ﷺ pflegte sie zusammen mit Al-Ichlas vor dem Schlafen zu rezitieren.",
+            "bs": "El-Felek i En-Nas su posljednje dvije sure Kur'ana. U njima tražimo utočište kod Allaha od svakog zla. Poslanik ﷺ ih je, zajedno s El-Ihlasom, učio prije spavanja."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "5017" }]
+    },
+    {
+      "id": "quran-asr-kawthar",
+      "worldId": "quran",
+      "topic": "surah-asr-kawthar",
+      "title": { "en": "Al-Asr and Al-Kawthar", "de": "Al-Asr und Al-Kauthar", "bs": "El-Asr i El-Kevser" },
+      "summary": {
+        "en": "Two short surahs with big messages.",
+        "de": "Zwei kurze Suren mit großen Botschaften.",
+        "bs": "Dvije kratke sure s velikim porukama."
+      },
+      "scene": { "sky": "sunset", "elements": ["sun", "dunes", "river"] },
+      "sections": [
+        {
+          "heading": { "en": "Al-Asr – Time", "de": "Al-Asr – Die Zeit", "bs": "El-Asr – Vrijeme" },
+          "body": {
+            "en": "Allah swears by time: people are in loss, except those who believe, do good deeds, and encourage each other to the truth and to patience.",
+            "de": "Allah schwört bei der Zeit: Die Menschen sind im Verlust, außer denen, die glauben, Gutes tun und einander zur Wahrheit und zur Geduld anhalten.",
+            "bs": "Allah se kune vremenom: ljudi su na gubitku, osim onih koji vjeruju, čine dobra djela i jedni druge upućuju na istinu i strpljenje."
+          }
+        },
+        {
+          "heading": { "en": "Al-Kawthar – Abundance", "de": "Al-Kauthar – Die Fülle", "bs": "El-Kevser – Obilje" },
+          "body": {
+            "en": "With only three ayahs, Al-Kawthar is the shortest surah. Allah tells the Prophet ﷺ that He has given him Al-Kawthar, so he should pray to his Lord and offer sacrifice.",
+            "de": "Mit nur drei Versen ist Al-Kauthar die kürzeste Sure. Allah sagt dem Propheten ﷺ, dass Er ihm Al-Kauthar gegeben hat, so solle er zu seinem Herrn beten und opfern.",
+            "bs": "Sa samo tri ajeta, El-Kevser je najkraća sura. Allah kaže Poslaniku ﷺ da mu je dao Kevser, pa neka klanja svom Gospodaru i kurban kolje."
+          }
+        }
+      ],
+      "sources": [{ "sourceName": "Quran", "sourceReference": "103; 108" }]
+    }
+  ],
+  "questions": [
+    {
+      "id": "quran-word-of-allah",
+      "type": "multipleChoice",
+      "worldId": "quran",
+      "topic": "quran-basics",
+      "prompt": { "en": "Through which angel was the Quran revealed?", "de": "Durch welchen Engel wurde der Koran offenbart?", "bs": "Preko kojeg meleka je objavljen Kur'an?" },
+      "options": [
+        { "id": "a", "text": { "en": "Jibril", "de": "Dschibril", "bs": "Džibril" } },
+        { "id": "b", "text": { "en": "Mika'il", "de": "Mika'il", "bs": "Mikail" } },
+        { "id": "c", "text": { "en": "Israfil", "de": "Israfil", "bs": "Israfil" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The angel Jibril brought the Quran to the heart of the Prophet ﷺ.",
+        "de": "Der Engel Dschibril brachte den Koran auf das Herz des Propheten ﷺ.",
+        "bs": "Melek Džibril je donio Kur'an u srce Poslanika ﷺ."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "26:193–194; 2:97" }]
+    },
+    {
+      "id": "quran-language",
+      "type": "multipleChoice",
+      "worldId": "quran",
+      "topic": "quran-basics",
+      "prompt": { "en": "In which language was the Quran revealed?", "de": "In welcher Sprache wurde der Koran offenbart?", "bs": "Na kojem jeziku je objavljen Kur'an?" },
+      "options": [
+        { "id": "a", "text": { "en": "Persian", "de": "Persisch", "bs": "Perzijskom" } },
+        { "id": "b", "text": { "en": "Arabic", "de": "Arabisch", "bs": "Arapskom" } },
+        { "id": "c", "text": { "en": "Turkish", "de": "Türkisch", "bs": "Turskom" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "The Quran was revealed in Arabic. Translations help us understand its meaning.",
+        "de": "Der Koran wurde auf Arabisch offenbart. Übersetzungen helfen uns, seine Bedeutung zu verstehen.",
+        "bs": "Kur'an je objavljen na arapskom. Prijevodi nam pomažu da razumijemo njegovo značenje."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:2" }]
+    },
+    {
+      "id": "quran-23-years",
+      "type": "trueFalse",
+      "worldId": "quran",
+      "topic": "quran-basics",
+      "prompt": {
+        "en": "The whole Quran was revealed in a single day.",
+        "de": "Der ganze Koran wurde an einem einzigen Tag offenbart.",
+        "bs": "Cijeli Kur'an objavljen je u jednom danu."
+      },
+      "correct": false,
+      "explanation": {
+        "en": "Not quite – it was revealed step by step over about 23 years.",
+        "de": "Nicht ganz – er wurde Schritt für Schritt über etwa 23 Jahre offenbart.",
+        "bs": "Nije tačno – objavljivan je postepeno tokom oko 23 godine."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "17:106" }]
+    },
+    {
+      "id": "quran-first-month",
+      "type": "multipleChoice",
+      "worldId": "quran",
+      "topic": "quran-basics",
+      "prompt": { "en": "In which month did the revelation of the Quran begin?", "de": "In welchem Monat begann die Offenbarung des Korans?", "bs": "U kojem mjesecu je počela objava Kur'ana?" },
+      "options": [
+        { "id": "a", "text": { "en": "Ramadan", "de": "Ramadan", "bs": "Ramazan" } },
+        { "id": "b", "text": { "en": "Muharram", "de": "Muharram", "bs": "Muharrem" } },
+        { "id": "c", "text": { "en": "Shawwal", "de": "Schawwal", "bs": "Ševval" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The Quran says the month of Ramadan is the month in which the Quran was revealed.",
+        "de": "Der Koran sagt, dass der Ramadan der Monat ist, in dem der Koran herabgesandt wurde.",
+        "bs": "Kur'an kaže da je ramazan mjesec u kojem je objavljen Kur'an."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:185" }]
+    },
+    {
+      "id": "quran-114",
+      "type": "multipleChoice",
+      "worldId": "quran",
+      "topic": "quran-structure",
+      "prompt": { "en": "How many surahs does the Quran have?", "de": "Wie viele Suren hat der Koran?", "bs": "Koliko sura ima Kur'an?" },
+      "options": [
+        { "id": "a", "text": { "en": "99", "de": "99", "bs": "99" } },
+        { "id": "b", "text": { "en": "114", "de": "114", "bs": "114" } },
+        { "id": "c", "text": { "en": "30", "de": "30", "bs": "30" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "There are 114 surahs. The Quran is also divided into 30 parts (juz').",
+        "de": "Es gibt 114 Suren. Der Koran ist außerdem in 30 Teile (Dschuz') geteilt.",
+        "bs": "Ima 114 sura. Kur'an je podijeljen i na 30 džuzova."
+      }
+    },
+    {
+      "id": "quran-terms-match",
+      "type": "matching",
+      "worldId": "quran",
+      "topic": "quran-structure",
+      "prompt": { "en": "Match each word with its meaning.", "de": "Ordne jedem Wort seine Bedeutung zu.", "bs": "Spoji svaku riječ s njenim značenjem." },
+      "pairs": [
+        { "id": "surah", "left": { "en": "Surah", "de": "Sure", "bs": "Sura" }, "right": { "en": "Chapter", "de": "Kapitel", "bs": "Poglavlje" } },
+        { "id": "ayah", "left": { "en": "Ayah", "de": "Aya", "bs": "Ajet" }, "right": { "en": "Verse / sign", "de": "Vers / Zeichen", "bs": "Stih / znak" } },
+        { "id": "juz", "left": { "en": "Juz'", "de": "Dschuz'", "bs": "Džuz" }, "right": { "en": "One of 30 parts", "de": "Einer von 30 Teilen", "bs": "Jedan od 30 dijelova" } },
+        { "id": "mushaf", "left": { "en": "Mushaf", "de": "Mushaf", "bs": "Mushaf" }, "right": { "en": "The written Quran book", "de": "Das geschriebene Koranbuch", "bs": "Pisana knjiga Kur'ana" } }
+      ],
+      "explanation": {
+        "en": "Surah = chapter, Ayah = verse or sign, Juz' = one of 30 parts, Mushaf = the written book.",
+        "de": "Sure = Kapitel, Aya = Vers oder Zeichen, Dschuz' = einer von 30 Teilen, Mushaf = das geschriebene Buch.",
+        "bs": "Sura = poglavlje, ajet = stih ili znak, džuz = jedan od 30 dijelova, mushaf = pisana knjiga."
+      }
+    },
+    {
+      "id": "quran-makki",
+      "type": "multipleChoice",
+      "worldId": "quran",
+      "topic": "quran-structure",
+      "prompt": { "en": "What is a Makki surah?", "de": "Was ist eine mekkanische Sure?", "bs": "Šta je mekanska sura?" },
+      "options": [
+        { "id": "a", "text": { "en": "A surah revealed before the Hijra", "de": "Eine Sure, die vor der Hidschra offenbart wurde", "bs": "Sura objavljena prije hidžre" } },
+        { "id": "b", "text": { "en": "A surah that is only read in Makkah", "de": "Eine Sure, die nur in Mekka gelesen wird", "bs": "Sura koja se uči samo u Mekki" } },
+        { "id": "c", "text": { "en": "The longest surah", "de": "Die längste Sure", "bs": "Najduža sura" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Makki surahs were revealed before the Hijra, Madani surahs after it.",
+        "de": "Mekkanische Suren wurden vor der Hidschra offenbart, medinensische danach.",
+        "bs": "Mekanske sure objavljene su prije hidžre, a medinske poslije nje."
+      }
+    },
+    {
+      "id": "quran-etiquette-scenario",
+      "type": "scenario",
+      "worldId": "quran",
+      "topic": "quran-etiquette",
+      "prompt": {
+        "en": "Your little brother wants to put the Mushaf on the floor to play. What do you do?",
+        "de": "Dein kleiner Bruder will den Mushaf zum Spielen auf den Boden legen. Was tust du?",
+        "bs": "Tvoj mlađi brat želi staviti mushaf na pod da bi se igrao. Šta ćeš uraditi?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": { "en": "Gently explain and place it on a clean shelf", "de": "Es ihm sanft erklären und ihn auf ein sauberes Regal stellen", "bs": "Nježno mu objasniti i staviti ga na čistu policu" },
+          "feedback": { "en": "Wonderful – respectful and kind to your brother.", "de": "Wunderbar – respektvoll und freundlich zu deinem Bruder.", "bs": "Divno – s poštovanjem i ljubazno prema bratu." }
+        },
+        {
+          "id": "b",
+          "text": { "en": "Shout at him angrily", "de": "Ihn wütend anschreien", "bs": "Ljutito vikati na njega" },
+          "feedback": { "en": "He is small – kindness teaches better than shouting.", "de": "Er ist klein – Freundlichkeit lehrt besser als Schreien.", "bs": "On je mali – ljubaznost uči bolje od vikanja." }
+        },
+        {
+          "id": "c",
+          "text": { "en": "Ignore it", "de": "Es ignorieren", "bs": "Ignorisati to" },
+          "feedback": { "en": "The Mushaf deserves respect, so it is good to help.", "de": "Der Mushaf verdient Respekt, darum ist es gut zu helfen.", "bs": "Mushaf zaslužuje poštovanje, pa je dobro pomoći." }
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "We keep the Mushaf in a clean, respectful place – and we teach others with gentleness.",
+        "de": "Wir bewahren den Mushaf an einem sauberen, respektvollen Ort auf – und lehren andere mit Sanftheit.",
+        "bs": "Mushaf čuvamo na čistom mjestu, s poštovanjem – a druge poučavamo blagošću."
+      }
+    },
+    {
+      "id": "quran-listen",
+      "type": "trueFalse",
+      "worldId": "quran",
+      "topic": "quran-etiquette",
+      "prompt": {
+        "en": "When the Quran is recited, we should listen quietly.",
+        "de": "Wenn der Koran rezitiert wird, sollen wir still zuhören.",
+        "bs": "Kada se uči Kur'an, trebamo šutke slušati."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – the Quran tells us to listen to it and pay attention when it is recited.",
+        "de": "Richtig – der Koran fordert uns auf, zuzuhören und aufmerksam zu sein, wenn er rezitiert wird.",
+        "bs": "Tačno – Kur'an nam naređuje da ga slušamo i pažljivo pratimo kada se uči."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "7:204" }]
+    },
+    {
+      "id": "quran-istiadha",
+      "type": "multipleChoice",
+      "worldId": "quran",
+      "topic": "quran-etiquette",
+      "prompt": { "en": "How do we begin reciting the Quran?", "de": "Wie beginnen wir die Rezitation des Korans?", "bs": "Kako počinjemo učiti Kur'an?" },
+      "options": [
+        { "id": "a", "text": { "en": "By seeking refuge in Allah from Shaytan", "de": "Indem wir bei Allah Zuflucht vor Schaitan suchen", "bs": "Traženjem utočišta kod Allaha od šejtana" } },
+        { "id": "b", "text": { "en": "By clapping our hands", "de": "Indem wir in die Hände klatschen", "bs": "Pljeskanjem rukama" } },
+        { "id": "c", "text": { "en": "By saying nothing at all", "de": "Indem wir gar nichts sagen", "bs": "Ne govoreći ništa" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The Quran teaches us to seek refuge in Allah from Shaytan before reciting (the isti'adha).",
+        "de": "Der Koran lehrt uns, vor der Rezitation bei Allah Zuflucht vor Schaitan zu suchen (die Isti'adha).",
+        "bs": "Kur'an nas uči da prije učenja zatražimo utočište kod Allaha od šejtana (istiaza)."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "16:98" }]
+    },
+    {
+      "id": "fatiha-order",
+      "type": "ayahOrder",
+      "worldId": "quran",
+      "topic": "surah-fatiha",
+      "surahNumber": 1,
+      "prompt": { "en": "Put the ayahs of Al-Fatiha in order.", "de": "Bringe die Verse von Al-Fatiha in die richtige Reihenfolge.", "bs": "Poredaj ajete El-Fatihe." },
+      "explanation": {
+        "en": "Well done practising Al-Fatiha – the surah of every prayer.",
+        "de": "Gut gemacht beim Üben von Al-Fatiha – der Sure jedes Gebets.",
+        "bs": "Bravo za vježbanje El-Fatihe – sure svakog namaza."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "1:1–7" }]
+    },
+    {
+      "id": "fatiha-word-1",
+      "type": "missingWord",
+      "worldId": "quran",
+      "topic": "surah-fatiha",
+      "surahNumber": 1,
+      "ayahNumber": 2,
+      "missingWordIndex": 0,
+      "prompt": { "en": "Which word is missing?", "de": "Welches Wort fehlt?", "bs": "Koja riječ nedostaje?" },
+      "explanation": {
+        "en": "The ayah begins with \"al-ḥamdu\" – all praise belongs to Allah.",
+        "de": "Der Vers beginnt mit „al-ḥamdu“ – alles Lob gebührt Allah.",
+        "bs": "Ajet počinje riječju „el-hamdu“ – sva hvala pripada Allahu."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "1:2" }]
+    },
+    {
+      "id": "fatiha-word-2",
+      "type": "missingWord",
+      "worldId": "quran",
+      "topic": "surah-fatiha",
+      "surahNumber": 1,
+      "ayahNumber": 5,
+      "missingWordIndex": 3,
+      "prompt": { "en": "Which word is missing?", "de": "Welches Wort fehlt?", "bs": "Koja riječ nedostaje?" },
+      "explanation": {
+        "en": "\"Nastaʿīn\" – we ask You (alone) for help.",
+        "de": "„Nastaʿīn“ – Dich (allein) bitten wir um Hilfe.",
+        "bs": "„Neste'in“ – od Tebe (jedino) pomoć tražimo."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "1:5" }]
+    },
+    {
+      "id": "ikhlas-order",
+      "type": "ayahOrder",
+      "worldId": "quran",
+      "topic": "surah-ikhlas",
+      "surahNumber": 112,
+      "prompt": { "en": "Put the ayahs of Al-Ikhlas in order.", "de": "Bringe die Verse von Al-Ichlas in die richtige Reihenfolge.", "bs": "Poredaj ajete El-Ihlasa." },
+      "explanation": {
+        "en": "Al-Ikhlas: four ayahs about the Oneness of Allah.",
+        "de": "Al-Ichlas: vier Verse über die Einheit Allahs.",
+        "bs": "El-Ihlas: četiri ajeta o Allahovoj jednoći."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "112:1–4" }]
+    },
+    {
+      "id": "ikhlas-word-1",
+      "type": "missingWord",
+      "worldId": "quran",
+      "topic": "surah-ikhlas",
+      "surahNumber": 112,
+      "ayahNumber": 1,
+      "missingWordIndex": 3,
+      "prompt": { "en": "Which word is missing?", "de": "Welches Wort fehlt?", "bs": "Koja riječ nedostaje?" },
+      "explanation": {
+        "en": "\"Aḥad\" – Allah is One.",
+        "de": "„Aḥad“ – Allah ist Einer.",
+        "bs": "„Ehad“ – Allah je Jedan."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "112:1" }]
+    },
+    {
+      "id": "ikhlas-word-2",
+      "type": "missingWord",
+      "worldId": "quran",
+      "topic": "surah-ikhlas",
+      "surahNumber": 112,
+      "ayahNumber": 2,
+      "missingWordIndex": 1,
+      "prompt": { "en": "Which word is missing?", "de": "Welches Wort fehlt?", "bs": "Koja riječ nedostaje?" },
+      "explanation": {
+        "en": "\"Aṣ-Ṣamad\" – the One whom all creation depends on.",
+        "de": "„Aṣ-Ṣamad“ – der, auf den die ganze Schöpfung angewiesen ist.",
+        "bs": "„Es-Samed“ – Onaj o kome ovisi sve stvoreno."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "112:2" }]
+    },
+    {
+      "id": "ikhlas-third",
+      "type": "trueFalse",
+      "worldId": "quran",
+      "topic": "surah-ikhlas",
+      "prompt": {
+        "en": "The Prophet ﷺ said that Surah Al-Ikhlas is equal to a third of the Quran.",
+        "de": "Der Prophet ﷺ sagte, dass Sure Al-Ichlas einem Drittel des Korans gleicht.",
+        "bs": "Poslanik ﷺ je rekao da je sura El-Ihlas ravna trećini Kur'ana."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – this is reported in Sahih al-Bukhari.",
+        "de": "Richtig – das ist in Sahih al-Bukhari überliefert.",
+        "bs": "Tačno – to se prenosi u Sahihu el-Buhari."
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "5013" }]
+    },
+    {
+      "id": "falaq-order",
+      "type": "ayahOrder",
+      "worldId": "quran",
+      "topic": "surah-falaq-nas",
+      "surahNumber": 113,
+      "prompt": { "en": "Put the ayahs of Al-Falaq in order.", "de": "Bringe die Verse von Al-Falaq in die richtige Reihenfolge.", "bs": "Poredaj ajete El-Feleka." },
+      "explanation": {
+        "en": "Al-Falaq teaches us to seek refuge with the Lord of daybreak.",
+        "de": "Al-Falaq lehrt uns, Zuflucht beim Herrn des Tagesanbruchs zu suchen.",
+        "bs": "El-Felek nas uči da tražimo utočište kod Gospodara svitanja."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "113:1–5" }]
+    },
+    {
+      "id": "falaq-word",
+      "type": "missingWord",
+      "worldId": "quran",
+      "topic": "surah-falaq-nas",
+      "surahNumber": 113,
+      "ayahNumber": 1,
+      "missingWordIndex": 3,
+      "prompt": { "en": "Which word is missing?", "de": "Welches Wort fehlt?", "bs": "Koja riječ nedostaje?" },
+      "explanation": {
+        "en": "\"Al-Falaq\" – the daybreak.",
+        "de": "„Al-Falaq“ – der Tagesanbruch.",
+        "bs": "„El-Felek“ – svitanje."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "113:1" }]
+    },
+    {
+      "id": "nas-order",
+      "type": "ayahOrder",
+      "worldId": "quran",
+      "topic": "surah-falaq-nas",
+      "surahNumber": 114,
+      "prompt": { "en": "Put the ayahs of An-Nas in order.", "de": "Bringe die Verse von An-Nas in die richtige Reihenfolge.", "bs": "Poredaj ajete En-Nasa." },
+      "explanation": {
+        "en": "An-Nas is the last surah of the Quran.",
+        "de": "An-Nas ist die letzte Sure des Korans.",
+        "bs": "En-Nas je posljednja sura Kur'ana."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "114:1–6" }]
+    },
+    {
+      "id": "nas-word",
+      "type": "missingWord",
+      "worldId": "quran",
+      "topic": "surah-falaq-nas",
+      "surahNumber": 114,
+      "ayahNumber": 1,
+      "missingWordIndex": 3,
+      "prompt": { "en": "Which word is missing?", "de": "Welches Wort fehlt?", "bs": "Koja riječ nedostaje?" },
+      "explanation": {
+        "en": "\"An-Nās\" – mankind. The word appears in almost every ayah of this surah.",
+        "de": "„An-Nās“ – die Menschen. Das Wort kommt in fast jedem Vers dieser Sure vor.",
+        "bs": "„En-Nas“ – ljudi. Ova riječ se javlja u gotovo svakom ajetu ove sure."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "114:1" }]
+    },
+    {
+      "id": "falaq-nas-sleep",
+      "type": "multipleChoice",
+      "worldId": "quran",
+      "topic": "surah-falaq-nas",
+      "prompt": {
+        "en": "When did the Prophet ﷺ regularly recite Al-Ikhlas, Al-Falaq and An-Nas?",
+        "de": "Wann rezitierte der Prophet ﷺ regelmäßig Al-Ichlas, Al-Falaq und An-Nas?",
+        "bs": "Kada je Poslanik ﷺ redovno učio El-Ihlas, El-Felek i En-Nas?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Before going to sleep", "de": "Vor dem Schlafengehen", "bs": "Prije spavanja" } },
+        { "id": "b", "text": { "en": "Only on Eid", "de": "Nur am Eid", "bs": "Samo na Bajram" } },
+        { "id": "c", "text": { "en": "Never", "de": "Nie", "bs": "Nikad" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "He ﷺ used to recite them every night before sleeping, seeking Allah's protection.",
+        "de": "Er ﷺ rezitierte sie jede Nacht vor dem Schlafen und suchte Allahs Schutz.",
+        "bs": "On ﷺ ih je učio svake noći prije spavanja, tražeći Allahovu zaštitu."
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "5017" }]
+    },
+    {
+      "id": "asr-order",
+      "type": "ayahOrder",
+      "worldId": "quran",
+      "topic": "surah-asr-kawthar",
+      "surahNumber": 103,
+      "prompt": { "en": "Put the ayahs of Al-Asr in order.", "de": "Bringe die Verse von Al-Asr in die richtige Reihenfolge.", "bs": "Poredaj ajete El-Asra." },
+      "explanation": {
+        "en": "Al-Asr: time is precious – use it for faith, good deeds, truth and patience.",
+        "de": "Al-Asr: Zeit ist kostbar – nutze sie für Glauben, gute Taten, Wahrheit und Geduld.",
+        "bs": "El-Asr: vrijeme je dragocjeno – koristi ga za vjeru, dobra djela, istinu i strpljenje."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "103:1–3" }]
+    },
+    {
+      "id": "asr-word",
+      "type": "missingWord",
+      "worldId": "quran",
+      "topic": "surah-asr-kawthar",
+      "surahNumber": 103,
+      "ayahNumber": 2,
+      "missingWordIndex": 1,
+      "prompt": { "en": "Which word is missing?", "de": "Welches Wort fehlt?", "bs": "Koja riječ nedostaje?" },
+      "explanation": {
+        "en": "\"Al-Insān\" – the human being.",
+        "de": "„Al-Insān“ – der Mensch.",
+        "bs": "„El-insan“ – čovjek."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "103:2" }]
+    },
+    {
+      "id": "kawthar-order",
+      "type": "ayahOrder",
+      "worldId": "quran",
+      "topic": "surah-asr-kawthar",
+      "surahNumber": 108,
+      "prompt": { "en": "Put the ayahs of Al-Kawthar in order.", "de": "Bringe die Verse von Al-Kauthar in die richtige Reihenfolge.", "bs": "Poredaj ajete El-Kevsera." },
+      "explanation": {
+        "en": "Al-Kawthar – the shortest surah of the Quran.",
+        "de": "Al-Kauthar – die kürzeste Sure des Korans.",
+        "bs": "El-Kevser – najkraća sura Kur'ana."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "108:1–3" }]
+    },
+    {
+      "id": "kawthar-word",
+      "type": "missingWord",
+      "worldId": "quran",
+      "topic": "surah-asr-kawthar",
+      "surahNumber": 108,
+      "ayahNumber": 1,
+      "missingWordIndex": 2,
+      "prompt": { "en": "Which word is missing?", "de": "Welches Wort fehlt?", "bs": "Koja riječ nedostaje?" },
+      "explanation": {
+        "en": "\"Al-Kawthar\" – the gift of abundant good that Allah gave the Prophet ﷺ.",
+        "de": "„Al-Kauthar“ – die Gabe der Fülle an Gutem, die Allah dem Propheten ﷺ gab.",
+        "bs": "„El-Kevser“ – dar obilnog dobra koji je Allah dao Poslaniku ﷺ."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "108:1" }]
+    },
+    {
+      "id": "kawthar-shortest",
+      "type": "trueFalse",
+      "worldId": "quran",
+      "topic": "surah-asr-kawthar",
+      "prompt": {
+        "en": "Al-Kawthar, with three ayahs, is the shortest surah of the Quran.",
+        "de": "Al-Kauthar ist mit drei Versen die kürzeste Sure des Korans.",
+        "bs": "El-Kevser, s tri ajeta, najkraća je sura Kur'ana."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – Al-Kawthar has only three short ayahs.",
+        "de": "Richtig – Al-Kauthar hat nur drei kurze Verse.",
+        "bs": "Tačno – El-Kevser ima samo tri kratka ajeta."
+      }
+    }
+  ],
+  "quests": [
+    {
+      "id": "quran-q1",
+      "worldId": "quran",
+      "order": 1,
+      "kind": "lesson",
+      "title": { "en": "The Revealed Book", "de": "Das offenbarte Buch", "bs": "Objavljena Knjiga" },
+      "description": { "en": "What the Quran is and how it came.", "de": "Was der Koran ist und wie er kam.", "bs": "Šta je Kur'an i kako je objavljen." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "quran-what" },
+        { "kind": "question", "questionId": "quran-word-of-allah", "label": "quiz" },
+        { "kind": "question", "questionId": "quran-language", "label": "quiz" },
+        { "kind": "lesson", "lessonId": "quran-revelation" },
+        { "kind": "question", "questionId": "quran-23-years", "label": "quiz" },
+        { "kind": "question", "questionId": "quran-first-month", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "quran-q2",
+      "worldId": "quran",
+      "order": 2,
+      "kind": "lesson",
+      "title": { "en": "Surahs & Ayahs", "de": "Suren & Verse", "bs": "Sure i ajeti" },
+      "description": { "en": "How the Quran is organised.", "de": "Wie der Koran aufgebaut ist.", "bs": "Kako je Kur'an uređen." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "quran-structure" },
+        { "kind": "question", "questionId": "quran-114", "label": "quiz" },
+        { "kind": "question", "questionId": "quran-terms-match", "label": "challenge" },
+        { "kind": "lesson", "lessonId": "quran-makki-madani" },
+        { "kind": "question", "questionId": "quran-makki", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "quran-q3",
+      "worldId": "quran",
+      "order": 3,
+      "kind": "lesson",
+      "title": { "en": "Respecting the Quran", "de": "Den Koran ehren", "bs": "Poštovanje Kur'ana" },
+      "description": { "en": "Etiquette with the Book of Allah.", "de": "Umgang mit dem Buch Allahs.", "bs": "Adab prema Allahovoj Knjizi." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "quran-etiquette" },
+        { "kind": "question", "questionId": "quran-etiquette-scenario", "label": "interactive" },
+        { "kind": "question", "questionId": "quran-listen", "label": "quiz" },
+        { "kind": "question", "questionId": "quran-istiadha", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "quran-q4",
+      "worldId": "quran",
+      "order": 4,
+      "kind": "memorization",
+      "title": { "en": "Al-Fatiha", "de": "Al-Fatiha", "bs": "El-Fatiha" },
+      "description": { "en": "Memorise the Opening.", "de": "Lerne die Eröffnende auswendig.", "bs": "Nauči Pristupnicu napamet." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "quran-fatiha" },
+        { "kind": "recite", "surahNumber": 1 },
+        { "kind": "question", "questionId": "fatiha-order", "label": "challenge" },
+        { "kind": "question", "questionId": "fatiha-word-1", "label": "challenge" },
+        { "kind": "question", "questionId": "fatiha-word-2", "label": "challenge" }
+      ]
+    },
+    {
+      "id": "quran-q5",
+      "worldId": "quran",
+      "order": 5,
+      "kind": "memorization",
+      "title": { "en": "Al-Ikhlas", "de": "Al-Ichlas", "bs": "El-Ihlas" },
+      "description": { "en": "Memorise the surah of sincerity.", "de": "Lerne die Sure der Aufrichtigkeit.", "bs": "Nauči suru iskrenosti." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "quran-ikhlas" },
+        { "kind": "recite", "surahNumber": 112 },
+        { "kind": "question", "questionId": "ikhlas-order", "label": "challenge" },
+        { "kind": "question", "questionId": "ikhlas-word-1", "label": "challenge" },
+        { "kind": "question", "questionId": "ikhlas-word-2", "label": "challenge" },
+        { "kind": "question", "questionId": "ikhlas-third", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "quran-q6",
+      "worldId": "quran",
+      "order": 6,
+      "kind": "memorization",
+      "title": { "en": "Al-Falaq & An-Nas", "de": "Al-Falaq & An-Nas", "bs": "El-Felek i En-Nas" },
+      "description": { "en": "The two surahs of protection.", "de": "Die zwei Suren des Schutzes.", "bs": "Dvije sure zaštite." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "quran-falaq-nas" },
+        { "kind": "recite", "surahNumber": 113 },
+        { "kind": "question", "questionId": "falaq-order", "label": "challenge" },
+        { "kind": "question", "questionId": "falaq-word", "label": "challenge" },
+        { "kind": "recite", "surahNumber": 114 },
+        { "kind": "question", "questionId": "nas-order", "label": "challenge" },
+        { "kind": "question", "questionId": "nas-word", "label": "challenge" },
+        { "kind": "question", "questionId": "falaq-nas-sleep", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "quran-q7",
+      "worldId": "quran",
+      "order": 7,
+      "kind": "memorization",
+      "title": { "en": "Al-Asr & Al-Kawthar", "de": "Al-Asr & Al-Kauthar", "bs": "El-Asr i El-Kevser" },
+      "description": { "en": "Short surahs, big lessons.", "de": "Kurze Suren, große Lehren.", "bs": "Kratke sure, velike pouke." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "quran-asr-kawthar" },
+        { "kind": "recite", "surahNumber": 103 },
+        { "kind": "question", "questionId": "asr-order", "label": "challenge" },
+        { "kind": "question", "questionId": "asr-word", "label": "challenge" },
+        { "kind": "recite", "surahNumber": 108 },
+        { "kind": "question", "questionId": "kawthar-order", "label": "challenge" },
+        { "kind": "question", "questionId": "kawthar-word", "label": "challenge" },
+        { "kind": "question", "questionId": "kawthar-shortest", "label": "quiz" }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "quran-fact-iqra",
+      "worldId": "quran",
+      "text": {
+        "en": "The first word revealed of the Quran was \"Iqra\" – Read!",
+        "de": "Das erste offenbarte Wort des Korans war „Iqra“ – Lies!",
+        "bs": "Prva objavljena riječ Kur'ana bila je „Ikre'“ – Čitaj!"
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "96:1" }]
+    },
+    {
+      "id": "quran-fact-juz",
+      "worldId": "quran",
+      "text": {
+        "en": "The Quran is divided into 30 parts (juz'), so it can be read in a month by reading one part each day.",
+        "de": "Der Koran ist in 30 Teile (Dschuz') geteilt, sodass man ihn in einem Monat lesen kann – jeden Tag einen Teil.",
+        "bs": "Kur'an je podijeljen na 30 džuzova, pa se može proučiti za mjesec dana – svaki dan po jedan džuz."
+      }
+    },
+    {
+      "id": "quran-fact-hafiz",
+      "worldId": "quran",
+      "text": {
+        "en": "A person who has memorised the whole Quran is called a hafiz. Millions of people around the world, including children, are huffaz.",
+        "de": "Wer den ganzen Koran auswendig kann, heißt Hafiz. Millionen Menschen weltweit, auch Kinder, sind Huffaz.",
+        "bs": "Osoba koja je naučila cijeli Kur'an napamet zove se hafiz. Milioni ljudi širom svijeta, uključujući i djecu, su hafizi."
+      }
+    }
+  ]
+}

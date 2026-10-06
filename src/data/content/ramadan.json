@@ -1,0 +1,707 @@
+{
+  "world": {
+    "id": "ramadan",
+    "order": 5,
+    "title": { "en": "World of Ramadan", "de": "Welt des Ramadan", "bs": "Svijet ramazana" },
+    "subtitle": { "en": "The blessed month", "de": "Der gesegnete Monat", "bs": "Blagoslovljeni mjesec" },
+    "description": {
+      "en": "Fasting, suhoor, iftar, Taraweeh, charity, Laylat al-Qadr and Eid – discover the month of the Quran.",
+      "de": "Fasten, Suhur, Iftar, Tarawih, Spenden, Laylat al-Qadr und Eid – entdecke den Monat des Korans.",
+      "bs": "Post, sehur, iftar, teravija, sadaka, Lejletul-kadr i Bajram – otkrij mjesec Kur'ana."
+    },
+    "scene": { "sky": "dusk", "elements": ["stars", "crescent", "dunes", "lanterns", "mosque"] },
+    "questIds": ["ramadan-q1", "ramadan-q2", "ramadan-q3", "ramadan-q4", "ramadan-q5"],
+    "unlockRequirement": { "worldId": "akhlaq", "questsCompleted": 3 }
+  },
+  "lessons": [
+    {
+      "id": "ramadan-what",
+      "worldId": "ramadan",
+      "topic": "ramadan-basics",
+      "title": { "en": "What is Ramadan?", "de": "Was ist Ramadan?", "bs": "Šta je ramazan?" },
+      "summary": {
+        "en": "The ninth month of the Islamic calendar – the month of fasting and the Quran.",
+        "de": "Der neunte Monat des islamischen Kalenders – der Monat des Fastens und des Korans.",
+        "bs": "Deveti mjesec islamskog kalendara – mjesec posta i Kur'ana."
+      },
+      "scene": { "sky": "dusk", "elements": ["stars", "crescent", "dunes", "lanterns"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Ramadan is the ninth month of the Islamic calendar, which follows the moon. The Quran tells us that in this month the Quran was sent down as guidance for people. Fasting in Ramadan is one of the five pillars of Islam.",
+            "de": "Ramadan ist der neunte Monat des islamischen Kalenders, der sich nach dem Mond richtet. Der Koran berichtet, dass in diesem Monat der Koran als Rechtleitung für die Menschen herabgesandt wurde. Das Fasten im Ramadan ist eine der fünf Säulen des Islam.",
+            "bs": "Ramazan je deveti mjesec islamskog kalendara, koji se ravna po mjesecu. Kur'an nas obavještava da je u ovom mjesecu objavljen Kur'an kao uputa ljudima. Post u ramazanu je jedan od pet temelja islama."
+          },
+          "arabic": "رَمَضَان",
+          "transliteration": "ramaḍān"
+        },
+        {
+          "heading": { "en": "A moving month", "de": "Ein wandernder Monat", "bs": "Mjesec koji se pomjera" },
+          "body": {
+            "en": "Because the Islamic year is about 11 days shorter than the solar year, Ramadan comes a little earlier each year – sometimes in winter, sometimes in summer.",
+            "de": "Weil das islamische Jahr etwa 11 Tage kürzer ist als das Sonnenjahr, kommt Ramadan jedes Jahr etwas früher – mal im Winter, mal im Sommer.",
+            "bs": "Pošto je islamska godina oko 11 dana kraća od sunčeve, ramazan svake godine dolazi malo ranije – nekad zimi, nekad ljeti."
+          }
+        }
+      ],
+      "differenceNote": {
+        "en": "Communities begin Ramadan in different ways: some by sighting the new moon locally, others by astronomical calculation or by following another country. Follow your local community.",
+        "de": "Gemeinden beginnen den Ramadan auf unterschiedliche Weise: manche durch lokale Sichtung des Neumonds, andere durch astronomische Berechnung oder indem sie einem anderen Land folgen. Folge deiner örtlichen Gemeinde.",
+        "bs": "Zajednice počinju ramazan na različite načine: neke lokalnim viđenjem mlađaka, druge astronomskim proračunom ili slijedeći drugu zemlju. Slijedi svoju lokalnu zajednicu."
+      },
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "2:185" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "8" }
+      ]
+    },
+    {
+      "id": "ramadan-fasting",
+      "worldId": "ramadan",
+      "topic": "fasting",
+      "title": { "en": "Fasting – the healthy way", "de": "Fasten – auf gesunde Weise", "bs": "Post – na zdrav način" },
+      "summary": {
+        "en": "From dawn to sunset – and only in a way that is safe for you.",
+        "de": "Von der Morgendämmerung bis Sonnenuntergang – und nur so, dass es für dich sicher ist.",
+        "bs": "Od zore do zalaska sunca – i samo na način koji je siguran za tebe."
+      },
+      "scene": { "sky": "sunset", "elements": ["sun", "dunes", "palms"] },
+      "sections": [
+        {
+          "body": {
+            "en": "Fasting (sawm) means not eating or drinking from dawn (Fajr) until sunset (Maghrib). The Quran says fasting was prescribed so that we may become mindful of Allah (taqwa). Fasting is also about guarding our tongue and behaving well.",
+            "de": "Fasten (Saum) bedeutet, von der Morgendämmerung (Fadschr) bis Sonnenuntergang (Maghrib) nicht zu essen und nicht zu trinken. Der Koran sagt, das Fasten wurde vorgeschrieben, damit wir gottesbewusst werden (Taqwa). Beim Fasten geht es auch darum, die Zunge zu hüten und sich gut zu benehmen.",
+            "bs": "Post (savm) znači ne jesti i ne piti od zore (sabaha) do zalaska sunca (akšama). Kur'an kaže da je post propisan kako bismo postali bogobojazni (takva). Post znači i čuvati jezik i lijepo se ponašati."
+          },
+          "arabic": "صَوْم",
+          "transliteration": "ṣawm"
+        },
+        {
+          "heading": { "en": "Who has to fast?", "de": "Wer muss fasten?", "bs": "Ko treba postiti?" },
+          "body": {
+            "en": "Fasting in Ramadan is an obligation for adult Muslims who are able to fast. Children are not obliged to fast before they reach puberty. Many families let children practise little by little – for example half a day – but only with their parents' guidance. People who are ill, travelling, or for whom fasting would be harmful are excused, as the Quran explains.",
+            "de": "Das Fasten im Ramadan ist Pflicht für erwachsene Muslime, die fasten können. Kinder sind vor der Pubertät nicht zum Fasten verpflichtet. Viele Familien lassen Kinder Schritt für Schritt üben – zum Beispiel einen halben Tag –, aber nur unter Anleitung der Eltern. Kranke, Reisende und Menschen, denen das Fasten schaden würde, sind befreit, wie der Koran erklärt.",
+            "bs": "Post u ramazanu je obaveza za odrasle muslimane koji mogu postiti. Djeca nisu obavezna postiti prije puberteta. Mnoge porodice puštaju djecu da vježbaju malo po malo – npr. pola dana – ali samo uz vodstvo roditelja. Bolesni, putnici i oni kojima bi post naškodio oslobođeni su, kako Kur'an objašnjava."
+          }
+        },
+        {
+          "heading": { "en": "Stay safe", "de": "Bleib sicher", "bs": "Ostani siguran" },
+          "body": {
+            "en": "Never try to fast on your own in a way that makes you feel dizzy or unwell. If you feel ill, tell an adult – Islam does not want harm for you. Allah wants ease for us, not hardship.",
+            "de": "Versuche niemals allein so zu fasten, dass dir schwindlig wird oder es dir schlecht geht. Wenn du dich krank fühlst, sag es einem Erwachsenen – der Islam will dir nicht schaden. Allah will es uns leicht machen, nicht schwer.",
+            "bs": "Nikad ne pokušavaj sam postiti na način da ti se vrti u glavi ili da ti je loše. Ako se osjećaš bolesno, reci odrasloj osobi – islam ne želi da ti se naškodi. Allah želi da nam olakša, a ne da nam oteža."
+          }
+        }
+      ],
+      "differenceNote": {
+        "en": "Parents and scholars have different views on when and how children should start practising fasting. Your family will decide what is right for you.",
+        "de": "Eltern und Gelehrte haben unterschiedliche Ansichten darüber, wann und wie Kinder mit dem Fastenüben beginnen sollen. Deine Familie entscheidet, was für dich richtig ist.",
+        "bs": "Roditelji i učenjaci imaju različita mišljenja o tome kada i kako djeca trebaju početi vježbati post. Tvoja porodica će odlučiti šta je ispravno za tebe."
+      },
+      "sources": [
+        { "sourceName": "Quran", "sourceReference": "2:183–185" },
+        { "sourceName": "Quran", "sourceReference": "2:187" }
+      ]
+    },
+    {
+      "id": "ramadan-suhoor-iftar",
+      "worldId": "ramadan",
+      "topic": "suhoor-iftar",
+      "title": { "en": "Suhoor and Iftar", "de": "Suhur und Iftar", "bs": "Sehur i iftar" },
+      "summary": {
+        "en": "The meal before dawn and the meal at sunset.",
+        "de": "Die Mahlzeit vor der Morgendämmerung und die Mahlzeit bei Sonnenuntergang.",
+        "bs": "Obrok prije zore i obrok o zalasku sunca."
+      },
+      "scene": { "sky": "sunset", "elements": ["dates", "lanterns", "mosque"] },
+      "sections": [
+        {
+          "heading": { "en": "Suhoor", "de": "Suhur", "bs": "Sehur" },
+          "body": {
+            "en": "Suhoor is the meal eaten before dawn. The Prophet ﷺ said: take suhoor, for in suhoor there is blessing.",
+            "de": "Suhur ist die Mahlzeit vor der Morgendämmerung. Der Prophet ﷺ sagte: Nehmt den Suhur ein, denn im Suhur liegt Segen.",
+            "bs": "Sehur je obrok prije zore. Poslanik ﷺ je rekao: ručajte sehur, jer u sehuru je bereket."
+          },
+          "arabic": "سُحُور",
+          "transliteration": "suḥūr"
+        },
+        {
+          "heading": { "en": "Iftar", "de": "Iftar", "bs": "Iftar" },
+          "body": {
+            "en": "Iftar is the meal at sunset that breaks the fast. The Prophet ﷺ taught that people remain in goodness as long as they hurry to break the fast. He used to break his fast with fresh dates; if there were none, then dry dates; and if there were none, with a few sips of water.",
+            "de": "Iftar ist die Mahlzeit bei Sonnenuntergang, mit der das Fasten gebrochen wird. Der Prophet ﷺ lehrte, dass die Menschen im Guten bleiben, solange sie sich beeilen, das Fasten zu brechen. Er brach sein Fasten mit frischen Datteln; gab es keine, mit getrockneten; und gab es auch die nicht, mit ein paar Schlucken Wasser.",
+            "bs": "Iftar je obrok o zalasku sunca kojim se prekida post. Poslanik ﷺ je poučio da će ljudi biti u dobru sve dok žure s iftarom. Iftario je svježim hurmama; ako ih nije bilo, onda suhim; a ako ni njih nije bilo, s nekoliko gutljaja vode."
+          },
+          "arabic": "إِفْطَار",
+          "transliteration": "ifṭār"
+        }
+      ],
+      "sources": [
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "1923" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "1095" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "1957" },
+        { "sourceName": "Sunan Abi Dawud", "sourceReference": "2356" }
+      ]
+    },
+    {
+      "id": "ramadan-nights",
+      "worldId": "ramadan",
+      "topic": "ramadan-nights",
+      "title": { "en": "The nights of Ramadan", "de": "Die Nächte des Ramadan", "bs": "Ramazanske noći" },
+      "summary": {
+        "en": "Taraweeh, the Quran and Laylat al-Qadr.",
+        "de": "Tarawih, der Koran und Laylat al-Qadr.",
+        "bs": "Teravija, Kur'an i Lejletul-kadr."
+      },
+      "scene": { "sky": "night", "elements": ["stars", "crescent", "mosque", "lanterns"] },
+      "sections": [
+        {
+          "heading": { "en": "Taraweeh", "de": "Tarawih", "bs": "Teravija" },
+          "body": {
+            "en": "Taraweeh is the special night prayer in Ramadan, prayed after Isha. The Prophet ﷺ said that whoever stands in prayer in Ramadan with faith and hoping for reward, his past sins will be forgiven.",
+            "de": "Tarawih ist das besondere Nachtgebet im Ramadan, das nach Ischa gebetet wird. Der Prophet ﷺ sagte: Wer im Ramadan im Glauben und in Hoffnung auf Lohn im Gebet steht, dem werden seine vergangenen Sünden vergeben.",
+            "bs": "Teravija je poseban noćni namaz u ramazanu, koji se klanja nakon jacije. Poslanik ﷺ je rekao da će onome ko u ramazanu noću klanja s vjerom i nadajući se nagradi biti oprošteni prethodni grijesi."
+          }
+        },
+        {
+          "heading": { "en": "The month of the Quran", "de": "Der Monat des Korans", "bs": "Mjesec Kur'ana" },
+          "body": {
+            "en": "Every Ramadan, the angel Jibril met the Prophet ﷺ and they went through the Quran together. Many Muslims try to read or listen to the whole Quran during Ramadan.",
+            "de": "In jedem Ramadan traf der Engel Dschibril den Propheten ﷺ, und sie gingen den Koran gemeinsam durch. Viele Muslime versuchen, im Ramadan den ganzen Koran zu lesen oder zu hören.",
+            "bs": "Svakog ramazana melek Džibril se sastajao s Poslanikom ﷺ i zajedno su prolazili kroz Kur'an. Mnogi muslimani nastoje tokom ramazana proučiti ili preslušati cijeli Kur'an."
+          }
+        },
+        {
+          "heading": { "en": "Laylat al-Qadr", "de": "Laylat al-Qadr", "bs": "Lejletul-kadr" },
+          "body": {
+            "en": "Laylat al-Qadr – the Night of Decree – is better than a thousand months. The Prophet ﷺ told us to look for it in the odd nights of the last ten nights of Ramadan.",
+            "de": "Laylat al-Qadr – die Nacht der Bestimmung – ist besser als tausend Monate. Der Prophet ﷺ sagte uns, wir sollen sie in den ungeraden Nächten der letzten zehn Nächte des Ramadan suchen.",
+            "bs": "Lejletul-kadr – Noć kadra – bolja je od hiljadu mjeseci. Poslanik ﷺ nam je rekao da je tražimo u neparnim noćima posljednjih deset noći ramazana."
+          },
+          "arabic": "لَيْلَةُ الْقَدْر",
+          "transliteration": "laylat al-qadr"
+        }
+      ],
+      "differenceNote": {
+        "en": "The number of rak'ahs in Taraweeh differs between communities (for example 8 or 20). Both are practised by Muslims following scholarly evidence.",
+        "de": "Die Zahl der Rak'as im Tarawih unterscheidet sich zwischen Gemeinden (zum Beispiel 8 oder 20). Beides wird von Muslimen nach gelehrten Belegen praktiziert.",
+        "bs": "Broj rekata teravije razlikuje se među zajednicama (npr. 8 ili 20). Oba načina muslimani prakticiraju slijedeći učenjačke dokaze."
+      },
+      "sources": [
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "37" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "6" },
+        { "sourceName": "Quran", "sourceReference": "97:1–5" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "2017" }
+      ]
+    },
+    {
+      "id": "ramadan-charity-eid",
+      "worldId": "ramadan",
+      "topic": "charity-eid",
+      "title": { "en": "Charity and Eid", "de": "Spenden und Eid", "bs": "Sadaka i Bajram" },
+      "summary": {
+        "en": "Generosity in Ramadan and the joy of Eid al-Fitr.",
+        "de": "Großzügigkeit im Ramadan und die Freude des Eid al-Fitr.",
+        "bs": "Darežljivost u ramazanu i radost Ramazanskog bajrama."
+      },
+      "scene": { "sky": "day", "elements": ["sun", "city", "mosque", "basket"] },
+      "sections": [
+        {
+          "heading": { "en": "Generosity", "de": "Großzügigkeit", "bs": "Darežljivost" },
+          "body": {
+            "en": "The Prophet ﷺ was the most generous of people, and he was even more generous in Ramadan. Muslims give sadaqah (voluntary charity) and share iftar with others.",
+            "de": "Der Prophet ﷺ war der großzügigste Mensch, und im Ramadan war er noch großzügiger. Muslime geben Sadaqa (freiwillige Spenden) und teilen den Iftar mit anderen.",
+            "bs": "Poslanik ﷺ je bio najdarežljiviji čovjek, a u ramazanu je bio još darežljiviji. Muslimani dijele sadaku i iftar s drugima."
+          }
+        },
+        {
+          "heading": { "en": "Zakat al-Fitr", "de": "Zakat al-Fitr", "bs": "Sadekatul-fitr" },
+          "body": {
+            "en": "Before the Eid prayer, Muslims give Zakat al-Fitr, a small charity for every family member, so that people in need can also celebrate Eid.",
+            "de": "Vor dem Eid-Gebet geben Muslime die Zakat al-Fitr, eine kleine Abgabe für jedes Familienmitglied, damit auch Bedürftige Eid feiern können.",
+            "bs": "Prije bajram-namaza muslimani daju sadekatul-fitr, malu obaveznu sadaku za svakog člana porodice, kako bi i siromašni mogli proslaviti Bajram."
+          }
+        },
+        {
+          "heading": { "en": "Eid al-Fitr", "de": "Eid al-Fitr", "bs": "Ramazanski bajram" },
+          "body": {
+            "en": "Eid al-Fitr is the celebration on the first day of Shawwal, after Ramadan ends. Muslims pray the Eid prayer together, say takbir, wear nice clothes, visit family and give gifts. Fasting on the day of Eid is not allowed – it is a day of joy.",
+            "de": "Eid al-Fitr ist das Fest am ersten Tag des Schawwal, nach dem Ende des Ramadan. Muslime beten gemeinsam das Eid-Gebet, sprechen den Takbir, tragen schöne Kleidung, besuchen die Familie und beschenken einander. Am Tag des Eid zu fasten ist nicht erlaubt – es ist ein Tag der Freude.",
+            "bs": "Ramazanski bajram je praznik prvog dana mjeseca ševvala, nakon završetka ramazana. Muslimani zajedno klanjaju bajram-namaz, uče tekbire, oblače lijepu odjeću, posjećuju porodicu i daruju se. Postiti na dan Bajrama nije dozvoljeno – to je dan radosti."
+          },
+          "arabic": "عِيدُ الْفِطْر",
+          "transliteration": "ʿīd al-fiṭr"
+        }
+      ],
+      "differenceNote": {
+        "en": "Scholars differ on whether Zakat al-Fitr is given as food or may also be given as money. Follow your local community.",
+        "de": "Gelehrte sind sich uneinig, ob die Zakat al-Fitr als Lebensmittel gegeben werden muss oder auch als Geld gegeben werden darf. Folge deiner örtlichen Gemeinde.",
+        "bs": "Učenjaci se razilaze da li se sadekatul-fitr daje u hrani ili se može dati i u novcu. Slijedi svoju lokalnu zajednicu."
+      },
+      "sources": [
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "6" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "1503" },
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "1990" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "1137" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "ramadan-month",
+      "type": "multipleChoice",
+      "worldId": "ramadan",
+      "topic": "ramadan-basics",
+      "prompt": { "en": "Ramadan is which month of the Islamic calendar?", "de": "Der wievielte Monat des islamischen Kalenders ist Ramadan?", "bs": "Koji je ramazan mjesec islamskog kalendara?" },
+      "options": [
+        { "id": "a", "text": { "en": "The first", "de": "Der erste", "bs": "Prvi" } },
+        { "id": "b", "text": { "en": "The ninth", "de": "Der neunte", "bs": "Deveti" } },
+        { "id": "c", "text": { "en": "The twelfth", "de": "Der zwölfte", "bs": "Dvanaesti" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "Ramadan is the ninth month. The first month is Muharram.",
+        "de": "Ramadan ist der neunte Monat. Der erste Monat ist Muharram.",
+        "bs": "Ramazan je deveti mjesec. Prvi mjesec je muharrem."
+      }
+    },
+    {
+      "id": "ramadan-quran-revealed",
+      "type": "trueFalse",
+      "worldId": "ramadan",
+      "topic": "ramadan-basics",
+      "prompt": {
+        "en": "The Quran tells us it was revealed in the month of Ramadan.",
+        "de": "Der Koran berichtet, dass er im Monat Ramadan offenbart wurde.",
+        "bs": "Kur'an nas obavještava da je objavljen u mjesecu ramazanu."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – Surah Al-Baqarah, verse 185.",
+        "de": "Richtig – Sure Al-Baqara, Vers 185.",
+        "bs": "Tačno – sura El-Bekare, ajet 185."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:185" }]
+    },
+    {
+      "id": "ramadan-moon",
+      "type": "multipleChoice",
+      "worldId": "ramadan",
+      "topic": "ramadan-basics",
+      "prompt": { "en": "The Islamic calendar follows…", "de": "Der islamische Kalender richtet sich nach…", "bs": "Islamski kalendar se ravna po…" },
+      "options": [
+        { "id": "a", "text": { "en": "the moon", "de": "dem Mond", "bs": "mjesecu" } },
+        { "id": "b", "text": { "en": "the seasons only", "de": "nur den Jahreszeiten", "bs": "samo godišnjim dobima" } },
+        { "id": "c", "text": { "en": "the stars", "de": "den Sternen", "bs": "zvijezdama" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "It is a lunar calendar, so Ramadan moves about 11 days earlier each year.",
+        "de": "Es ist ein Mondkalender, darum wandert Ramadan jedes Jahr etwa 11 Tage nach vorne.",
+        "bs": "To je lunarni kalendar, pa se ramazan svake godine pomjera oko 11 dana ranije."
+      }
+    },
+    {
+      "id": "ramadan-fast-time",
+      "type": "multipleChoice",
+      "worldId": "ramadan",
+      "topic": "fasting",
+      "prompt": { "en": "From when to when do Muslims fast?", "de": "Von wann bis wann fasten Muslime?", "bs": "Od kada do kada muslimani poste?" },
+      "options": [
+        { "id": "a", "text": { "en": "From dawn until sunset", "de": "Von der Morgendämmerung bis Sonnenuntergang", "bs": "Od zore do zalaska sunca" } },
+        { "id": "b", "text": { "en": "From midnight to midday", "de": "Von Mitternacht bis Mittag", "bs": "Od ponoći do podne" } },
+        { "id": "c", "text": { "en": "All day and all night", "de": "Den ganzen Tag und die ganze Nacht", "bs": "Cijeli dan i cijelu noć" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The fast lasts from dawn (Fajr) until sunset (Maghrib). At night, eating and drinking are allowed.",
+        "de": "Das Fasten dauert von der Morgendämmerung (Fadschr) bis Sonnenuntergang (Maghrib). Nachts darf man essen und trinken.",
+        "bs": "Post traje od zore (sabaha) do zalaska sunca (akšama). Noću je dozvoljeno jesti i piti."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:187" }]
+    },
+    {
+      "id": "ramadan-children",
+      "type": "trueFalse",
+      "worldId": "ramadan",
+      "topic": "fasting",
+      "prompt": {
+        "en": "Young children who have not reached puberty are obliged to fast every day of Ramadan.",
+        "de": "Kleine Kinder vor der Pubertät sind verpflichtet, jeden Tag im Ramadan zu fasten.",
+        "bs": "Mala djeca koja nisu dostigla pubertet obavezna su postiti svaki dan ramazana."
+      },
+      "correct": false,
+      "explanation": {
+        "en": "Not quite – fasting becomes obligatory after puberty. Children may practise with their family's guidance, in a safe way.",
+        "de": "Nicht ganz – das Fasten wird nach der Pubertät zur Pflicht. Kinder dürfen unter Anleitung der Familie auf sichere Weise üben.",
+        "bs": "Nije tačno – post postaje obavezan nakon puberteta. Djeca mogu vježbati uz vodstvo porodice, na siguran način."
+      }
+    },
+    {
+      "id": "ramadan-dizzy",
+      "type": "scenario",
+      "worldId": "ramadan",
+      "topic": "fasting",
+      "prompt": {
+        "en": "You are practising fasting and start to feel dizzy and weak. What do you do?",
+        "de": "Du übst das Fasten und fühlst dich plötzlich schwindlig und schwach. Was tust du?",
+        "bs": "Vježbaš post i počne ti se vrtjeti u glavi i osjećaš se slabo. Šta ćeš uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Keep going no matter what", "de": "Durchhalten, egal was passiert", "bs": "Izdržati bez obzira na sve" }, "feedback": { "en": "Your health comes first – Islam does not want harm for you.", "de": "Deine Gesundheit geht vor – der Islam will dir nicht schaden.", "bs": "Zdravlje je na prvom mjestu – islam ne želi da ti se naškodi." } },
+        { "id": "b", "text": { "en": "Tell a parent or adult right away", "de": "Sofort einem Elternteil oder Erwachsenen Bescheid sagen", "bs": "Odmah reći roditelju ili odrasloj osobi" }, "feedback": { "en": "Exactly right – Allah wants ease for us.", "de": "Genau richtig – Allah will es uns leicht machen.", "bs": "Upravo tako – Allah želi da nam olakša." } },
+        { "id": "c", "text": { "en": "Hide it so nobody worries", "de": "Es verstecken, damit sich niemand Sorgen macht", "bs": "Sakriti to da se niko ne brine" }, "feedback": { "en": "Adults need to know so they can help you.", "de": "Erwachsene müssen es wissen, damit sie dir helfen können.", "bs": "Odrasli trebaju znati da bi ti mogli pomoći." } }
+      ],
+      "correctOptionId": "b",
+      "explanation": {
+        "en": "The Quran says Allah wants ease for you, not hardship. If fasting makes you unwell, stop and tell an adult.",
+        "de": "Der Koran sagt, Allah will es euch leicht machen, nicht schwer. Wenn dir das Fasten schadet, hör auf und sag es einem Erwachsenen.",
+        "bs": "Kur'an kaže da Allah želi olakšanje, a ne poteškoću. Ako ti post škodi, prestani i reci odrasloj osobi."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:185" }]
+    },
+    {
+      "id": "ramadan-taqwa",
+      "type": "multipleChoice",
+      "worldId": "ramadan",
+      "topic": "fasting",
+      "prompt": { "en": "According to the Quran, why was fasting prescribed?", "de": "Warum wurde das Fasten laut dem Koran vorgeschrieben?", "bs": "Prema Kur'anu, zašto je propisan post?" },
+      "options": [
+        { "id": "a", "text": { "en": "So that we may become mindful of Allah (taqwa)", "de": "Damit wir gottesbewusst werden (Taqwa)", "bs": "Da bismo postali bogobojazni (takva)" } },
+        { "id": "b", "text": { "en": "To lose weight", "de": "Um abzunehmen", "bs": "Da bismo smršali" } },
+        { "id": "c", "text": { "en": "To sleep more", "de": "Um mehr zu schlafen", "bs": "Da bismo više spavali" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Surah Al-Baqarah, verse 183: fasting was prescribed so that you may attain taqwa.",
+        "de": "Sure Al-Baqara, Vers 183: Das Fasten wurde vorgeschrieben, damit ihr Taqwa erlangt.",
+        "bs": "Sura El-Bekare, ajet 183: post je propisan da biste postali bogobojazni (takva)."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:183" }]
+    },
+    {
+      "id": "ramadan-meals-match",
+      "type": "matching",
+      "worldId": "ramadan",
+      "topic": "suhoor-iftar",
+      "prompt": { "en": "Match each word with its meaning.", "de": "Ordne jedem Wort seine Bedeutung zu.", "bs": "Spoji svaku riječ s njenim značenjem." },
+      "pairs": [
+        { "id": "suhoor", "left": { "en": "Suhoor", "de": "Suhur", "bs": "Sehur" }, "right": { "en": "Meal before dawn", "de": "Mahlzeit vor der Dämmerung", "bs": "Obrok prije zore" } },
+        { "id": "iftar", "left": { "en": "Iftar", "de": "Iftar", "bs": "Iftar" }, "right": { "en": "Meal at sunset", "de": "Mahlzeit bei Sonnenuntergang", "bs": "Obrok o zalasku sunca" } },
+        { "id": "sawm", "left": { "en": "Sawm", "de": "Saum", "bs": "Savm" }, "right": { "en": "Fasting", "de": "Fasten", "bs": "Post" } },
+        { "id": "taraweeh", "left": { "en": "Taraweeh", "de": "Tarawih", "bs": "Teravija" }, "right": { "en": "Night prayer in Ramadan", "de": "Nachtgebet im Ramadan", "bs": "Noćni namaz u ramazanu" } }
+      ],
+      "explanation": {
+        "en": "Suhoor before dawn, iftar at sunset, sawm is fasting and Taraweeh is the night prayer.",
+        "de": "Suhur vor der Dämmerung, Iftar bei Sonnenuntergang, Saum ist das Fasten und Tarawih das Nachtgebet.",
+        "bs": "Sehur prije zore, iftar o zalasku, savm je post, a teravija noćni namaz."
+      }
+    },
+    {
+      "id": "ramadan-suhoor-blessing",
+      "type": "trueFalse",
+      "worldId": "ramadan",
+      "topic": "suhoor-iftar",
+      "prompt": {
+        "en": "The Prophet ﷺ said there is blessing in suhoor.",
+        "de": "Der Prophet ﷺ sagte, dass im Suhur Segen liegt.",
+        "bs": "Poslanik ﷺ je rekao da je u sehuru bereket."
+      },
+      "correct": true,
+      "explanation": {
+        "en": "True – \"Take suhoor, for in suhoor there is blessing.\"",
+        "de": "Richtig – „Nehmt den Suhur ein, denn im Suhur liegt Segen.“",
+        "bs": "Tačno – „Ručajte sehur, jer u sehuru je bereket.“"
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "1923" }]
+    },
+    {
+      "id": "ramadan-iftar-dates",
+      "type": "multipleChoice",
+      "worldId": "ramadan",
+      "topic": "suhoor-iftar",
+      "prompt": { "en": "With what did the Prophet ﷺ usually break his fast?", "de": "Womit brach der Prophet ﷺ gewöhnlich sein Fasten?", "bs": "Čime je Poslanik ﷺ obično iftario?" },
+      "options": [
+        { "id": "a", "text": { "en": "Dates, or water if there were none", "de": "Datteln, oder Wasser, wenn keine da waren", "bs": "Hurmama, ili vodom ako ih nije bilo" } },
+        { "id": "b", "text": { "en": "Sweets and cake", "de": "Süßigkeiten und Kuchen", "bs": "Slatkišima i kolačima" } },
+        { "id": "c", "text": { "en": "A big plate of meat", "de": "Einem großen Teller Fleisch", "bs": "Velikim tanjirom mesa" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "He ﷺ broke his fast with fresh dates, or dry dates, or a few sips of water.",
+        "de": "Er ﷺ brach sein Fasten mit frischen oder getrockneten Datteln oder ein paar Schlucken Wasser.",
+        "bs": "Iftario je svježim ili suhim hurmama ili s nekoliko gutljaja vode."
+      },
+      "sources": [{ "sourceName": "Sunan Abi Dawud", "sourceReference": "2356" }]
+    },
+    {
+      "id": "ramadan-qadr",
+      "type": "multipleChoice",
+      "worldId": "ramadan",
+      "topic": "ramadan-nights",
+      "prompt": { "en": "Laylat al-Qadr is better than…", "de": "Laylat al-Qadr ist besser als…", "bs": "Lejletul-kadr je bolja od…" },
+      "options": [
+        { "id": "a", "text": { "en": "a thousand months", "de": "tausend Monate", "bs": "hiljadu mjeseci" } },
+        { "id": "b", "text": { "en": "ten days", "de": "zehn Tage", "bs": "deset dana" } },
+        { "id": "c", "text": { "en": "one week", "de": "eine Woche", "bs": "jedne sedmice" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Surah Al-Qadr says the Night of Decree is better than a thousand months.",
+        "de": "Sure Al-Qadr sagt, dass die Nacht der Bestimmung besser ist als tausend Monate.",
+        "bs": "Sura El-Kadr kaže da je Noć kadra bolja od hiljadu mjeseci."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "97:3" }]
+    },
+    {
+      "id": "ramadan-qadr-when",
+      "type": "multipleChoice",
+      "worldId": "ramadan",
+      "topic": "ramadan-nights",
+      "prompt": { "en": "When should we look for Laylat al-Qadr?", "de": "Wann sollen wir Laylat al-Qadr suchen?", "bs": "Kada trebamo tražiti Lejletul-kadr?" },
+      "options": [
+        { "id": "a", "text": { "en": "In the odd nights of the last ten nights", "de": "In den ungeraden Nächten der letzten zehn Nächte", "bs": "U neparnim noćima posljednjih deset noći" } },
+        { "id": "b", "text": { "en": "On the first night only", "de": "Nur in der ersten Nacht", "bs": "Samo prve noći" } },
+        { "id": "c", "text": { "en": "After Eid", "de": "Nach dem Eid", "bs": "Nakon Bajrama" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The Prophet ﷺ said to seek it in the odd nights of the last ten nights of Ramadan.",
+        "de": "Der Prophet ﷺ sagte, man solle sie in den ungeraden Nächten der letzten zehn Nächte des Ramadan suchen.",
+        "bs": "Poslanik ﷺ je rekao da je tražimo u neparnim noćima posljednjih deset noći ramazana."
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "2017" }]
+    },
+    {
+      "id": "ramadan-taraweeh-tf",
+      "type": "trueFalse",
+      "worldId": "ramadan",
+      "topic": "ramadan-nights",
+      "prompt": {
+        "en": "All Muslim communities pray exactly the same number of rak'ahs in Taraweeh.",
+        "de": "Alle muslimischen Gemeinden beten im Tarawih genau dieselbe Zahl an Rak'as.",
+        "bs": "Sve muslimanske zajednice klanjaju potpuno isti broj rekata teravije."
+      },
+      "correct": false,
+      "explanation": {
+        "en": "Not quite – some pray 8 rak'ahs and others 20. Both follow scholarly evidence.",
+        "de": "Nicht ganz – manche beten 8 Rak'as, andere 20. Beides stützt sich auf gelehrte Belege.",
+        "bs": "Nije tačno – neki klanjaju 8 rekata, a drugi 20. Oba načina slijede učenjačke dokaze."
+      }
+    },
+    {
+      "id": "ramadan-charity-scenario",
+      "type": "scenario",
+      "worldId": "ramadan",
+      "topic": "charity-eid",
+      "prompt": {
+        "en": "Your family is making iftar. You notice a neighbour who lives alone. What could you do?",
+        "de": "Deine Familie bereitet den Iftar vor. Du denkst an einen Nachbarn, der allein lebt. Was könntest du tun?",
+        "bs": "Tvoja porodica sprema iftar. Sjetiš se komšije koji živi sam. Šta bi mogao uraditi?"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Ask my parents if we can share iftar with him", "de": "Meine Eltern fragen, ob wir den Iftar mit ihm teilen können", "bs": "Pitati roditelje možemo li s njim podijeliti iftar" }, "feedback": { "en": "Beautiful – sharing iftar is a great good deed.", "de": "Wunderschön – den Iftar zu teilen ist eine große gute Tat.", "bs": "Prelijepo – dijeljenje iftara je veliko dobro djelo." } },
+        { "id": "b", "text": { "en": "Nothing – it's not my business", "de": "Nichts – das geht mich nichts an", "bs": "Ništa – to nije moja briga" }, "feedback": { "en": "Ramadan is a month of caring for others.", "de": "Ramadan ist ein Monat der Fürsorge für andere.", "bs": "Ramazan je mjesec brige o drugima." } },
+        { "id": "c", "text": { "en": "Eat extra so nothing is left", "de": "Extra viel essen, damit nichts übrig bleibt", "bs": "Pojesti više da ništa ne ostane" }, "feedback": { "en": "Sharing is better than overeating.", "de": "Teilen ist besser als zu viel essen.", "bs": "Dijeljenje je bolje od prejedanja." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "The Prophet ﷺ was most generous in Ramadan. Sharing food and caring for neighbours brings people together.",
+        "de": "Der Prophet ﷺ war im Ramadan am großzügigsten. Essen zu teilen und sich um Nachbarn zu kümmern bringt Menschen zusammen.",
+        "bs": "Poslanik ﷺ je u ramazanu bio najdarežljiviji. Dijeljenje hrane i briga o komšijama zbližava ljude."
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "6" }]
+    },
+    {
+      "id": "ramadan-zakat-fitr",
+      "type": "multipleChoice",
+      "worldId": "ramadan",
+      "topic": "charity-eid",
+      "prompt": { "en": "When is Zakat al-Fitr given?", "de": "Wann wird die Zakat al-Fitr gegeben?", "bs": "Kada se daje sadekatul-fitr?" },
+      "options": [
+        { "id": "a", "text": { "en": "Before the Eid prayer", "de": "Vor dem Eid-Gebet", "bs": "Prije bajram-namaza" } },
+        { "id": "b", "text": { "en": "One year after Ramadan", "de": "Ein Jahr nach Ramadan", "bs": "Godinu dana nakon ramazana" } },
+        { "id": "c", "text": { "en": "Never", "de": "Nie", "bs": "Nikad" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": {
+        "en": "Zakat al-Fitr is given before the Eid prayer so that people in need can celebrate too.",
+        "de": "Die Zakat al-Fitr wird vor dem Eid-Gebet gegeben, damit auch Bedürftige feiern können.",
+        "bs": "Sadekatul-fitr se daje prije bajram-namaza kako bi i potrebni mogli slaviti."
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "1503" }]
+    },
+    {
+      "id": "ramadan-eid-fast",
+      "type": "trueFalse",
+      "worldId": "ramadan",
+      "topic": "charity-eid",
+      "prompt": {
+        "en": "Muslims fast on the day of Eid al-Fitr.",
+        "de": "Muslime fasten am Tag des Eid al-Fitr.",
+        "bs": "Muslimani poste na dan Ramazanskog bajrama."
+      },
+      "correct": false,
+      "explanation": {
+        "en": "Not quite – the Prophet ﷺ forbade fasting on the days of Eid. Eid is a day of celebration.",
+        "de": "Nicht ganz – der Prophet ﷺ verbot das Fasten an den Eid-Tagen. Eid ist ein Tag des Feierns.",
+        "bs": "Nije tačno – Poslanik ﷺ je zabranio post na dane Bajrama. Bajram je dan slavlja."
+      },
+      "sources": [
+        { "sourceName": "Sahih al-Bukhari", "sourceReference": "1990" },
+        { "sourceName": "Sahih Muslim", "sourceReference": "1137" }
+      ]
+    },
+    {
+      "id": "ramadan-order",
+      "type": "ordering",
+      "worldId": "ramadan",
+      "topic": "suhoor-iftar",
+      "prompt": { "en": "Put a fasting day in order.", "de": "Bringe einen Fastentag in die richtige Reihenfolge.", "bs": "Poredaj jedan dan posta." },
+      "items": [
+        { "id": "suhoor", "text": { "en": "Suhoor before dawn", "de": "Suhur vor der Dämmerung", "bs": "Sehur prije zore" } },
+        { "id": "fajr", "text": { "en": "Fajr prayer – the fast begins", "de": "Fadschr-Gebet – das Fasten beginnt", "bs": "Sabah-namaz – post počinje" } },
+        { "id": "day", "text": { "en": "The day: school, kindness, Quran", "de": "Der Tag: Schule, Freundlichkeit, Koran", "bs": "Dan: škola, dobrota, Kur'an" } },
+        { "id": "iftar", "text": { "en": "Iftar at sunset", "de": "Iftar bei Sonnenuntergang", "bs": "Iftar o zalasku sunca" } },
+        { "id": "taraweeh", "text": { "en": "Isha and Taraweeh", "de": "Ischa und Tarawih", "bs": "Jacija i teravija" } }
+      ],
+      "explanation": {
+        "en": "Suhoor, Fajr, the day, iftar at Maghrib, then Isha and Taraweeh.",
+        "de": "Suhur, Fadschr, der Tag, Iftar zu Maghrib, dann Ischa und Tarawih.",
+        "bs": "Sehur, sabah, dan, iftar u akšam, zatim jacija i teravija."
+      }
+    },
+    {
+      "id": "ramadan-memory",
+      "type": "memory",
+      "worldId": "ramadan",
+      "topic": "ramadan-basics",
+      "prompt": { "en": "Find the Ramadan pairs.", "de": "Finde die Ramadan-Paare.", "bs": "Pronađi ramazanske parove." },
+      "pairs": [
+        { "id": "dates", "left": { "en": "Dates", "de": "Datteln", "bs": "Hurme" }, "right": { "en": "Breaking the fast", "de": "Fastenbrechen", "bs": "Iftar" } },
+        { "id": "qadr", "left": { "en": "Laylat al-Qadr", "de": "Laylat al-Qadr", "bs": "Lejletul-kadr" }, "right": { "en": "Better than 1000 months", "de": "Besser als 1000 Monate", "bs": "Bolja od 1000 mjeseci" } },
+        { "id": "eid", "left": { "en": "Eid al-Fitr", "de": "Eid al-Fitr", "bs": "Ramazanski bajram" }, "right": { "en": "1st of Shawwal", "de": "1. Schawwal", "bs": "1. ševval" } },
+        { "id": "moon", "left": { "en": "Crescent moon", "de": "Mondsichel", "bs": "Mlađak" }, "right": { "en": "Start of the month", "de": "Monatsbeginn", "bs": "Početak mjeseca" } }
+      ],
+      "explanation": {
+        "en": "Dates for iftar, Laylat al-Qadr better than 1000 months, Eid on the 1st of Shawwal and the crescent marking a new month.",
+        "de": "Datteln zum Iftar, Laylat al-Qadr besser als 1000 Monate, Eid am 1. Schawwal und die Mondsichel für den neuen Monat.",
+        "bs": "Hurme za iftar, Lejletul-kadr bolja od 1000 mjeseci, Bajram 1. ševvala i mlađak kao početak mjeseca."
+      }
+    }
+  ],
+  "quests": [
+    {
+      "id": "ramadan-q1",
+      "worldId": "ramadan",
+      "order": 1,
+      "kind": "lesson",
+      "title": { "en": "The Blessed Month", "de": "Der gesegnete Monat", "bs": "Blagoslovljeni mjesec" },
+      "description": { "en": "What Ramadan is.", "de": "Was Ramadan ist.", "bs": "Šta je ramazan." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "ramadan-what" },
+        { "kind": "question", "questionId": "ramadan-month", "label": "quiz" },
+        { "kind": "question", "questionId": "ramadan-quran-revealed", "label": "quiz" },
+        { "kind": "question", "questionId": "ramadan-moon", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "ramadan-q2",
+      "worldId": "ramadan",
+      "order": 2,
+      "kind": "lesson",
+      "title": { "en": "Fasting Wisely", "de": "Klug fasten", "bs": "Mudro postiti" },
+      "description": { "en": "What fasting means – and how to stay safe.", "de": "Was Fasten bedeutet – und wie du sicher bleibst.", "bs": "Šta znači post – i kako ostati siguran." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "ramadan-fasting" },
+        { "kind": "question", "questionId": "ramadan-fast-time", "label": "quiz" },
+        { "kind": "question", "questionId": "ramadan-children", "label": "quiz" },
+        { "kind": "question", "questionId": "ramadan-dizzy", "label": "interactive" },
+        { "kind": "question", "questionId": "ramadan-taqwa", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "ramadan-q3",
+      "worldId": "ramadan",
+      "order": 3,
+      "kind": "game",
+      "title": { "en": "Suhoor & Iftar", "de": "Suhur & Iftar", "bs": "Sehur i iftar" },
+      "description": { "en": "The meals of Ramadan.", "de": "Die Mahlzeiten des Ramadan.", "bs": "Ramazanski obroci." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "ramadan-suhoor-iftar" },
+        { "kind": "question", "questionId": "ramadan-meals-match", "label": "challenge" },
+        { "kind": "question", "questionId": "ramadan-suhoor-blessing", "label": "quiz" },
+        { "kind": "question", "questionId": "ramadan-iftar-dates", "label": "quiz" },
+        { "kind": "question", "questionId": "ramadan-order", "label": "challenge" }
+      ]
+    },
+    {
+      "id": "ramadan-q4",
+      "worldId": "ramadan",
+      "order": 4,
+      "kind": "lesson",
+      "title": { "en": "Nights of Light", "de": "Nächte des Lichts", "bs": "Noći svjetla" },
+      "description": { "en": "Taraweeh, Quran and Laylat al-Qadr.", "de": "Tarawih, Koran und Laylat al-Qadr.", "bs": "Teravija, Kur'an i Lejletul-kadr." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "ramadan-nights" },
+        { "kind": "question", "questionId": "ramadan-qadr", "label": "quiz" },
+        { "kind": "question", "questionId": "ramadan-qadr-when", "label": "quiz" },
+        { "kind": "question", "questionId": "ramadan-taraweeh-tf", "label": "quiz" }
+      ]
+    },
+    {
+      "id": "ramadan-q5",
+      "worldId": "ramadan",
+      "order": 5,
+      "kind": "game",
+      "title": { "en": "Charity & Eid", "de": "Spenden & Eid", "bs": "Sadaka i Bajram" },
+      "description": { "en": "Generosity and celebration.", "de": "Großzügigkeit und Feiern.", "bs": "Darežljivost i slavlje." },
+      "steps": [
+        { "kind": "lesson", "lessonId": "ramadan-charity-eid" },
+        { "kind": "question", "questionId": "ramadan-charity-scenario", "label": "interactive" },
+        { "kind": "question", "questionId": "ramadan-zakat-fitr", "label": "quiz" },
+        { "kind": "question", "questionId": "ramadan-eid-fast", "label": "quiz" },
+        { "kind": "question", "questionId": "ramadan-memory", "label": "challenge" }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "ramadan-fact-lunar",
+      "worldId": "ramadan",
+      "text": {
+        "en": "Because the Islamic calendar follows the moon, Ramadan moves through all seasons over about 33 years.",
+        "de": "Weil der islamische Kalender dem Mond folgt, wandert Ramadan in etwa 33 Jahren durch alle Jahreszeiten.",
+        "bs": "Pošto islamski kalendar prati mjesec, ramazan za oko 33 godine prođe kroz sva godišnja doba."
+      }
+    },
+    {
+      "id": "ramadan-fact-qadr",
+      "worldId": "ramadan",
+      "text": {
+        "en": "Surah Al-Qadr (97) tells us that Laylat al-Qadr is better than a thousand months.",
+        "de": "Sure Al-Qadr (97) berichtet, dass Laylat al-Qadr besser ist als tausend Monate.",
+        "bs": "Sura El-Kadr (97) nas obavještava da je Lejletul-kadr bolja od hiljadu mjeseci."
+      },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "97:3" }]
+    },
+    {
+      "id": "ramadan-fact-generous",
+      "worldId": "ramadan",
+      "text": {
+        "en": "The Prophet ﷺ was the most generous of people – and he was even more generous in Ramadan.",
+        "de": "Der Prophet ﷺ war der großzügigste Mensch – und im Ramadan war er noch großzügiger.",
+        "bs": "Poslanik ﷺ je bio najdarežljiviji čovjek – a u ramazanu je bio još darežljiviji."
+      },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "6" }]
+    }
+  ],
+  "goodDeeds": [
+    { "id": "prayed", "label": { "en": "Prayed on time", "de": "Pünktlich gebetet", "bs": "Klanjao na vrijeme" } },
+    { "id": "quran", "label": { "en": "Read or listened to Quran", "de": "Koran gelesen oder gehört", "bs": "Učio ili slušao Kur'an" } },
+    { "id": "helped", "label": { "en": "Helped at home", "de": "Zu Hause geholfen", "bs": "Pomogao kod kuće" } },
+    { "id": "charity", "label": { "en": "Gave charity or shared food", "de": "Gespendet oder Essen geteilt", "bs": "Dao sadaku ili podijelio hranu" } },
+    { "id": "kind", "label": { "en": "Said kind words", "de": "Freundliche Worte gesagt", "bs": "Rekao lijepe riječi" } },
+    { "id": "dua", "label": { "en": "Made dua for others", "de": "Du'a für andere gemacht", "bs": "Uputio dovu za druge" } },
+    { "id": "learned", "label": { "en": "Learned something new about Islam", "de": "Etwas Neues über den Islam gelernt", "bs": "Naučio nešto novo o islamu" } }
+  ]
+}
