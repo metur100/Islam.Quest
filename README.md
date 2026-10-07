@@ -1,5 +1,7 @@
 # Islam Quest
 
+**Website:** https://metur100.github.io/islam-apps/en/islam-quest/ · **Privacy policy:** https://metur100.github.io/islam-apps/en/islam-quest/privacy/
+
 An educational Islamic adventure game for children (about 7–14 years). Players create a character and travel through six worlds — **Salah, the Prophets, the Quran, Akhlaq, Ramadan and Arabic** — learning through short lessons, stories, quizzes and mini-games.
 
 **Learn → Play → Remember → Reward**
