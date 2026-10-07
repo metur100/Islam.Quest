@@ -74,6 +74,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 24,
   },
   tab: { flex: 1, alignItems: 'center', gap: 2, minHeight: 56, justifyContent: 'center' },
-  iconWrap: { width: 52, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
+  // A background on both states keeps Android from dropping the rounded corners when the tab becomes active.
+  iconWrap: { width: 52, height: 32, borderRadius: 16, overflow: 'hidden', backgroundColor: 'transparent', alignItems: 'center', justifyContent: 'center' },
   iconActive: { backgroundColor: colors.gold },
 });
