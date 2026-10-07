@@ -77,11 +77,23 @@ npm run verify          # all three
 
 ```bash
 npx expo prebuild --platform android
-cd android && ./gradlew assembleRelease
-# → android/app/build/outputs/apk/release/app-release.apk
+cd android && ./gradlew bundleRelease assembleRelease
+# → android/app/build/outputs/bundle/release/app-release.aab  (Google Play)
+# → android/app/build/outputs/apk/release/app-release.apk  (direct install)
 ```
 
-The generated project signs release builds with the debug keystore, which is fine for testing. For the Play Store, create an upload keystore and configure signing (or use `eas build -p android`). `android/` is generated (Continuous Native Generation) and not committed.
+Release builds are signed with the upload key configured in `~/.gradle/gradle.properties` (see `plugins/withReleaseSigning.js`):
+
+```properties
+ISLAM_QUEST_UPLOAD_STORE_FILE=C:/path/to/keystore
+ISLAM_QUEST_UPLOAD_STORE_PASSWORD=…
+ISLAM_QUEST_UPLOAD_KEY_ALIAS=…
+ISLAM_QUEST_UPLOAD_KEY_PASSWORD=…
+```
+
+Without these properties the build falls back to the debug key (fine for testing). The keystore and passwords are never committed.
+
+`android/` is generated (Continuous Native Generation) and not committed.
 
 ## Assets
 
