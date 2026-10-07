@@ -10,7 +10,10 @@
     "backgroundColor": "#14173A",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.certidevelopment.islamquest"
+      "bundleIdentifier": "com.certidevelopment.islamquest",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.certidevelopment.islamquest",
@@ -40,7 +43,8 @@
         "expo-audio",
         {
           "recordAudioAndroid": false,
-          "enableBackgroundPlayback": false
+          "enableBackgroundPlayback": false,
+          "microphonePermission": false
         }
       ],
       [
