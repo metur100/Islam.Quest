@@ -10,10 +10,10 @@
     "backgroundColor": "#14173A",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.islamquest.app"
+      "bundleIdentifier": "com.certidevelopment.islamquest"
     },
     "android": {
-      "package": "com.islamquest.app",
+      "package": "com.certidevelopment.islamquest",
       "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#14173A",
@@ -61,7 +61,8 @@
       ],
       "expo-status-bar",
       "expo-asset",
-      "./plugins/withStableAndroidBuild"
+      "./plugins/withStableAndroidBuild",
+      "./plugins/withReleaseSigning"
     ],
     "experiments": {
       "typedRoutes": true

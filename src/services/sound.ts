@@ -10,7 +10,7 @@ const SOURCES: Record<SoundName | 'ambient', number> = {
   ambient: require('../../assets/sounds/ambient.wav'),
 };
 
-const VOLUME: Record<SoundName, number> = { click: 0.35, success: 0.6, failure: 0.5, reward: 0.7 };
+const VOLUME: Record<SoundName, number> = { click: 0.7, success: 0.9, failure: 0.8, reward: 1 };
 
 const players = new Map<SoundName, AudioPlayer>();
 let ambientPlayer: AudioPlayer | null = null;
@@ -64,7 +64,7 @@ export function setAmbient(enabled: boolean): void {
       if (!ambientPlayer) {
         ambientPlayer = createAudioPlayer(SOURCES.ambient);
         ambientPlayer.loop = true;
-        ambientPlayer.volume = 0.18;
+        ambientPlayer.volume = 0.3;
       }
       ambientPlayer.play();
     } else if (ambientPlayer) {

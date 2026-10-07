@@ -11,7 +11,16 @@ const path = require('path');
 const SAMPLE_RATE = 22050;
 const OUT_DIR = path.join(__dirname, '..', 'assets', 'sounds');
 
+/** Normalises to a fixed peak so every sound plays at a clearly audible, consistent level. */
+function normalize(samples, peak) {
+  let max = 0;
+  for (const v of samples) max = Math.max(max, Math.abs(v));
+  if (max > 0) for (let i = 0; i < samples.length; i++) samples[i] *= peak / max;
+  return samples;
+}
+
 function writeWav(name, samples) {
+  normalize(samples, name === 'ambient.wav' ? 0.7 : 0.9);
   const dataSize = samples.length * 2;
   const buffer = Buffer.alloc(44 + dataSize);
   buffer.write('RIFF', 0);
