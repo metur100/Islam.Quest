@@ -30,6 +30,9 @@
         "android.permission.SYSTEM_ALERT_WINDOW",
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
+      "permissions": [
+        "android.permission.MODIFY_AUDIO_SETTINGS"
       ]
     },
     "web": {
@@ -70,6 +73,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8db78c71-8002-448a-b93e-ecd87d229910"
+      }
+    },
+    "owner": "certi-development"
   }
 }
